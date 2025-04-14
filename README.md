@@ -1,6 +1,6 @@
 # LeetCode Solutions
 
-This repository contains my LeetCode problem solutions, automatically synced using the [LeetSync Chrome Extension](https://chrome.google.com/webstore/detail/leetsync-leetcode-to-gith/). Each submission is committed with its problem title and stored by difficulty level.
+This repository contains my LeetCode problem solutions, automatically synced using the [LeetSync Chrome Extension](https://chromewebstore.google.com/detail/leetsync-leetcode-to-gith/ppkbejeolfcbaomanmbpjdbkfcjfhjnd). Each submission is committed with its problem title and stored by difficulty level.
 
 ## 📌 About Me
 
