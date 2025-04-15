@@ -61,4 +61,16 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+## Math
+|  |
+| ------- |
+| [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
+## String
+|  |
+| ------- |
+| [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
+## Simulation
+|  |
+| ------- |
+| [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 <!---LeetCode Topics End-->
