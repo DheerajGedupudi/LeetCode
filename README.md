@@ -52,6 +52,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0001-two-sum) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 ## Hash Table
@@ -69,6 +70,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
+| [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## String
 |  |
 | ------- |
@@ -82,4 +84,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
+## Stack
+|  |
+| ------- |
+| [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 <!---LeetCode Topics End-->
