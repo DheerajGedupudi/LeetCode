@@ -14,6 +14,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
@@ -23,6 +24,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Depth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
@@ -38,6 +40,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Binary Tree
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
@@ -47,6 +50,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Breadth-First Search
 |  |
 | ------- |
+| [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 ## Backtracking
