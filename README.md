@@ -24,6 +24,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
@@ -76,6 +77,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
+| [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
@@ -85,6 +87,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Design
 |  |
 | ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Stack
 |  |
@@ -98,4 +101,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
+## Trie
+|  |
+| ------- |
+| [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 <!---LeetCode Topics End-->
