@@ -89,6 +89,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Math
 |  |
 | ------- |
+| [0007-reverse-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/0007-reverse-integer) |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 ## String
