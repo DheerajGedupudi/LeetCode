@@ -32,6 +32,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
+| [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -53,6 +54,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
+| [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 ## Backtracking
 |  |
 | ------- |
@@ -67,6 +69,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
+| [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 ## Hash Table
 |  |
