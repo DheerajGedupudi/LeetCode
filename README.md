@@ -61,6 +61,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0001-two-sum) |
+| [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -119,4 +120,12 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
+## Greedy
+|  |
+| ------- |
+| [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
