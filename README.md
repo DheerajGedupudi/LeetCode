@@ -65,6 +65,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
+| [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 ## Hash Table
 |  |
 | ------- |
