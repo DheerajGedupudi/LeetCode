@@ -1,21 +1,18 @@
 class Solution {
     public int jump(int[] nums) {
-        int reach = 0;
         int n = nums.length;
-        int[] steps = new int[n];
-        Arrays.fill(steps, Integer.MAX_VALUE);
-        steps[0] = 0;
-        for (int i=1; i<n; i++)
+        int currJump = 0;
+        int maxJump = 0;
+        int jumps = 0;
+        for (int i=0; i<n-1; i++)
         {
-            for (int j=0; j<i; j++)
+            maxJump = Math.max(maxJump, i+nums[i]);
+            if (i==currJump)
             {
-                int maxJump = j+nums[j];
-                if (maxJump>=i)
-                {
-                    steps[i] = Math.min(steps[j]+1, steps[i]);
-                }
+                jumps++;
+                currJump = maxJump;
             }
         }
-        return steps[n-1];
+        return jumps;
     }
 }
