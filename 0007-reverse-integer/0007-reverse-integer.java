@@ -13,13 +13,14 @@ class Solution {
         while(x>0)
         {
             int digit = x%10;
-            int diff = MAX-answer;
             if (answer>maxBy10)
             {
                 return 0;
             }
             if (answer==maxBy10 && digit>lastDigitOfMax)
-            System.out.println("answer : "+answer+" , billion : "+maxBy10+", digit : "+digit);
+            {
+                return 0;
+            }
             answer *= 10;
             answer += digit;
             x /= 10;
