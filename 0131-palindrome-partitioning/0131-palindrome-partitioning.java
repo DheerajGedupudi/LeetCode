@@ -25,9 +25,9 @@ class Solution {
         }
         for(int i=index+1; i<len; i++)
         {
-            String firstPart = s.substring(index,i);
             if (isPal(s, index, i-1))
             {
+                String firstPart = s.substring(index,i);
                 path.add(firstPart);
                 canPart(s, i, path);
                 path.remove(path.size()-1);
