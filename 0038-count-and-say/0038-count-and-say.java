@@ -1,6 +1,6 @@
 class Solution {
     public String countAndSay(int n) {
-        String num = "1";
+        StringBuilder num = new StringBuilder("1");
         while(n>1)
         {
             StringBuilder sb = new StringBuilder();
@@ -30,9 +30,9 @@ class Solution {
             }
             sb.append(count);
             sb.append(last);
-            num = sb.toString();
+            num = sb;
             n--;
         }
-        return num;
+        return num.toString();
     }
 }
