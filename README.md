@@ -74,6 +74,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
+| [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -85,6 +86,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
+| [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 ## Prefix Sum
@@ -152,9 +154,11 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
+| [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 ## Sorting
 |  |
 | ------- |
+| [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Monotonic Stack
 |  |
