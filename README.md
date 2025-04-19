@@ -95,6 +95,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/0007-reverse-integer) |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -159,4 +160,12 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
+## Linked List
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
