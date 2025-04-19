@@ -83,6 +83,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0001-two-sum) |
+| [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
@@ -109,6 +110,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0131-palindrome-partitioning](https://github.com/DheerajGedupudi/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Simulation
@@ -158,6 +160,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Sorting
 |  |
 | ------- |
+| [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Monotonic Stack
