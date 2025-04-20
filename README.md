@@ -20,6 +20,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
+| [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 ## Depth-First Search
 |  |
@@ -31,6 +32,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
+| [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 ## Binary Search Tree
@@ -48,6 +50,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
+| [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 ## Breadth-First Search
 |  |
@@ -191,4 +194,12 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
+## String Matching
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
+## Hash Function
+|  |
+| ------- |
+| [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 <!---LeetCode Topics End-->
