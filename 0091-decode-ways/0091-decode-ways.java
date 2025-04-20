@@ -1,40 +1,37 @@
 class Solution {
 
-    private Map<Integer, Integer> memo;
-
     public int numDecodings(String s) {
-        this.memo = new HashMap<>();
-        return helper(s, 0);
-    }
-
-    private int helper(String s, int index)
-    {
-        if (this.memo.containsKey(index))
+        int n = s.length();
+        int[] dp = new int[n];
+        if (s.charAt(0)!='0')
         {
-            return this.memo.get(index);
+            dp[0] = 1;
         }
-        int len = s.length();
-        if (index==len)
+        else
         {
-            return 1;
+            return 0;
         }
-        int x = Character.getNumericValue(s.charAt(index));
-        int answer = 0;
-        if (x>0)
+        for (int i=1; i<n; i++)
         {
-            answer += helper(s, index+1);
-            if (index<len-1)
+            int current = Character.getNumericValue(s.charAt(i));
+            if (current>0)
             {
-                int y = Character.getNumericValue(s.charAt(index+1));
-                x *= 10;
-                x += y;
-                if (x>=1 && x<=26)
+                dp[i] = dp[i-1];
+            }
+            int last = Character.getNumericValue(s.charAt(i-1));
+            int num = (last*10)+current;
+            if (num>=10 && num<=26)
+            {
+                if (i>1)
                 {
-                    answer += helper(s, index+2);
+                    dp[i] += (dp[i-2]);
+                }
+                else
+                {
+                    dp[i] += 1;
                 }
             }
         }
-        this.memo.put(index, answer);
-        return answer;
+        return dp[n-1];
     }
 }
