@@ -1,11 +1,11 @@
 class Solution {
     public String minWindow(String s, String t) {
-        Map<Character, Integer> mapT = new HashMap<>();
+        Count sCount = new Count();
+        Count tCount = new Count();
         for (char c : t.toCharArray())
         {
-            mapT.put(c, mapT.getOrDefault(c, 0)+1);
+            tCount.add(c);
         }
-        Map<Character, Integer> mapS = new HashMap<>();
         int p1 = 0;
         int p2 = 0;
         int len = s.length();
@@ -15,13 +15,13 @@ class Solution {
         while(p2<len)
         {
             //move right till same
-            while(p2<len && has(mapS, mapT)==false)
+            while(p2<len && sCount.has(tCount)==false)
             {
                 char toAdd = s.charAt(p2);
-                mapS.put(toAdd, mapS.getOrDefault(toAdd, 0)+1);
+                sCount.add(toAdd);
                 p2++;
             }
-            if (has(mapS, mapT))
+            if (sCount.has(tCount))
             {
                 int len2 = p2-p1+1;
                 if (len2<min)
@@ -32,12 +32,12 @@ class Solution {
                 min = Math.min(min, len2);
             }
             //move left till not same
-            while(p1<p2 && has(mapS, mapT))
+            while(p1<p2 && sCount.has(tCount))
             {
                 char toRemove = s.charAt(p1);
-                mapS.put(toRemove, mapS.getOrDefault(toRemove, 0)-1);
+                sCount.delete(toRemove);
                 //last left, before not valid
-                if (p1<p2 && has(mapS, mapT)==false)
+                if (p1<p2 && sCount.has(tCount)==false)
                 {
                     int len2 = p2-p1+1;
                     if (len2<min)
@@ -52,16 +52,62 @@ class Solution {
         }
         return s.substring(start, end);
     }
+}
 
-    private boolean has(Map<Character, Integer> mapS, Map<Character, Integer> mapT)
+class Count
+{
+    int[] lowerCaseCount;
+    int[] upperCaseCount;
+
+    Count()
     {
-        for (char c : mapT.keySet())
+        this.lowerCaseCount = new int[26];
+        this.upperCaseCount = new int[26];
+    }
+
+    void add(char c)
+    {
+        int x = c-'a';
+        if (x>=0 && x<26)
         {
-            if (mapT.get(c)>mapS.getOrDefault(c,0))
+            lowerCaseCount[x]++;
+        }
+        else
+        {
+            upperCaseCount[c-'A']++;
+        }
+    }
+
+    void delete(char c)
+    {
+        int x = c-'a';
+        if (x>=0 && x<26)
+        {
+            lowerCaseCount[x]--;
+        }
+        else
+        {
+            upperCaseCount[c-'A']--;
+        }
+    }
+
+    boolean has(Count count2)
+    {
+        for (int i=0; i<26; i++)
+        {
+            if (this.lowerCaseCount[i]<count2.lowerCaseCount[i])
+            {
+                return false;
+            }
+        }
+        for (int i=0; i<26; i++)
+        {
+            if (this.upperCaseCount[i]<count2.upperCaseCount[i])
             {
                 return false;
             }
         }
         return true;
     }
+
 }
