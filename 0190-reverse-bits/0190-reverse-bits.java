@@ -1,13 +1,14 @@
 public class Solution {
     // you need treat n as an unsigned value
     public int reverseBits(int n) {
-        String s =  Integer.toBinaryString(n);
-        StringBuilder sb = new StringBuilder(s);
-        sb.reverse();
-        while(sb.length()<32)
+        int result = 0;
+        int power = 31;
+        while(n!=0)
         {
-            sb.append('0');
+            result += (n&1) << power;
+            n = n >>> 1;
+            power--;
         }
-        return (int)(Long.parseLong(sb.toString(), 2));
+        return result;
     }
 }
