@@ -2,35 +2,20 @@ class Solution {
     public int combinationSum4(int[] nums, int target) {
         Arrays.sort(nums);
         int n = nums.length;
-        int[][] dp = new int[n+1][target+1];
-        for (int i=0; i<=n; i++)
+        int[] dp = new int[target+1];
+        dp[0] = 1;
+        for (int j=1; j<=target; j++)
         {
-            dp[i][0] = 1;
-        }
-        for (int i=1; i<=n; i++)
-        {
-            int curr = nums[i-1];
-            for (int j=1; j<=target; j++)
+            for (int i=1; i<=n; i++)
             {
-                if (j<curr)
+                int curr = nums[i-1];
+                if (j-curr>=0)
                 {
-                    dp[i][j] = dp[i-1][j];
-                }
-                else
-                {
-                    int sum = 0;
-                    for (int k=0; k<i; k++)
-                    {
-                        int val = nums[k];
-                        int col = j-val;
-                        sum += dp[i][col];
-                    }
-                    dp[i][j] = sum;
+                    dp[j] += dp[j-curr];
                 }
             }
-            // print(dp);
         }
-        return dp[n][target];
+        return dp[target];
     }
 
     private void print(int[][] grid)
