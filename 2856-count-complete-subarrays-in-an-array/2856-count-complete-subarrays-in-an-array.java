@@ -15,7 +15,8 @@ class Solution {
                 set.add(nums[j]);
                 if (set.size()==distinct.size())
                 {
-                    count++;
+                    count += n-j;
+                    break;
                 }
             }
         }
