@@ -81,6 +81,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
+| [0073-set-matrix-zeroes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
@@ -102,6 +103,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0001-two-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0001-two-sum) |
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
+| [0073-set-matrix-zeroes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
@@ -226,6 +228,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Matrix
 |  |
 | ------- |
+| [0073-set-matrix-zeroes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 ## Line Sweep
