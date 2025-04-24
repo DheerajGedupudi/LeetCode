@@ -7,18 +7,27 @@ class Solution {
         }
         int count = 0;
         int n = nums.length;
-        for (int i=0; i<n; i++)
+        int p1 = 0;
+        int p2 = 0;
+        Map<Integer, Integer> map = new HashMap<>();
+        while(p2<n)
         {
-            Set<Integer> set = new HashSet<>();
-            for (int j=i; j<n; j++)
+            int toAdd = nums[p2];
+            map.put(toAdd, map.getOrDefault(toAdd, 0)+1);
+            //at this point we reached a good subarray.
+            while(map.size()==distinct.size())
             {
-                set.add(nums[j]);
-                if (set.size()==distinct.size())
+                count += n-p2;
+                int toRemove = nums[p1];
+                map.put(toRemove, map.get(toRemove)-1);
+                if (map.get(toRemove)==0)
                 {
-                    count += n-j;
-                    break;
+                    map.remove(toRemove);
                 }
+                p1++;
             }
+            //at this point we have no good subarray
+            p2++;
         }
         return count;
     }
