@@ -1,6 +1,6 @@
 class Solution {
     public int coinChange(int[] coins, int amount) {
-        int INF = Integer.MAX_VALUE;
+        int INF = 999999999;
         Arrays.sort(coins);
         int n = coins.length;
         int[][] dp = new int[n+1][amount+1];
@@ -8,7 +8,7 @@ class Solution {
         {
             for (int j=0; j<=amount; j++)
             {
-                dp[i][j] = Integer.MAX_VALUE;
+                dp[i][j] = INF;
             }
         }
         for (int i=0; i<=n; i++)
@@ -24,23 +24,15 @@ class Solution {
             }
             for (int j=coin; j<=amount; j++)
             {
-                if (dp[i][j-coin]!=INF)
-                {
-                    dp[i][j] = Math.min(dp[i][j], dp[i][j-coin]+1);
-                }
+                dp[i][j] = Math.min(dp[i-1][j], dp[i][j-coin]+1);
             }
             // print(dp);
         }
-        int min = INF;
-        for (int i=0; i<=n; i++)
-        {
-            min = Math.min(min, dp[i][amount]);
-        }
-        if (min==INF)
+        if (dp[n][amount]==INF)
         {
             return -1;
         }
-        return min;
+        return dp[n][amount];
     }
 
     private void print(int[][] grid)
