@@ -3,53 +3,27 @@ class Solution {
         int INF = 999999999;
         Arrays.sort(coins);
         int n = coins.length;
-        int[][] dp = new int[n+1][amount+1];
+        int[] prevRow = new int[amount+1];
         for (int j=0; j<=amount; j++)
         {
-            dp[0][j] = INF;
+            prevRow[j] = INF;
         }
-        for (int i=0; i<=n; i++)
-        {
-            dp[i][0] = 0;
-        }
+        prevRow[0] = 0;
         for (int i=1; i<=n; i++)
         {
             int coin = coins[i-1];
-            for (int j=1; j<coin && j<=amount; j++)
-            {
-                dp[i][j] = dp[i-1][j];
-            }
+            int[] currRow = Arrays.copyOf(prevRow, amount+1);
             for (int j=coin; j<=amount; j++)
             {
-                dp[i][j] = Math.min(dp[i-1][j], dp[i][j-coin]+1);
+                currRow[j] = Math.min(currRow[j], currRow[j-coin]+1);
             }
-            // print(dp);
+            prevRow = currRow;
         }
-        if (dp[n][amount]==INF)
+        if (prevRow[amount]==INF)
         {
             return -1;
         }
-        return dp[n][amount];
-    }
-
-    private void print(int[][] grid)
-    {
-        for (int[] row : grid)
-        {
-            for (int c  :row)
-            {
-                if (c==Integer.MAX_VALUE)
-                {
-                    System.out.print("INF, ");
-                }
-                else
-                {
-                    System.out.print(c+", ");
-                }
-            }
-            System.out.println();
-        }
-        System.out.println();
+        return prevRow[amount];
     }
 }
 
