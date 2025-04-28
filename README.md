@@ -83,6 +83,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0040-combination-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0040-combination-sum-ii) |
+| [0078-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/DheerajGedupudi/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
@@ -97,6 +98,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 | [0073-set-matrix-zeroes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0078-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
@@ -204,6 +206,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Bit Manipulation
 |  |
 | ------- |
+| [0078-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0078-subsets) |
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
 | [0190-reverse-bits](https://github.com/DheerajGedupudi/LeetCode/tree/master/0190-reverse-bits) |
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
