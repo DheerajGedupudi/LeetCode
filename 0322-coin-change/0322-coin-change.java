@@ -4,12 +4,9 @@ class Solution {
         Arrays.sort(coins);
         int n = coins.length;
         int[][] dp = new int[n+1][amount+1];
-        for (int i=0; i<=n; i++)
+        for (int j=0; j<=amount; j++)
         {
-            for (int j=0; j<=amount; j++)
-            {
-                dp[i][j] = INF;
-            }
+            dp[0][j] = INF;
         }
         for (int i=0; i<=n; i++)
         {
