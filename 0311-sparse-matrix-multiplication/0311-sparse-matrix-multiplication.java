@@ -10,12 +10,10 @@ class Solution {
             {
                 //mat1 : i is row number, k is col number
                 //mat2 : j is col numberm k is row number
-                int sum = 0;
                 for (int p=0; p<k; p++)
                 {
-                    sum += (mat1[i][p]*mat2[p][j]);
+                    answer[i][j] += (mat1[i][p]*mat2[p][j]);
                 }
-                answer[i][j] = sum;
             }
         }
         return answer;
