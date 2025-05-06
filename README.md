@@ -126,6 +126,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -188,6 +189,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
+| [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 ## Design
 |  |
 | ------- |
