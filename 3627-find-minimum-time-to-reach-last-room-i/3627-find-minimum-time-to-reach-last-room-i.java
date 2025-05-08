@@ -12,7 +12,7 @@ class Solution {
         }
         int[][] dirs = new int[][]{{0,1},{1,0},{0,-1},{-1,0}};
         grid[0][0] = 0;
-        Queue<int[]> q = new LinkedList<>();
+        Queue<int[]> q = new PriorityQueue<>((a,b)->(moveTime[a[0]][a[1]]-moveTime[b[0]][b[1]]));
         q.offer(new int[]{0,0,0});
         while(q.isEmpty()==false)
         {
