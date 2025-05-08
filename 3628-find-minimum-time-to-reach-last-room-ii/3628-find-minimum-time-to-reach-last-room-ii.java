@@ -10,7 +10,7 @@ class Solution {
             Arrays.fill(row, Integer.MAX_VALUE);
         }
         minTime[0][0] = 0;
-        Queue<Node> q = new LinkedList<>();
+        Queue<Node> q = new PriorityQueue<>((a,b)->(minTime[a.x][a.y]-minTime[b.x][b.y]));
         q.offer(new Node(0, 0, 0));
         while(q.isEmpty()==false)
         {
