@@ -145,6 +145,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
+| [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -196,6 +197,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
+| [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 ## Stack
 |  |
@@ -330,4 +332,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
+## Data Stream
+|  |
+| ------- |
+| [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 <!---LeetCode Topics End-->
