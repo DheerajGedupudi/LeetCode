@@ -121,6 +121,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
+| [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
@@ -249,6 +250,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0300-longest-increasing-subsequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0322-coin-change](https://github.com/DheerajGedupudi/LeetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
 ## Greedy
 |  |
@@ -303,6 +305,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Line Sweep
