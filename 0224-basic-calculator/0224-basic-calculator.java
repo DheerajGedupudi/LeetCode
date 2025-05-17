@@ -1,80 +1,62 @@
 class Solution {
     public int calculate(String s) {
-        s = s.replace(" ","");
-        return computeWithBrackets(s,0,s.length());
-    }
-
-    private int computeWithBrackets(String s, int start, int end)
-    {
-        // System.out.println("to compute : "+s.substring(start, end));
         int len = s.length();
-        int index = start;
-        int sum = 0;
-        while(index<end)
+        Deque<String> stack = new ArrayDeque<>();
+        boolean pos = true;
+        int currNum = 0;
+        for (int i=0; i<len; i++)
         {
-            char c = s.charAt(index);
-            //sign
-            boolean sign = true;
-            if (c=='-'||c=='+')
+            char c = s.charAt(i);
+            if (Character.isDigit(c))
             {
-                if (c=='-')
-                {
-                    sign = false;
-                }
-                index++;
-            }
-            //resolve brackets
-            if (s.charAt(index)=='(')
-            {
-                int counter = 1;
-                index++;
-                int index2 = index;
-                while(index2<end)
-                {
-                    char d = s.charAt(index2);
-                    if (d=='(')
-                    {
-                        counter++;
-                    }
-                    else if (d==')')
-                    {
-                        counter--;
-                    }
-                    index2++;
-                    if (counter==0)
-                    {
-                        break;
-                    }
-                }
-                int number = computeWithBrackets(s, index, index2-1);
-                if (sign)
-                {
-                    sum += number;
-                }
-                else
-                {
-                    sum -= number;
-                }
-                index = index2;
-            }
-            //number
-            int number = 0;
-            while(index<end && Character.isDigit(s.charAt(index)))
-            {
-                number *= 10;
-                int x = Character.getNumericValue(s.charAt(index));
-                number += x;
-                index++;
-            }
-            if (sign)
-            {
-                sum += number;
+                currNum *= 10;
+                currNum += Character.getNumericValue(c);
             }
             else
             {
-                sum -= number;
+                stack.push((pos?"+":"-")+currNum);
+                currNum = 0;
+                if (c=='(')
+                {
+                    stack.push((pos?"+":"-")+c+"");
+                    pos = true;
+                }
+                else if (c==')')
+                {
+                    solve(stack);
+                    // System.out.println("solved : "+stack);
+                }
+                else if (c=='+')
+                {
+                    pos = true;
+                }
+                else if (c=='-')
+                {
+                    pos = false;
+                }
             }
         }
-        return sum;
+        stack.push((pos?"+":"-")+currNum);
+        solve(stack);
+        int result = Integer.parseInt(stack.pop());
+        return result;
     }
+
+    private void solve(Deque<String> stack)
+    {
+        int result = 0;
+        while(stack.isEmpty()==false && stack.peek().equals("-(")==false && stack.peek().equals("+(")==false)
+        {
+            result += Integer.parseInt(stack.pop());
+        }
+        if (stack.isEmpty()==false && (stack.peek().equals("-(") || stack.peek().equals("+(")))
+        {
+            if (stack.pop().equals("-("))
+            {
+                result *= -1;
+            }
+        }
+        stack.push(result+"");
+    }
+        
 }
