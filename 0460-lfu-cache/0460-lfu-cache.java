@@ -1,15 +1,17 @@
 class LFUCache {
 
     private Map<Integer, Integer> freqMap;
-    private TreeMap<Integer, LRU> lruMap;
+    private Map<Integer, LRU> lruMap;
     private int size;
     private int cap;
+    private int minFreq;
 
     public LFUCache(int capacity) {
         this.freqMap = new HashMap<>();
-        this.lruMap = new TreeMap<>();
+        this.lruMap = new HashMap<>();
         this.size = 0;
         this.cap = capacity;
+        this.minFreq = 0;
     }
     
     public int get(int key) {
@@ -18,12 +20,14 @@ class LFUCache {
             int freq = this.freqMap.get(key);
             LRU lru = lruMap.get(freq);
             Node node = lru.get(key);
-            // System.out.println("got : "+node);
             lru.removeThis(node);
-            // System.out.println("removed : "+lru);
             if (lru.isEmpty())
             {
                 lruMap.remove(node.freq);
+                if (node.freq==minFreq)
+                {
+                    minFreq++;
+                }
             }
             int val = node.value;
             node.freq++;
@@ -53,6 +57,10 @@ class LFUCache {
             if (lru.isEmpty())
             {
                 lruMap.remove(node.freq);
+                if (node.freq==minFreq)
+                {
+                    minFreq++;
+                }
             }
             node.freq++;
         }
@@ -63,6 +71,7 @@ class LFUCache {
                 evict();
             }
             size++;
+            this.minFreq = 1;
         }
         lruMap.putIfAbsent(node.freq, new LRU(node.freq));
         LRU nextLRU = lruMap.get(node.freq);
@@ -75,13 +84,11 @@ class LFUCache {
 
     private void evict()
     {
-        int minFreq = lruMap.firstKey();
-        LRU lru = lruMap.get(minFreq);
+        LRU lru = lruMap.get(this.minFreq);
         Node removed = lru.removeFirstAndReturn();
         if (lru.isEmpty())
         {
             lruMap.remove(removed.freq);
-            minFreq = removed.freq+1;
         }
         this.freqMap.remove(removed.key);
         // System.out.println("+++++++++++++++++++++++++++ evicted : "+removed.key);
