@@ -1,44 +1,42 @@
-class LFUCache {
+
+import java.util.SequencedMap;class LFUCache {
 
     private Map<Integer, Integer> freqMap;
-    private Map<Integer, LRU> lruMap;
+    private Map<Integer, LRUCache> lruMap;
+    private int capacity;
     private int size;
-    private int cap;
     private int minFreq;
 
     public LFUCache(int capacity) {
         this.freqMap = new HashMap<>();
         this.lruMap = new HashMap<>();
+        this.capacity = capacity;
         this.size = 0;
-        this.cap = capacity;
-        this.minFreq = 0;
+        this.minFreq = 1;
     }
     
     public int get(int key) {
         if (this.freqMap.containsKey(key))
         {
             int freq = this.freqMap.get(key);
-            LRU lru = lruMap.get(freq);
-            Node node = lru.get(key);
-            lru.removeThis(node);
-            if (lru.isEmpty())
+            int value = lruMap.get(freq).get(key);
+            lruMap.get(freq).removeKey(key);
+            if (lruMap.get(freq).isEmpty())
             {
-                lruMap.remove(node.freq);
-                if (node.freq==minFreq)
+                lruMap.remove(freq);
+                if (this.minFreq==freq)
                 {
-                    minFreq++;
+                    this.minFreq = freq+1;
                 }
             }
-            int val = node.value;
-            node.freq++;
-            freqMap.put(key, node.freq);
-            lruMap.putIfAbsent(node.freq, new LRU(node.freq));
-            LRU nextLRU = lruMap.get(node.freq);
-            nextLRU.add(node.key, node.value);
-            // System.out.println("------------------------- get : "+key);
-            // System.out.println(freqMap);
-            // System.out.println(lruMap);
-            return node.value;
+            freq++;
+            this.freqMap.put(key, freq);
+            lruMap.putIfAbsent(freq, new LRUCache());
+            lruMap.get(freq).add(key, value);
+            // System.out.println("\n --+-+++++++++++++-get : "+key+" v : "+value);
+            // System.out.println(" freq map : "+freqMap);
+            // System.out.println(" lru map : "+lruMap);
+            return value;
         }
         else
         {
@@ -47,208 +45,94 @@ class LFUCache {
     }
     
     public void put(int key, int value) {
-        Node node = new Node(key, value, 1);
+        int freq = 1;
         if (this.freqMap.containsKey(key))
         {
-            int freq = this.freqMap.get(key);
-            LRU lru = lruMap.get(freq);
-            node = lru.get(key);
-            lru.removeThis(node);
-            if (lru.isEmpty())
+            freq = this.freqMap.get(key);
+            lruMap.get(freq).removeKey(key);
+            if (lruMap.get(freq).isEmpty())
             {
-                lruMap.remove(node.freq);
-                if (node.freq==minFreq)
+                lruMap.remove(freq);
+                if (this.minFreq==freq)
                 {
-                    minFreq++;
+                    this.minFreq = freq+1;
                 }
             }
-            node.freq++;
+            freq++;
         }
         else
         {
-            if (size==cap)
+            //only here, we adding to or removing from the cache
+            //remove Eldest is size == capacity
+            if (this.size==this.capacity)
             {
-                evict();
+                LRUCache minLRU = lruMap.get(this.minFreq);
+                int toRemove = minLRU.removeRU();
+                if (minLRU.isEmpty())
+                {
+                    lruMap.remove(this.minFreq);
+                    this.minFreq = 1;
+                }
+                this.freqMap.remove(toRemove);
+                this.size--;
             }
-            size++;
-            this.minFreq = 1;
+            this.size++;
         }
-        lruMap.putIfAbsent(node.freq, new LRU(node.freq));
-        LRU nextLRU = lruMap.get(node.freq);
-        nextLRU.add(node.key, value);
-        freqMap.put(key, node.freq);
-        // System.out.println("------------------------- add : "+key+" = "+value);
-        // System.out.println(freqMap);
-        // System.out.println(lruMap);
-    }
-
-    private void evict()
-    {
-        LRU lru = lruMap.get(this.minFreq);
-        Node removed = lru.removeFirstAndReturn();
-        if (lru.isEmpty())
-        {
-            lruMap.remove(removed.freq);
-        }
-        this.freqMap.remove(removed.key);
-        // System.out.println("+++++++++++++++++++++++++++ evicted : "+removed.key);
-        // System.out.println(freqMap);
-        // System.out.println(lruMap);
-        size--;
+        this.freqMap.put(key, freq);
+        lruMap.putIfAbsent(freq, new LRUCache());
+        this.minFreq = Math.min(this.minFreq, freq);
+        lruMap.get(freq).add(key, value);
+        // System.out.println("\n -----------------------put : "+key+" v : "+value);
+        // System.out.println(" freq map : "+freqMap);
+        // System.out.println(" lru map : "+lruMap);
     }
 }
 
-class LRU
+class LRUCache
 {
-    private Map<Integer, Node> map;
-    int freq;
-    Node head;
-    Node tail;
+    private SequencedMap<Integer, Integer> cache;
 
-    LRU(int freq)
+    LRUCache()
     {
-        this.map = new HashMap<>();
-        this.head = null;
-        this.tail = null;
-        this.freq = freq;
+        this.cache = new LinkedHashMap<>();
     }
 
-    Node get(int key)
+    public boolean isEmpty()
     {
-        return this.map.get(key);
+        return this.cache.size()==0;
     }
 
-    void add(int key, int value)
+    public boolean containsKey(int key)
     {
-        if (this.map.containsKey(key))
-        {
-            Node node = this.map.get(key);
-            removeThis(node);
-            node.freq++;
-            node.value = value;
-            this.map.put(key, node);
-            addLast(node);
-        }
-        else
-        {
-            Node node = new Node(key, value, this.freq);
-            this.map.put(key, node);
-            addLast(node);
-        }
+        return this.cache.containsKey(key);
     }
 
-    boolean isEmpty()
+    public int get(int key)
     {
-        return this.head==null;
+        return this.cache.get(key);
     }
 
-    void remove(int key)
+    public void removeKey(int key)
     {
-        Node node = this.map.get(key);
-        removeThis(node);
-        this.map.remove(key);
+        this.cache.remove(key);
     }
 
-    void addLast(Node node)
+    public int removeRU()
     {
-        //no nodes
-        if (this.tail==null)
-        {
-            this.head = node;
-            this.tail = this.head;
-        }
-        else
-        {
-            node.prev = this.tail;
-            this.tail.next = node;
-            this.tail = this.tail.next;
-        }
-
+        Map.Entry<Integer, Integer> entry = cache.pollFirstEntry();
+        return entry.getKey();
     }
 
-    Node removeFirstAndReturn()
+    public void add(int key, int value)
     {
-        //only one node
-        Node toReturn = this.head;
-        removeThis(this.head);
-        this.map.remove(toReturn.key);
-        return toReturn;
-    }
-
-    void removeThis(Node node)
-    {
-        if (this.head==node)
-        {
-            this.head = this.head.next;
-            if (this.head==null)
-            {
-                //no nodes
-                this.tail = null;
-            }
-            else
-            {
-                this.head.prev = null;
-            }
-            return;
-        }
-        if (this.tail==node)
-        {
-            this.tail = this.tail.prev;
-            if (this.tail==null)
-            {
-                this.head = null;
-            }
-            else
-            {
-                this.tail.next = null;
-            }
-            return;
-        }
-        Node prev = node.prev;
-        Node next = node.next;
-        if (prev!=null)
-        {
-            prev.next = next;
-        }
-        if (next!=null)
-        {
-            next.prev = prev;
-        }
+        this.cache.remove(key);
+        this.cache.putLast(key, value);
     }
 
     @Override
     public String toString()
     {
-        StringBuilder sb = new StringBuilder(this.freq+" =>>> ");
-        Node curr = this.head;
-        while(curr!=null)
-        {
-            sb.append("["+curr.toString()+"], ");
-            curr = curr.next;
-        }
-        return sb.toString();
-    }
-}
-
-class Node
-{
-    int key;
-    int value;
-    int freq;
-    Node next;
-    Node prev;
-
-    Node(int key, int value, int freq)
-    {
-        this.key = key;
-        this.value = value;
-        this.freq = freq;
-    }
-
-    @Override
-    public String toString()
-    {
-        return "key : "+this.key+", val : "+this.value+", freq : "+this.freq+"";
+        return this.cache.toString();
     }
 }
 
@@ -258,26 +142,3 @@ class Node
  * int param_1 = obj.get(key);
  * obj.put(key,value);
  */
-
-/*
-
-LL for LRU
-
-Map for LFU
-
-[2]->[1]->Null
-
-
-1=2
-2=1
-
-LL 1 => [2]
-LL 2 => [1]
-
-
-{
-    .
-
-
-}
-*/
