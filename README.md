@@ -48,6 +48,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0300-longest-increasing-subsequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0300-longest-increasing-subsequence) |
@@ -112,6 +113,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0300-longest-increasing-subsequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0300-longest-increasing-subsequence) |
@@ -228,6 +230,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sliding Window
