@@ -131,6 +131,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1127-last-stone-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/1127-last-stone-weight) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/DheerajGedupudi/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
@@ -166,6 +167,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 | [1500-count-largest-group](https://github.com/DheerajGedupudi/LeetCode/tree/master/1500-count-largest-group) |
 | [2215-finding-3-digit-even-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -223,6 +225,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
+| [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 ## Stack
 |  |
 | ------- |
@@ -370,6 +373,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
+| [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 ## Shortest Path
 |  |
 | ------- |
@@ -380,6 +384,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
+| [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 ## Enumeration
 |  |
 | ------- |
