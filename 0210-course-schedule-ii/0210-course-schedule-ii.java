@@ -21,14 +21,12 @@ class Solution {
         boolean[] visited = new boolean[numCourses];
         int[] answer = new int[numCourses];
         int index = 0;
-        int visitedCount = 0;
         for (int i=0; i<numCourses; i++)
         {
             if (indegrees[i]==0)
             {
                 q.offer(i);
                 visited[i] = true;
-                visitedCount++;
             }
         }
         while(q.isEmpty()==false)
@@ -44,12 +42,11 @@ class Solution {
                 if (visited[child]==false && indegrees[child]==0)
                 {
                     visited[child] = true;
-                    visitedCount++;
                     q.offer(child);
                 }
             }
         }
-        if (visitedCount!=numCourses)
+        if (index!=numCourses)
         {
             return new int[0];
         }
