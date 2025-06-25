@@ -111,6 +111,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/DheerajGedupudi/LeetCode/tree/master/0056-merge-intervals) |
+| [0066-plus-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/0066-plus-one) |
 | [0073-set-matrix-zeroes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0078-subsets) |
@@ -191,6 +192,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/0007-reverse-integer) |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
+| [0066-plus-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
