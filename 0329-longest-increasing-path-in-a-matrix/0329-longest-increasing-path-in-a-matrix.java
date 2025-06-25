@@ -1,54 +1,45 @@
 class Solution {
 
-    private int[][] dp;
     private int[][] dirs;
+    private int[][] memo;
 
     public int longestIncreasingPath(int[][] matrix) {
-        this.dirs = new int[][]{ {0,1}, {1,0}, {0,-1}, {-1,0} };
+        this.dirs = new int[][]{{0,1},{1,0},{-1,0},{0,-1}};
+        int max = 0;
         int n = matrix.length;
         int m = matrix[0].length;
-        this.dp = new int[n][m]; 
-        int answer = 0;
+        this.memo = new int[n][m];
         for (int i=0; i<n; i++)
         {
             for (int j=0; j<m; j++)
             {
-                // System.out.println("started at "+i+", "+j+" -=-=-=-=-=-=-=-=-=-=-==-------------------------");
-                answer = Math.max(answer, dfs(matrix, i, j));
-                // print(dp);
+                int k = dfs(matrix, i, j);
+                // System.out.println(i+", "+j+" => "+k);
+                max = Math.max(max, dfs(matrix, i, j));
             }
         }
-        return answer;
-    }
-
-    private void print(int[][] grid)
-    {
-        for (int[] row : grid)
-        {
-            System.out.println(Arrays.toString(row));
-        }
-        System.out.println();
+        return max;
     }
 
     private int dfs(int[][] matrix, int x, int y)
     {
-        if (this.dp[x][y]!=0)
+        if (this.memo[x][y]!=0)
         {
-            return this.dp[x][y];
+            return this.memo[x][y];
         }
         int n = matrix.length;
         int m = matrix[0].length;
+        int max = 0;
         for (int[] dir : dirs)
         {
-            int r = dir[0]+x;
-            int c = dir[1]+y;
-            if (r>=0 && r<n && c>=0 && c<m && matrix[r][c]>matrix[x][y])
+            int nx = x+dir[0];
+            int ny = y+dir[1];
+            if (nx>=0 && nx<n && ny>=0 && ny<m && matrix[nx][ny]<matrix[x][y])
             {
-                // System.out.println("Next checking : "+r+", "+c+" number at  : "+matrix[r][c]);
-                // print(this.dp);
-                this.dp[x][y] = Math.max(this.dp[x][y], dfs(matrix, r, c));
+                max = Math.max(max, dfs(matrix, nx, ny));
             }
         }
-        return ++this.dp[x][y];
+        this.memo[x][y] = max+1;
+        return max+1;
     }
 }
