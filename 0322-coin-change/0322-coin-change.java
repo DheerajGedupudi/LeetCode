@@ -1,48 +1,39 @@
 class Solution {
+
+    private Integer[] memo;
+
     public int coinChange(int[] coins, int amount) {
-        int INF = 999999999;
-        Arrays.sort(coins);
-        int n = coins.length;
-        int[] prevRow = new int[amount+1];
-        for (int j=0; j<=amount; j++)
-        {
-            prevRow[j] = INF;
-        }
-        prevRow[0] = 0;
-        for (int i=1; i<=n; i++)
-        {
-            int coin = coins[i-1];
-            int[] currRow = Arrays.copyOf(prevRow, amount+1);
-            for (int j=coin; j<=amount; j++)
-            {
-                currRow[j] = Math.min(currRow[j], currRow[j-coin]+1);
-            }
-            prevRow = currRow;
-        }
-        if (prevRow[amount]==INF)
+        this.memo = new Integer[amount+1];
+        int ans = helper(coins, amount);
+        if (ans==999999999)
         {
             return -1;
         }
-        return prevRow[amount];
+        else
+        {
+            return ans;
+        }
+    }
+
+    private int helper(int[] coins, int remain)
+    {
+        if (this.memo[remain]!=null)
+        {
+            return this.memo[remain];
+        }
+        if (remain==0)
+        {
+            return 0;
+        }
+        int min = 999999999;
+        for (int i=0; i<coins.length; i++)
+        {
+            if (remain-coins[i]>=0)
+            {
+                min = Math.min(min, helper(coins, remain-coins[i])+1);
+            }
+        }
+        this.memo[remain] = min;
+        return min;
     }
 }
-
-
-
-/*
-
-coins
-[1,2,5]
-
-amount
-
-1 -> 11
-
-
-. . 1 2 3 4 5 6 7 8 9 10 11
------------------------------
-1 0 1 2 3 4 5 6 7 8 9 10 11
-2 0 1 1 2 2 3 3 4 4 5 5  6
-5 0 1 1 2 2 1 2 2 
-
-*/
