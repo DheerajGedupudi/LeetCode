@@ -25,10 +25,7 @@ class Solution {
         {
             return 1;
         }
-        for (int i=index; i<coins.length; i++)
-        {
-            this.memo[i][remain] = helper(coins, amount, remain-coins[i], i) + (i>0?(helper(coins, amount, remain, i-1)):0);
-        }
+        this.memo[index][remain] = helper(coins, amount, remain-coins[index], index) + (index>0?(helper(coins, amount, remain, index-1)):0);
         // print();
         return this.memo[index][remain];
     }
