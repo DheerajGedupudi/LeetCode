@@ -33,28 +33,6 @@ class Solution {
         Integer[] fromRight = dfs(root.right);
         int size = fromLeft[2]+fromRight[2]+1;
         boolean isBST = fromLeft[3]==1 && fromRight[3]==1;
-        if (fromLeft[2]!=0)
-        {
-            if (fromLeft[0]==null)
-            {
-                fromLeft[0] = fromLeft[1];
-            }
-            if (fromLeft[1]==null)
-            {
-                fromLeft[1] = fromLeft[0];
-            }
-        }
-        if (fromRight[2]!=0)
-        {
-            if (fromRight[0]==null)
-            {
-                fromRight[0] = fromRight[1];
-            }
-            if (fromRight[1]==null)
-            {
-                fromRight[1] = fromRight[0];
-            }
-        }
         // System.out.println(root.val+" left : "+Arrays.toString(fromLeft)+", right : "+Arrays.toString(fromRight));
         if ( (fromLeft[2]==0 || root.val>fromLeft[1]) && (fromRight[2]==0 || root.val<fromRight[0]) )
         {
