@@ -193,6 +193,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Math
 |  |
 | ------- |
@@ -232,6 +233,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3617-find-the-original-typed-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
+| [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Simulation
 |  |
 | ------- |
@@ -301,6 +303,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
+| [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Greedy
 |  |
 | ------- |
