@@ -16,8 +16,8 @@ class Solution {
             //to be merged
             if (isOverlap(curr, newInterval))
             {
-                insertStart = Math.min(insertStart, Math.min(curr[0], newInterval[0]));
-                insertEnd = Math.max(curr[1], newInterval[1]);
+                insertStart = Math.min(insertStart, curr[0]);
+                insertEnd = Math.max(insertEnd, curr[1]);
             }
             //after
             if (curr[0]>newInterval[1])
