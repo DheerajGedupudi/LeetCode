@@ -220,6 +220,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## String
 |  |
 | ------- |
@@ -298,6 +299,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0190-reverse-bits](https://github.com/DheerajGedupudi/LeetCode/tree/master/0190-reverse-bits) |
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -359,6 +361,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0010-regular-expression-matching](https://github.com/DheerajGedupudi/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Memoization
 |  |
 | ------- |
