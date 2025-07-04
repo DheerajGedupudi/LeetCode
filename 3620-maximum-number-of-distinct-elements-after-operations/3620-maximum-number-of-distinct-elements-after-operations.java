@@ -1,25 +1,17 @@
 class Solution {
     public int maxDistinctElements(int[] nums, int k) {
-        Set<Integer> set = new HashSet<>();
         Arrays.sort(nums);
-        int last_added = Integer.MIN_VALUE;
+        int count = 0;
+        int last = Integer.MIN_VALUE;
         for (int x : nums)
         {
-            int start = Math.max(x-k, last_added);
-            int end = x+k;
-            
-            int num = start;
-            while(num<=end)
+            int num = Math.max(x-k, last+1);
+            if (num<=x+k)
             {
-                if (set.contains(num)==false)
-                {
-                    set.add(num);
-                    last_added = num;
-                    break;
-                }
-                num++;
+                last = num;
+                count++;
             }
         }
-        return set.size();
+        return count;
     }
 }
