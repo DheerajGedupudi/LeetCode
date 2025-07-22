@@ -4,15 +4,12 @@ class Solution {
         int n = nums.length;
         int[] prefix = new int[n+1];
         int sum = 0;
-        for (int i=0; i<n; i++)
-        {
-            sum += nums[i];
-            prefix[i+1] = sum;
-        }
         int p1 = 0;
         int max = nums[0];
         for (int i=0; i<n; i++)
         {
+            sum += nums[i];
+            prefix[i+1] = sum;
             if (lastFound.containsKey(nums[i]))
             {
                 int last = lastFound.get(nums[i])+1;
