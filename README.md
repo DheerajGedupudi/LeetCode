@@ -263,6 +263,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3617-find-the-original-typed-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -292,6 +293,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Two Pointers
 |  |
@@ -359,6 +361,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 ## Sorting
