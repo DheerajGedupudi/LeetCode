@@ -151,6 +151,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
+| [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -259,6 +260,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
+| [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
@@ -319,6 +321,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
+| [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 ## Bit Manipulation
 |  |
 | ------- |
@@ -358,6 +361,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
+| [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -370,6 +374,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/DheerajGedupudi/LeetCode/tree/master/0056-merge-intervals) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
+| [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
