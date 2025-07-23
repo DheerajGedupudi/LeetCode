@@ -75,7 +75,6 @@ class Trie
         }
         curr.count++;
         curr.set.add(s);
-        curr.flag = true;
     }
 
     List<String> get()
@@ -129,14 +128,12 @@ class TrieNode
 {
     TrieNode[] children;
     int count;
-    boolean flag;
     List<String> set;
 
     TrieNode()
     {
         this.children = new TrieNode[26];
         this.count = 0;
-        this.flag = false;
         this.set = new ArrayList<>();
     }
 }
