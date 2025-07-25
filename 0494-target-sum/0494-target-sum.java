@@ -1,26 +1,23 @@
 class Solution {
-    
-    private int counter;
-
     public int findTargetSumWays(int[] nums, int target) {
-        this.counter = 0;
-        helper(nums, 0, target);
-        return this.counter;
+        int n = nums.length;
+        return helper(nums, 0, target);
     }
 
-    private void helper(int[] nums, int index, int target)
+    private int helper(int[] nums, int index, int target)
     {
         int n = nums.length;
         if (index==n)
         {
             if (target==0)
             {
-                this.counter++;
+                return 1;
             }
-            return;
+            return 0;
         }
-        helper(nums, index+1, target+nums[index]);
-        helper(nums, index+1, target-nums[index]);
+        int x = helper(nums, index+1, target+nums[index]);
+        int y = helper(nums, index+1, target-nums[index]);
+        return x+y;
     }
 }
 
