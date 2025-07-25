@@ -1,5 +1,5 @@
 class Solution {
-    private int[][] memo;
+    private Integer[][] memo;
 
     public int findTargetSumWays(int[] nums, int target) {
         int n = nums.length;
@@ -8,13 +8,13 @@ class Solution {
         {
             sum += x;
         }
-        this.memo = new int[n+1][sum*2+1];
+        this.memo = new Integer[n+1][sum*2+1];
         return helper(nums, 0, 0, target, sum);
     }
 
     private int helper(int[] nums, int index, int sum, int target, int offset)
     {
-        if (this.memo[index][offset+sum]!=0)
+        if (this.memo[index][offset+sum]!=null)
         {
             return this.memo[index][offset+sum];
         }
