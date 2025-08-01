@@ -14,34 +14,33 @@
  * }
  */
 class Solution {
-
-    private Map<TreeNode, Integer> nodeToIndex;
-
     public List<List<Integer>> verticalOrder(TreeNode root) {
         if (root==null)
         {
             return new ArrayList<>();
         }
-        this.nodeToIndex = new HashMap<>();
-        dfs(root, 0);
         Queue<TreeNode> q = new LinkedList<>();
+        Queue<Integer> qIndexes = new LinkedList<>();
         q.offer(root);
+        qIndexes.offer(0);
         Map<Integer, List<Integer>> map = new HashMap<>();
         int minIndex = Integer.MAX_VALUE;
         while(q.isEmpty()==false)
         {
             TreeNode curr = q.poll();
-            int index = this.nodeToIndex.get(curr);
+            int index = qIndexes.poll();
             minIndex = Math.min(minIndex, index);
             map.putIfAbsent(index, new ArrayList<>());
             map.get(index).add(curr.val);
             if (curr.left!=null)
             {
                 q.offer(curr.left);
+                qIndexes.offer(index-1);
             }
             if (curr.right!=null)
             {
                 q.offer(curr.right);
+                qIndexes.offer(index+1);
             }
         }
         List<List<Integer>> result = new ArrayList<>();
@@ -51,16 +50,5 @@ class Solution {
             result.add(map.get(index++));
         }
         return result;
-    }
-
-    private void dfs(TreeNode root, int index)
-    {
-        if (root==null)
-        {
-            return;
-        }
-        this.nodeToIndex.put(root, index);
-        dfs(root.left, index-1);
-        dfs(root.right, index+1);
     }
 }
