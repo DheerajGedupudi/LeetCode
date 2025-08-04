@@ -20,6 +20,7 @@ class Solution {
                     triplet.add(nums[high]);
                     tripletSet.add(triplet);
                     low++;
+                    high--;
                 }
                 else if (sum>target)
                 {
