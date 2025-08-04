@@ -185,6 +185,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1813-maximum-erasure-value](https://github.com/DheerajGedupudi/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2215-finding-3-digit-even-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
@@ -407,6 +408,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
