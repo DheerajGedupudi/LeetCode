@@ -20,18 +20,7 @@ class Solution {
             n -= power;
             powers.add(power);
         }
-        // powers.add(0);
         Collections.reverse(powers);
-        // int[] prefix = new int[powers.size()];
-        // int product = 1;
-        // for (int i=1; i<powers.size(); i++)
-        // {
-        //     product *= powers.get(i);
-        //     product %= MOD;
-        //     prefix[i] = product;
-        // }
-        // System.out.println(powers);
-        // System.out.println(Arrays.toString(prefix));
         int m = queries.length;
         int[] result = new int[m];
         for (int i=0; i<m; i++)
