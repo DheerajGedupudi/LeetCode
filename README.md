@@ -195,6 +195,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DheerajGedupudi/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
@@ -250,6 +251,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Math
 |  |
@@ -375,6 +377,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0287-find-the-duplicate-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DheerajGedupudi/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
+| [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## Dynamic Programming
