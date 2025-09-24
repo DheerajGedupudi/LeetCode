@@ -218,6 +218,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0076-minimum-window-substring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
+| [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
@@ -264,6 +265,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0066-plus-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0231-power-of-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/0231-power-of-two) |
@@ -293,6 +295,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0131-palindrome-partitioning](https://github.com/DheerajGedupudi/LeetCode/tree/master/0131-palindrome-partitioning) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0165-compare-version-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0165-compare-version-numbers) |
+| [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
