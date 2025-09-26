@@ -278,6 +278,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/DheerajGedupudi/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/DheerajGedupudi/LeetCode/tree/master/1500-count-largest-group) |
+| [1585-the-kth-factor-of-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/1585-the-kth-factor-of-n) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
@@ -598,4 +599,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0277-find-the-celebrity](https://github.com/DheerajGedupudi/LeetCode/tree/master/0277-find-the-celebrity) |
+## Number Theory
+|  |
+| ------- |
+| [1585-the-kth-factor-of-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/1585-the-kth-factor-of-n) |
 <!---LeetCode Topics End-->
