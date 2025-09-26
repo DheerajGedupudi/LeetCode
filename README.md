@@ -124,6 +124,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0078-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0078-subsets) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
 | [0131-palindrome-partitioning](https://github.com/DheerajGedupudi/LeetCode/tree/master/0131-palindrome-partitioning) |
+| [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
@@ -154,6 +155,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/DheerajGedupudi/LeetCode/tree/master/0198-house-robber) |
+| [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
@@ -302,6 +304,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
@@ -379,6 +382,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 ## Bit Manipulation
@@ -500,6 +504,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0073-set-matrix-zeroes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0073-set-matrix-zeroes) |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
+| [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
