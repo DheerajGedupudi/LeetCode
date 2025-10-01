@@ -139,6 +139,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0040-combination-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
+| [0053-maximum-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 | [0056-merge-intervals](https://github.com/DheerajGedupudi/LeetCode/tree/master/0056-merge-intervals) |
 | [0057-insert-interval](https://github.com/DheerajGedupudi/LeetCode/tree/master/0057-insert-interval) |
@@ -409,6 +410,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0005-longest-palindromic-substring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/DheerajGedupudi/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
+| [0053-maximum-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 | [0091-decode-ways](https://github.com/DheerajGedupudi/LeetCode/tree/master/0091-decode-ways) |
 | [0118-pascals-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/0118-pascals-triangle) |
@@ -541,6 +543,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Divide and Conquer
 |  |
 | ------- |
+| [0053-maximum-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0053-maximum-subarray) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0190-reverse-bits](https://github.com/DheerajGedupudi/LeetCode/tree/master/0190-reverse-bits) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
