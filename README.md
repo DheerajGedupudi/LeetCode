@@ -290,6 +290,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2324-find-triangular-sum-of-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
+| [3336-water-bottles-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 ## String
@@ -336,6 +337,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
+| [3336-water-bottles-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 ## Design
 |  |
