@@ -1,21 +1,22 @@
 class Solution {
     public int[][] multiply(int[][] mat1, int[][] mat2) {
-        int n = mat1.length;
-        int k = mat1[0].length;
-        int m = mat2[0].length;
-        int[][] answer = new int[n][m];
-        for (int i=0; i<n; i++)
+        int r1 = mat1.length;
+        int c1 = mat1[0].length;
+        int r2 = mat2.length;
+        int c2 = mat2[0].length;
+        int[][] result = new int[r1][c2];
+        for (int i=0; i<r1; i++)
         {
-            for (int j=0; j<m; j++)
+            for (int j=0; j<c2; j++)
             {
-                //mat1 : i is row number, k is col number
-                //mat2 : j is col numberm k is row number
-                for (int p=0; p<k; p++)
+                int sum = 0;
+                for (int y=0; y<c1; y++)
                 {
-                    answer[i][j] += (mat1[i][p]*mat2[p][j]);
+                    sum += mat1[i][y]*mat2[y][j];
                 }
+                result[i][j] = sum;
             }
         }
-        return answer;
+        return result;
     }
 }
