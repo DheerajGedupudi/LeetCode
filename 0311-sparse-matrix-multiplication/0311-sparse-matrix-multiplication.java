@@ -10,9 +10,9 @@ class Solution {
             for (int j=0; j<c2; j++)
             {
                 int sum = 0;
-                for (int y=0; y<c1; y++)
+                for (int k=0; k<c1; k++)
                 {
-                    sum += mat1[i][y]*mat2[y][j];
+                    sum += mat1[i][k]*mat2[k][j];
                 }
                 result[i][j] = sum;
             }
