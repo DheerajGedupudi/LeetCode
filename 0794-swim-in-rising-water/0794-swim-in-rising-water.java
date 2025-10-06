@@ -1,7 +1,7 @@
 class Solution {
     public int swimInWater(int[][] grid) {
         int low = 0;
-        int high = Integer.MAX_VALUE;
+        int high = 5000;
         int best = high;
         while(low<=high)
         {
