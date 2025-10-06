@@ -57,6 +57,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 ## Binary Search Tree
@@ -74,6 +75,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0333-largest-bst-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0333-largest-bst-subtree) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1051-shortest-way-to-form-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/DheerajGedupudi/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
@@ -116,6 +118,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
@@ -184,6 +187,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0940-fruit-into-baskets) |
@@ -533,6 +537,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/DheerajGedupudi/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
@@ -549,6 +554,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1127-last-stone-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/1127-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -589,6 +595,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
+| [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 ## Counting
