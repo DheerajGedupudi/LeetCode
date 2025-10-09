@@ -224,6 +224,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/DheerajGedupudi/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Hash Table
 |  |
 | ------- |
@@ -275,6 +276,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/DheerajGedupudi/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Math
 |  |
 | ------- |
@@ -349,6 +351,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [3336-water-bottles-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
+| [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/DheerajGedupudi/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Design
 |  |
 | ------- |
