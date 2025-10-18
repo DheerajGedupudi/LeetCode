@@ -158,6 +158,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0120-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
+| [0135-candy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0135-candy) |
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
@@ -461,6 +462,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
+| [0135-candy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0135-candy) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
