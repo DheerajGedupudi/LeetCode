@@ -1,6 +1,7 @@
 class Solution {
 
     private String result;
+    private boolean flag;
 
     public String lexGreaterPermutation(String s, String target) {
         int len = target.length();
@@ -9,11 +10,9 @@ class Solution {
         {
             letters.add(c);
         }
-        boolean flag = false;
-        int i=0;
-        StringBuilder sb = new StringBuilder();
+        this.flag = false;
         this.result = "";
-        dfs(letters, target, 0, sb);
+        dfs(letters, target, 0, new StringBuilder());
         return this.result;
     }
 
@@ -36,15 +35,19 @@ class Solution {
         char c = target.charAt(index);
         int x = c-'a';
         int start = x;
-        String word = sb.toString();
-        String prefix = target.substring(0, word.length());
-        if (word.compareTo(prefix)>0)
+        // String word = sb.toString();
+        // String prefix = target.substring(0, word.length());
+        if (this.flag)
         {
             start = 0;
         }
         for (int i=start; i<26; i++)
         {
             char d = (char)(i+'a');
+            if (i>x)
+            {
+                this.flag = true;
+            }
             if (letters.has(d))
             {
                 sb.append(d);
