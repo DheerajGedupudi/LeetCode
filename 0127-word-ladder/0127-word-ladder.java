@@ -1,32 +1,41 @@
 class Solution {
     public int ladderLength(String beginWord, String endWord, List<String> wordList) {
-        String[] bank = new String[wordList.size()];
-        for (int i=0; i<wordList.size(); i++)
+        Set<String> wordSet = new HashSet<>();
+        for (String s : wordList)
         {
-            bank[i] = wordList.get(i);
+            wordSet.add(s);
+        } 
+        wordSet.remove(beginWord);
+        int n = wordSet.size()+1;
+        String[] bank = new String[n];
+        int ind = 0;
+        for (String s : wordSet)
+        {
+            bank[ind++] = s;
         }
-        Queue<String> q = new ArrayDeque<>();
-        Set<String> visited = new HashSet<>();
-        q.offer(beginWord);
-        visited.add(beginWord);
+        bank[n-1] = beginWord;
+        Queue<Integer> q = new ArrayDeque<>();
+        boolean[] visited = new boolean[n];
+        q.offer(n-1);
+        visited[n-1] = true;
         int levels = 1;
         while(q.isEmpty()==false)
         {
             int size = q.size();
             for (int i=0; i<size; i++)
             {
-                String curr = q.poll();
-                if (curr.equals(endWord))
+                int curr = q.poll();
+                if (bank[curr].equals(endWord))
                 {
                     return levels;
                 }
-                List<String> list = get(curr, bank);
-                for (String s : list)
+                List<Integer> list = get(curr, bank);
+                for (int index : list)
                 {
-                    if (visited.contains(s)==false)
+                    if (visited[index]==false)
                     {
-                        q.offer(s);
-                        visited.add(s);
+                        q.offer(index);
+                        visited[index] = true;
                     }
                 }
             }
@@ -35,14 +44,15 @@ class Solution {
         return 0;
     }
 
-    private List<String> get(String start, String[] bank)
+    private List<Integer> get(int index, String[] bank)
     {
-        List<String> list = new ArrayList<>();
-        for (String s : bank)
+        List<Integer> list = new ArrayList<>();
+        int n = bank.length;
+        for (int i=0; i<n; i++)
         {
-            if (oneAway(s,start))
+            if (oneAway(bank[i], bank[index]))
             {
-                list.add(s);
+                list.add(i);
             }
         }
         return list;
