@@ -12,10 +12,7 @@ class SparseVector {
         int n = this.nums.length;
         for (int i=0; i<n; i++)
         {
-            if (this.nums[i]!=0 && vec.nums[i]!=0)
-            {
-                sum += (this.nums[i]*vec.nums[i]);
-            }
+            sum += (this.nums[i]*vec.nums[i]);
         }
         return sum;
     }
