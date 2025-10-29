@@ -318,6 +318,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3336-water-bottles-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/DheerajGedupudi/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
 ## String
 |  |
@@ -450,6 +451,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
+| [3676-smallest-number-with-all-set-bits](https://github.com/DheerajGedupudi/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
 ## Dynamic Programming
 |  |
 | ------- |
