@@ -4,37 +4,32 @@ class Solution {
 
     public List<String> generatePalindromes(String s) {
         this.result = new ArrayList<>();
-        Map<Character, Integer> freqMap = new HashMap<>();
+        int[] count = new int[26];
         for (char c : s.toCharArray())
         {
-            freqMap.put(c, freqMap.getOrDefault(c, 0)+1);
-        }
-        Set<Character> oddSet = new HashSet<>();
-        for (char c : freqMap.keySet())
-        {
-            if (freqMap.get(c)%2==1)
-            {
-                oddSet.add(c);
-            }
-        }
-        if (oddSet.size()>1)
-        {
-            return this.result;
+            count[c-'a']++;
         }
         Character odd = null;
-        if (oddSet.size()>0)
+        for (int i=0; i<26; i++)
         {
-            for (char c : oddSet)
+            if (count[i]%2==1)
             {
-                odd = c;
+                if (odd==null)
+                {
+                    odd = (char)(i+'a');
+                }
+                else
+                {
+                    return this.result;
+                }
             }
+            //only consider half
+            count[i] /= 2;
         }
-        int[] count = new int[26];
         int length = 0;
-        for (char c : freqMap.keySet())
+        for (int i=0; i<26; i++)
         {
-            count[c-'a'] = freqMap.get(c)/2;
-            length += count[c-'a'];
+            length += count[i];
         }
         helper(count, odd, new StringBuilder(), length);
         return this.result;
