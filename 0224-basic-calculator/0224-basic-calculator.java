@@ -1,62 +1,93 @@
 class Solution {
     public int calculate(String s) {
-        int len = s.length();
-        Deque<String> stack = new ArrayDeque<>();
-        boolean pos = true;
-        int currNum = 0;
-        for (int i=0; i<len; i++)
+        StringBuilder sb = new StringBuilder();
+        for (char c : s.toCharArray())
         {
-            char c = s.charAt(i);
+            if (c!=' ')
+            {
+                sb.append(c);
+            }
+        }
+        s = sb.toString();
+        int len = s.length();
+        int num = 0;
+        Deque<String> q = new ArrayDeque<>();
+        for (char c : s.toCharArray())
+        {
             if (Character.isDigit(c))
             {
-                currNum *= 10;
-                currNum += Character.getNumericValue(c);
+                num *= 10;
+                num += Character.getNumericValue(c);
             }
             else
             {
-                stack.push((pos?"+":"-")+currNum);
-                currNum = 0;
-                if (c=='(')
+                if (num!=0)
                 {
-                    stack.push((pos?"+":"-")+c+"");
-                    pos = true;
+                    q.offerLast(Integer.toString(num));
                 }
-                else if (c==')')
-                {
-                    solve(stack);
-                    // System.out.println("solved : "+stack);
-                }
-                else if (c=='+')
-                {
-                    pos = true;
-                }
-                else if (c=='-')
-                {
-                    pos = false;
-                }
+                num = 0;
+                q.offerLast(c+"");
             }
         }
-        stack.push((pos?"+":"-")+currNum);
-        solve(stack);
-        int result = Integer.parseInt(stack.pop());
-        return result;
+        if (num!=0)
+        {
+            q.offerLast(Integer.toString(num));
+        }
+        solve(q, true);
+        return Integer.parseInt(q.poll());
     }
 
-    private void solve(Deque<String> stack)
+    private void solve(Deque<String> q, boolean mainSign)
     {
-        int result = 0;
-        while(stack.isEmpty()==false && stack.peek().equals("-(")==false && stack.peek().equals("+(")==false)
+        // System.out.println(q);
+        int sum = 0;
+        boolean pos = true;
+        while(q.isEmpty()==false)
         {
-            result += Integer.parseInt(stack.pop());
-        }
-        if (stack.isEmpty()==false && (stack.peek().equals("-(") || stack.peek().equals("+(")))
-        {
-            if (stack.pop().equals("-("))
+            String top = q.pollFirst();
+            if (top.equals("("))
             {
-                result *= -1;
+                solve(q, pos);
+            }
+            else if (top.equals(")"))
+            {
+                if (mainSign)
+                {
+                    q.offerFirst(Integer.toString(sum));
+                }
+                else
+                {
+                    q.offerFirst(Integer.toString(sum));
+                }
+                return;
+            }
+            else if (top.equals("+"))
+            {
+                pos = true;
+            }
+            else if (top.equals("-"))
+            {
+                pos = false;
+            }
+            else
+            {
+                if (pos)
+                {
+                    sum += Integer.parseInt(top);
+                }
+                else
+                {
+                    sum -= Integer.parseInt(top);
+                }
             }
         }
-        stack.push(result+"");
+        if (mainSign)
+        {
+            q.offerFirst(Integer.toString(sum));
+        }
+        else
+        {
+            q.offerFirst(Integer.toString(-1*sum));
+        }
     }
-        
 }
