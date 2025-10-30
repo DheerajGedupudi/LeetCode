@@ -2,43 +2,57 @@ class Solution {
     public void nextPermutation(int[] nums) {
         int n = nums.length;
         int index = -1;
-        TreeMap<Integer, Integer> freqMap = new TreeMap<>();
-        for (int i=n-1; i>=0; i--)
+        int max = nums[n-1];
+        for (int i=n-2; i>=0; i--)
         {
-            if (freqMap.size()>0 && freqMap.lastKey()>nums[i])
+            if (nums[i]<max)
             {
                 index = i;
-                freqMap.put(nums[i], freqMap.getOrDefault(nums[i], 0)+1);
                 break;
             }
-            freqMap.put(nums[i], freqMap.getOrDefault(nums[i], 0)+1);
+            max = Math.max(max, nums[i]);
         }
         if (index==-1)
         {
-            //no next perm
-            Arrays.sort(nums);
+            reverse(nums, 0, n-1);
             return;
         }
-        int higher = freqMap.higherKey(nums[index]);
-        nums[index] = higher;
-        freqMap.put(higher, freqMap.get(higher)-1);
-        if (freqMap.get(higher)==0)
+        //look for next smallest num
+        int index2 = -1;
+        for (int i=index; i<n; i++)
         {
-            freqMap.remove(higher);
-        }
-        int last = Integer.MIN_VALUE;
-        // System.out.println(Arrays.toString(nums));
-        // System.out.println(freqMap);
-        for (int i=index+1; i<n; i++)
-        {
-            nums[i] = freqMap.ceilingKey(last);
-            last = nums[i];
-            freqMap.put(last, freqMap.get(last)-1);
-            if (freqMap.get(last)==0)
+            if (nums[i]>nums[index])
             {
-                freqMap.remove(last);
+                if (index2==-1)
+                {
+                    index2 = i;
+                }
+                else
+                {
+                    if (nums[i]<=nums[index2])
+                    {
+                        index2 = i;
+                    }
+                }
             }
+        }
+        //swap them
+        int temp = nums[index];
+        nums[index] = nums[index2];
+        nums[index2] = temp;
+        //reverse the remaining
+        reverse(nums, index+1, n-1);
+    }
 
+    private void reverse(int[] nums, int low, int high)
+    {
+        while(low<high)
+        {
+            int temp = nums[low];
+            nums[low] = nums[high];
+            nums[high] = temp;
+            low++;
+            high--;
         }
     }
 }
