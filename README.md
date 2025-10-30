@@ -145,6 +145,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0001-two-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/DheerajGedupudi/LeetCode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0040-combination-sum-ii) |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
@@ -407,6 +408,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0005-longest-palindromic-substring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
+| [0031-next-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0031-next-permutation) |
 | [0161-one-edit-distance](https://github.com/DheerajGedupudi/LeetCode/tree/master/0161-one-edit-distance) |
 | [0165-compare-version-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
