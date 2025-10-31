@@ -33,6 +33,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -62,6 +63,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/DheerajGedupudi/LeetCode/tree/master/0854-making-a-large-island) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 ## Binary Search Tree
 |  |
@@ -105,6 +107,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
 |  |
 | ------- |
