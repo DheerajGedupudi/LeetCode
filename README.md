@@ -323,6 +323,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0231-power-of-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0279-perfect-squares) |
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/DheerajGedupudi/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
@@ -364,6 +365,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0267-palindrome-permutation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0267-palindrome-permutation-ii) |
+| [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
@@ -385,6 +387,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
+| [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
 | [1642-water-bottles](https://github.com/DheerajGedupudi/LeetCode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
