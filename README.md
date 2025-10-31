@@ -183,6 +183,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0287-find-the-duplicate-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
+| [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
 | [0322-coin-change](https://github.com/DheerajGedupudi/LeetCode/tree/master/0322-coin-change) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
@@ -298,6 +299,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
@@ -394,6 +396,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
