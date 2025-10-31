@@ -191,6 +191,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
@@ -404,6 +405,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
