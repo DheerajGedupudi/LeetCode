@@ -254,6 +254,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
+| [0246-strobogrammatic-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0267-palindrome-permutation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0267-palindrome-permutation-ii) |
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
@@ -348,6 +349,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
+| [0246-strobogrammatic-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0267-palindrome-permutation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0267-palindrome-permutation-ii) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
@@ -415,6 +417,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0161-one-edit-distance](https://github.com/DheerajGedupudi/LeetCode/tree/master/0161-one-edit-distance) |
 | [0165-compare-version-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0165-compare-version-numbers) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0246-strobogrammatic-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0277-find-the-celebrity](https://github.com/DheerajGedupudi/LeetCode/tree/master/0277-find-the-celebrity) |
 | [0287-find-the-duplicate-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0287-find-the-duplicate-number) |
