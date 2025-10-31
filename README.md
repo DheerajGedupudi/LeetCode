@@ -20,6 +20,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
@@ -39,6 +40,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
 | [0207-course-schedule](https://github.com/DheerajGedupudi/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0210-course-schedule-ii) |
@@ -91,6 +93,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
+| [0129-sum-root-to-leaf-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
