@@ -15,12 +15,12 @@
  */
 class Solution {
 
-    private int maxDiameter;
+    private int max;
 
     public int diameterOfBinaryTree(TreeNode root) {
-        this.maxDiameter = 0;
+        this.max = 0; 
         int x = depth(root);
-        return this.maxDiameter;
+        return this.max;
     }
 
     private int depth(TreeNode root)
@@ -31,7 +31,8 @@ class Solution {
         }
         int left = depth(root.left);
         int right = depth(root.right);
-        maxDiameter = Math.max(maxDiameter, left+right);
+        int diam = left+right;
+        this.max = Math.max(max, diam);
         return Math.max(left, right)+1;
     }
 }
