@@ -1,41 +1,36 @@
 class Solution {
     public int[][] merge(int[][] intervals) {
-        Arrays.sort(intervals, (a,b)->(a[0]!=b[0]?a[0]-b[0]:b[1]-a[1]));
+        Arrays.sort(intervals, (a,b)->(a[0]!=b[0]?a[0]-b[0]:a[1]-b[1]));
         List<int[]> list = new ArrayList<>();
         for (int[] interval : intervals)
         {
-            if (list.size()==0)
+            if (list.isEmpty())
             {
                 list.add(interval);
                 continue;
             }
+            //if overlap, merge
             int[] last = list.get(list.size()-1);
-            if (isOverlap(last, interval))
+            int maxStart = Math.max(interval[0], last[0]);
+            int minEnd = Math.min(interval[1], last[1]);
+            if (minEnd-maxStart>=0)
             {
-                int end = Math.max(last[1], interval[1]);
-                last[1] = end;
+                list.remove(list.size()-1);
+                int minStart = Math.min(interval[0], last[0]);
+                int maxEnd = Math.max(interval[1], last[1]);
+                list.add(new int[]{minStart, maxEnd});
             }
             else
             {
                 list.add(interval);
             }
-
         }
         int[][] result = new int[list.size()][2];
-        for (int i=0; i<list.size(); i++)
+        int index = 0;
+        for (int[] interval : list)
         {
-            result[i] = list.get(i);
+            result[index++] = interval;
         }
         return result;
-    }
-
-    private boolean isOverlap(int[] a, int[] b)
-    {
-        //a start <= b start
-        if (b[0]<=a[1])
-        {
-            return true;
-        }
-        return false;
     }
 }
