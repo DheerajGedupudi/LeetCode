@@ -246,6 +246,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -300,6 +301,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Prefix Sum
 |  |
@@ -562,6 +564,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
 | ------- |
