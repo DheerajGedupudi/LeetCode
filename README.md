@@ -80,6 +80,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0300-longest-increasing-subsequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0333-largest-bst-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0333-largest-bst-subtree) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -195,6 +196,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
@@ -537,6 +539,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
@@ -594,6 +597,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -613,6 +617,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
