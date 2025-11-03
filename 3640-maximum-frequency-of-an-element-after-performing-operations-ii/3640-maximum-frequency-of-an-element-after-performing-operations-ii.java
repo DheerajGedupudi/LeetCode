@@ -23,7 +23,6 @@ class Solution {
             node.addPrefix(sumFreq);
         }
         int max = 0;
-        // System.out.println("list : "+list);
         for (int index=1; index<list.size(); index++)
         {
             Node node = list.get(index);
@@ -37,10 +36,8 @@ class Solution {
                 floor++;
             }
             int ceil = getCeil(list, node.val+k);
-            // System.out.println("curr : "+node.val+" floor : "+floor+", ceil : "+ceil);
             int sameCount = node.freq;
             int notSameCount = list.get(ceil).prefixFreq-list.get(floor-1).prefixFreq-sameCount;
-            // System.out.println("same : "+sameCount+", not same : "+notSameCount);
             max = Math.max(max, sameCount + Math.min(notSameCount, numOperations));
 
             //all become something b/n x-2k to x
@@ -50,9 +47,7 @@ class Solution {
                 floor++;
             }
             ceil = getCeil(list, node.val);
-            // System.out.println("x-2k curr : "+node.val+" floor : "+floor+", ceil : "+ceil);
             notSameCount = list.get(ceil).prefixFreq-list.get(floor-1).prefixFreq;
-            // System.out.println("same : "+sameCount+", not same : "+notSameCount);
             max = Math.max(max, Math.min(notSameCount, numOperations));
 
             // all become something b/n x to x+2k
@@ -62,9 +57,7 @@ class Solution {
                 floor++;
             }
             ceil = getCeil(list, node.val+(2*k));
-            // System.out.println("curr : "+node.val+" floor : "+floor+", ceil : "+ceil);
             notSameCount = list.get(ceil).prefixFreq-list.get(floor-1).prefixFreq;
-            // System.out.println("same : "+sameCount+", not same : "+notSameCount);
             max = Math.max(max, Math.min(notSameCount, numOperations));
 
 
