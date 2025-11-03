@@ -31,17 +31,9 @@ class Solution {
             int right = Math.min(i+k, range);
             // System.out.println("for : "+i+" space : "+(left)+"->"+(right));
             int counter = prefix[right+offSet+1]-prefix[left+offSet];
-            int sameCounter = 0;
-            int toMakeSame = 0;
-            if (i+offSet<range)
-            {
-                sameCounter = count[i+offSet];
-                counter -= sameCounter;
-                toMakeSame = sameCounter;
-            }
-            toMakeSame += Math.min(numOperations, counter);
+            int sameCounter = count[i+offSet] + Math.min(numOperations, counter-count[i+offSet]);
             // System.out.println("to make same : "+toMakeSame);
-            ans = Math.max(ans, toMakeSame);
+            ans = Math.max(ans, sameCounter);
         }
         return ans;
     }
