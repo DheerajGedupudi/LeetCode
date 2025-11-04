@@ -743,4 +743,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
+## Database
+|  |
+| ------- |
+| [1415-students-and-examinations](https://github.com/DheerajGedupudi/LeetCode/tree/master/1415-students-and-examinations) |
 <!---LeetCode Topics End-->
