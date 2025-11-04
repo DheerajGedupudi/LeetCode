@@ -206,6 +206,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
+| [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
@@ -283,6 +284,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
+| [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
@@ -314,6 +316,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
