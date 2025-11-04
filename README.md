@@ -71,6 +71,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0162-find-peak-element](https://github.com/DheerajGedupudi/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
@@ -182,6 +183,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0136-single-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0136-single-number) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
+| [0162-find-peak-element](https://github.com/DheerajGedupudi/LeetCode/tree/master/0162-find-peak-element) |
 | [0163-missing-ranges](https://github.com/DheerajGedupudi/LeetCode/tree/master/0163-missing-ranges) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0198-house-robber](https://github.com/DheerajGedupudi/LeetCode/tree/master/0198-house-robber) |
