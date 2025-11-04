@@ -159,6 +159,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0016-3sum-closest) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/DheerajGedupudi/LeetCode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0040-combination-sum-ii) |
@@ -446,6 +447,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
 | [0016-3sum-closest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0016-3sum-closest) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0031-next-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0031-next-permutation) |
 | [0161-one-edit-distance](https://github.com/DheerajGedupudi/LeetCode/tree/master/0161-one-edit-distance) |
 | [0165-compare-version-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0165-compare-version-numbers) |
