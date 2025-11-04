@@ -158,6 +158,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0001-two-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0001-two-sum) |
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0031-next-permutation) |
 | [0037-sudoku-solver](https://github.com/DheerajGedupudi/LeetCode/tree/master/0037-sudoku-solver) |
 | [0040-combination-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0040-combination-sum-ii) |
@@ -441,6 +442,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0005-longest-palindromic-substring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0011-container-with-most-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0011-container-with-most-water) |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0016-3sum-closest) |
 | [0031-next-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0031-next-permutation) |
 | [0161-one-edit-distance](https://github.com/DheerajGedupudi/LeetCode/tree/master/0161-one-edit-distance) |
 | [0165-compare-version-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0165-compare-version-numbers) |
@@ -544,6 +546,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0015-3sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0015-3sum) |
+| [0016-3sum-closest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0016-3sum-closest) |
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/DheerajGedupudi/LeetCode/tree/master/0056-merge-intervals) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
