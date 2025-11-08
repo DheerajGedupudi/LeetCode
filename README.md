@@ -88,6 +88,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1051-shortest-way-to-form-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/DheerajGedupudi/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1646-kth-missing-positive-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
@@ -235,6 +236,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1510-find-lucky-integer-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
+| [1646-kth-missing-positive-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1813-maximum-erasure-value](https://github.com/DheerajGedupudi/LeetCode/tree/master/1813-maximum-erasure-value) |
