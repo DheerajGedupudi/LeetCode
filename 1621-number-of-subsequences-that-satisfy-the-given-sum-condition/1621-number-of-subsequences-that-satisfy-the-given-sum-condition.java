@@ -59,7 +59,7 @@ class Solution {
             return 1;
         }
         int x = getPowerOf2(n-1);
-        int ans = x+x;
+        int ans = x<<1;
         ans %= MOD;
         this.powers[n] = ans;
         return ans;
