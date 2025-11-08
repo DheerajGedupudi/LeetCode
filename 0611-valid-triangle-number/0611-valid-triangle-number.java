@@ -1,43 +1,39 @@
 class Solution {
     public int triangleNumber(int[] nums) {
         Arrays.sort(nums);
-        int count = 0;
         int n = nums.length;
+        int counter = 0;
         for (int i=0; i<n; i++)
         {
             for (int j=i+1; j<n; j++)
             {
+                // getUpper
                 int sum = nums[i]+nums[j];
-                //binary search
                 int low = j+1;
                 int high = n-1;
-                int best = j;
+                //get highest lower than sum
+                int upper = 0;
                 while(low<=high)
                 {
                     int mid = low + (high-low)/2;
-                    if (nums[mid]>=sum)
+                    if (nums[mid]<sum)
                     {
-                        high = mid-1;
+                        upper = mid;
+                        low = mid+1;
                     }
                     else
                     {
-                        best = mid;
-                        low = mid+1;
+                        high = mid-1;
                     }
                 }
-                // System.out.println(nums[i]+" "+nums[j]+" count : "+(best-j));
-                count += (best-j);
-            }
+                int found = upper-j;
+                // System.out.println(nums[i]+" "+nums[j]+" found : "+(found)+", upper : "+upper);
+                if (found>0)
+                {
+                    counter += (found);
+                }
+            }   
         }
-        return count;
+        return counter;
     }
 }
-
-/*
-
-sorted
-a,b,c
-
-a+b>c
-
-*/
