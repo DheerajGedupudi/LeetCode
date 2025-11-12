@@ -288,6 +288,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0127-word-ladder](https://github.com/DheerajGedupudi/LeetCode/tree/master/0127-word-ladder) |
 | [0139-word-break](https://github.com/DheerajGedupudi/LeetCode/tree/master/0139-word-break) |
+| [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
@@ -435,6 +436,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Design
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
 | [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
@@ -602,6 +604,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/DheerajGedupudi/LeetCode/tree/master/0023-merge-k-sorted-lists) |
+| [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
@@ -746,6 +749,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Doubly-Linked List
 |  |
 | ------- |
+| [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 ## Quickselect
 |  |
