@@ -213,6 +213,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0416-partition-equal-subset-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
+| [0485-max-consecutive-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
