@@ -368,6 +368,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1421-find-numbers-with-even-number-of-digits](https://github.com/DheerajGedupudi/LeetCode/tree/master/1421-find-numbers-with-even-number-of-digits) |
 | [1500-count-largest-group](https://github.com/DheerajGedupudi/LeetCode/tree/master/1500-count-largest-group) |
 | [1585-the-kth-factor-of-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/1585-the-kth-factor-of-n) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/DheerajGedupudi/LeetCode/tree/master/1642-water-bottles) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -415,6 +416,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
