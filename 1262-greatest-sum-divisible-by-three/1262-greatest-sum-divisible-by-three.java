@@ -1,6 +1,6 @@
 class Solution {
     public int maxSumDivThree(int[] nums) {
-        int sum = 0;
+        long sum = 0;
         List<Integer> ones = new ArrayList<>();
         List<Integer> twos = new ArrayList<>();
         for (int x : nums)
@@ -15,82 +15,48 @@ class Solution {
             }
             sum += x;
         }
-        Collections.sort(ones);
-        Collections.sort(twos);
         if (sum%3==0)
         {
-            return sum;
+            return (int)sum;
         }
+        long[] oneMin = getMin2(ones);
+        long[] twoMin = getMin2(twos);
+        // System.out.println("sum : "+sum);
+        // System.out.println(Arrays.toString(oneMin));
+        // System.out.println(Arrays.toString(twoMin));
+        long max = 0;
         if (sum%3==1)
         {
-            int max = -1;
-            if (ones.size()==0 && twos.size()==0)
-            {
-                return 0;
-            }
-            if (ones.size()==0)
-            {
-                //only twos left
-                if (twos.size()<2)
-                {
-                    return 0;
-                }
-                int two1 = twos.get(0);
-                int two2 = twos.get(1);
-                return sum-(two1+two2);
-            }
-            if (twos.size()==0)
-            {
-                return sum-ones.get(0);
-            }
-            //both available
-            //with ones
-            max = Math.max(max, sum-ones.get(0));
-            //with twos
-            if (twos.size()>1)
-            {
-                int two1 = twos.get(0);
-                int two2 = twos.get(1);
-                max = Math.max(max, sum-(two1+two2));
-            }
-            return max;
+            max = Math.max(max, sum-oneMin[0]);
+            max = Math.max(max, sum-(twoMin[0]+twoMin[1]));
         }
         if (sum%3==2)
         {
-            int max = -1;
-            if (ones.size()==0 && twos.size()==0)
-            {
-                return 0;
-            }
-            if (twos.size()==0)
-            {
-                //only ones left
-                if (ones.size()<2)
-                {
-                    return 0;
-                }
-                int two1 = ones.get(0);
-                int two2 = ones.get(1);
-                return sum-(two1+two2);
-            }
-            if (ones.size()==0)
-            {
-                return sum-twos.get(0);
-            }
-            //both available
-            //with ones
-            max = Math.max(max, sum-twos.get(0));
-            //with twos
-            if (ones.size()>1)
-            {
-                int two1 = ones.get(0);
-                int two2 = ones.get(1);
-                max = Math.max(max, sum-(two1+two2));
-            }
-            return max;
+            max = Math.max(max, sum-twoMin[0]);
+            max = Math.max(max, sum-(oneMin[0]+oneMin[1]));
         }
-        return -1;
-        
+        return (int)max;
+    }
+
+    private long[] getMin2(List<Integer> list)
+    {
+        Queue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
+        heap.offer(Integer.MAX_VALUE);
+        heap.offer(Integer.MAX_VALUE);
+        for (int x : list)
+        {
+            if (x<heap.peek())
+            {
+                heap.offer(x);
+                if (heap.size()>2)
+                {
+                    heap.poll();
+                }
+            }
+        }
+        int min2 = heap.poll();
+        int min1 = heap.poll();
+        return new long[]{min1, min2}; 
     }
 }
 
