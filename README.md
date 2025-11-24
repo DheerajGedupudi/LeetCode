@@ -236,6 +236,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0954-maximum-sum-circular-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0967-minimum-falling-path-sum) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/DheerajGedupudi/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1127-last-stone-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/1127-last-stone-weight) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/DheerajGedupudi/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
@@ -535,6 +536,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0231-power-of-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/0231-power-of-two) |
 | [0287-find-the-duplicate-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [1018-binary-prefix-divisible-by-5](https://github.com/DheerajGedupudi/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DheerajGedupudi/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
