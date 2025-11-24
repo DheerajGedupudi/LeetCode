@@ -5,10 +5,10 @@ class Solution {
         int number = 5;
         for (int x : nums)
         {
-            number = number<<1;
+            number <<= 1;
             if (x==1)
             {
-                number++;
+                number |= 1;
             }
             number %= 5;
             if (number%5==0)
