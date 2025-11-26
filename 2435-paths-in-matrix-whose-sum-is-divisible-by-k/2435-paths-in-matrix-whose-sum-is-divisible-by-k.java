@@ -44,9 +44,6 @@ class Solution {
         int[] top = helper(grid, k, x-1, y);
         //from left
         int[] left = helper(grid, k, x, y-1);
-        // System.out.println("--------------------------------=-=-=-=-=-> at : "+x+", "+y);
-        // System.out.println("from left : "+Arrays.toString(left));
-        // System.out.println("from top : "+Arrays.toString(top));
         int[] ways = new int[k]; 
         for (int i=0; i<k; i++)
         {
@@ -67,7 +64,6 @@ class Solution {
                 ways[currIndex] %= this.MOD;
             }
         }
-        // System.out.println("at : "+x+", "+y+" ---> "+Arrays.toString(ways));
         this.memo[x][y] = ways;
         return ways;
     }
