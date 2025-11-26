@@ -5,6 +5,7 @@ class Solution {
     public int arrayNesting(int[] nums) {
         int n = nums.length;
         this.memo = new int[n];
+        Arrays.fill(this.memo, -1);
         int max = 0;
         for (int i=0; i<n; i++)
         {
@@ -18,7 +19,7 @@ class Solution {
     private int getDepth(int[] nums, int index, boolean[] visited)
     {
         int n = nums.length;
-        if (this.memo[index]!=0)
+        if (this.memo[index]!=-1)
         {
             return this.memo[index];
         }
