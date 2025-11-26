@@ -56,6 +56,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0333-largest-bst-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0333-largest-bst-subtree) |
+| [0339-nested-list-weight-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0339-nested-list-weight-sum) |
 | [0364-nested-list-weight-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
@@ -141,6 +142,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/DheerajGedupudi/LeetCode/tree/master/0322-coin-change) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0339-nested-list-weight-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0339-nested-list-weight-sum) |
 | [0364-nested-list-weight-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
