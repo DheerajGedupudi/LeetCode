@@ -47,19 +47,17 @@ class Solution {
         int[] ways = new int[k]; 
         for (int i=0; i<k; i++)
         {
+            int currIndex = i;
+            int pastIndex = (i+k-(grid[x][y])%k)%k;
             //from left
             if (y-1>=0)
             {
-                int currIndex = i;
-                int pastIndex = (i+k-(grid[x][y])%k)%k;
                 ways[currIndex] += left[pastIndex];
                 ways[currIndex] %= this.MOD;
             }
             //from top
             if (x-1>=0)
             {
-                int currIndex = i;
-                int pastIndex = (i+k-(grid[x][y])%k)%k;
                 ways[currIndex] += top[pastIndex];
                 ways[currIndex] %= this.MOD;
             }
