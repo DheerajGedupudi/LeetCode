@@ -1,36 +1,27 @@
 class Solution {
-
-    private int[] memo;
-
     public int arrayNesting(int[] nums) {
         int n = nums.length;
-        this.memo = new int[n];
-        Arrays.fill(this.memo, -1);
+        boolean[] visited = new boolean[n];
         int max = 0;
         for (int i=0; i<n; i++)
         {
-            boolean[] visited = new boolean[n];
-            visited[i] = true;
-            max = Math.max(max, getDepth(nums, i, visited));
+            //visited
+            if (visited[i])
+            {
+                //nothing
+                continue;
+            }
+            //not visited
+            int counter = 0;
+            int number = i;
+            while(visited[number]==false)
+            {
+                visited[number] = true;
+                counter++;
+                number = nums[number];
+            }
+            max = Math.max(max, counter);
         }
         return max;
-    }
-
-    private int getDepth(int[] nums, int index, boolean[] visited)
-    {
-        int n = nums.length;
-        if (this.memo[index]!=-1)
-        {
-            return this.memo[index];
-        }
-        int number = nums[index];
-        int depth = 0;
-        if (visited[number]==false)
-        {
-            visited[number] = true;
-            depth = getDepth(nums, number, visited);
-        }
-        this.memo[index] = depth+1;
-        return this.memo[index];
     }
 }
