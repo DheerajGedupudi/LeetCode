@@ -47,19 +47,18 @@ class Solution {
         int[] ways = new int[k]; 
         for (int i=0; i<k; i++)
         {
-            int currIndex = i;
             int pastIndex = (i+k-(grid[x][y])%k)%k;
             //from left
             if (y-1>=0)
             {
-                ways[currIndex] += left[pastIndex];
-                ways[currIndex] %= this.MOD;
+                ways[i] += left[pastIndex];
+                ways[i] %= this.MOD;
             }
             //from top
             if (x-1>=0)
             {
-                ways[currIndex] += top[pastIndex];
-                ways[currIndex] %= this.MOD;
+                ways[i] += top[pastIndex];
+                ways[i] %= this.MOD;
             }
         }
         this.memo[x][y] = ways;
