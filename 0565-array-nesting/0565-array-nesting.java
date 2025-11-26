@@ -13,7 +13,7 @@ class Solution {
             }
             //not visited
             int counter = 0;
-            int number = i;
+            int number = nums[i];
             while(visited[number]==false)
             {
                 visited[number] = true;
