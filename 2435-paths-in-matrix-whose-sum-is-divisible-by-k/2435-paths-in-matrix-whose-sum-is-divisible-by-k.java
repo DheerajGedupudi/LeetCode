@@ -3,7 +3,6 @@ class Solution {
         int n = grid.length;
         int m = grid[0].length;
         int MOD = (int)Math.pow(10, 9)+7;
-        int[][][] dp = new int[n+1][m+1][k];
         int[][] currRow = new int[m+1][k];
         int[][] prevRow = new int[m+1][k];
         for (int i=0; i<n; i++)
