@@ -1,32 +1,35 @@
 class Solution {
     public int countCoveredBuildings(int n, int[][] buildings) {
-        Map<Integer, Integer> rowBasedMin = new HashMap<>();
-        Map<Integer, Integer> rowBasedMax = new HashMap<>();
-        Map<Integer, Integer> colBasedMin = new HashMap<>();
-        Map<Integer, Integer> colBasedMax = new HashMap<>();
+        int N = 0;
         for (int[] building : buildings)
         {
             int row = building[0];
             int col = building[1];
-            rowBasedMin.putIfAbsent(row, col);
-            rowBasedMax.putIfAbsent(row, col);
-            colBasedMin.putIfAbsent(col, row);
-            colBasedMax.putIfAbsent(col, row);
-            rowBasedMin.put(row, Math.min(col, rowBasedMin.get(row)));
-            rowBasedMax.put(row, Math.max(col, rowBasedMax.get(row)));
-            colBasedMin.put(col, Math.min(row, colBasedMin.get(col)));
-            colBasedMax.put(col, Math.max(row, colBasedMax.get(col)));
+            N = Math.max(N, Math.max(row, col)+1);
+        }
+        int[] rowMin = new int[N];
+        int[] rowMax = new int[N];
+        int[] colMin = new int[N];
+        int[] colMax = new int[N];
+        Arrays.fill(rowMin, Integer.MAX_VALUE);
+        Arrays.fill(rowMax, Integer.MIN_VALUE);
+        Arrays.fill(colMin, Integer.MAX_VALUE);
+        Arrays.fill(colMax, Integer.MIN_VALUE);
+        for (int[] building : buildings)
+        {
+            int row = building[0];
+            int col = building[1];
+            rowMin[row] = Math.min(col, rowMin[row]);
+            rowMax[row] = Math.max(col, rowMax[row]);
+            colMin[col] = Math.min(row, colMin[col]);
+            colMax[col] = Math.max(row, colMax[col]);
         }
         int counter = 0;
         for (int[] building : buildings)
         {
             int row = building[0];
             int col = building[1];
-            int minCol = rowBasedMin.get(row);
-            int maxCol = rowBasedMax.get(row);
-            int minRow = colBasedMin.get(col);
-            int maxRow = colBasedMax.get(col);
-            if (row>minRow && row<maxRow && col>minCol && col<maxCol)
+            if (row>colMin[col] && row<colMax[col] && col>rowMin[row] && col<rowMax[row])
             {
                 counter++;
             }
