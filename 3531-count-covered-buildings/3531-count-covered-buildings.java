@@ -17,10 +17,6 @@ class Solution {
             colBasedMin.put(col, Math.min(row, colBasedMin.get(col)));
             colBasedMax.put(col, Math.max(row, colBasedMax.get(col)));
         }
-        // System.out.println("row min : "+rowBasedMin);
-        // System.out.println("row max : "+rowBasedMax);
-        // System.out.println("col min : "+colBasedMin);
-        // System.out.println("col max : "+colBasedMax);
         int counter = 0;
         for (int[] building : buildings)
         {
