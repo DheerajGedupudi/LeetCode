@@ -88,6 +88,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0333-largest-bst-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0333-largest-bst-subtree) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
@@ -228,6 +229,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
+| [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0565-array-nesting](https://github.com/DheerajGedupudi/LeetCode/tree/master/0565-array-nesting) |
@@ -365,6 +367,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
@@ -391,6 +394,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
 | [0398-random-pick-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/0398-random-pick-index) |
 | [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
+| [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -860,6 +864,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0398-random-pick-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/0398-random-pick-index) |
+| [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 ## Concurrency
 |  |
 | ------- |
