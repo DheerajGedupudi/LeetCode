@@ -288,6 +288,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/DheerajGedupudi/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
@@ -354,6 +355,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Prefix Sum
 |  |
@@ -447,6 +449,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
+| [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3617-find-the-original-typed-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3768-check-if-digits-are-equal-in-string-after-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3768-check-if-digits-are-equal-in-string-after-operations-i) |
@@ -643,6 +646,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3433-count-mentions-per-user](https://github.com/DheerajGedupudi/LeetCode/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
