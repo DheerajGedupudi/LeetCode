@@ -1,6 +1,5 @@
 class Solution {
 
-    private Random random;
     private int[] prefix;
     private int sum;
 
@@ -8,7 +7,6 @@ class Solution {
         int n = w.length;
         this.prefix = new int[n];
         this.sum = 0;
-        this.random = new Random();
         for (int i=0; i<n; i++)
         {
             this.sum += w[i];
@@ -26,7 +24,7 @@ class Solution {
         int n = this.prefix.length;
         int low = 0;
         int high = n-1;
-        int best = -1;
+        int best = 0;
         while(low<=high)
         {
             int mid = low + (high-low)/2;
@@ -45,7 +43,7 @@ class Solution {
 
     private int getRandomIndex()
     {
-        return this.random.nextInt(this.sum)+1;
+        return (int)(Math.random()*(sum))+1;
     }
 }
 
