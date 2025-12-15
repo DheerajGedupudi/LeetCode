@@ -25,6 +25,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0285-inorder-successor-in-bst) |
+| [0298-binary-tree-longest-consecutive-sequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0333-largest-bst-subtree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
@@ -52,6 +53,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0285-inorder-successor-in-bst) |
+| [0298-binary-tree-longest-consecutive-sequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
@@ -119,6 +121,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0285-inorder-successor-in-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0285-inorder-successor-in-bst) |
+| [0298-binary-tree-longest-consecutive-sequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0298-binary-tree-longest-consecutive-sequence) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0333-largest-bst-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0333-largest-bst-subtree) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
