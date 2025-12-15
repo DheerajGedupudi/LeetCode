@@ -273,6 +273,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2058-concatenation-of-array) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/2169-simple-bank-system) |
 | [2215-finding-3-digit-even-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
@@ -403,6 +404,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1585-the-kth-factor-of-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/1585-the-kth-factor-of-n) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/DheerajGedupudi/LeetCode/tree/master/1642-water-bottles) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
@@ -600,6 +602,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
