@@ -103,6 +103,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/DheerajGedupudi/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1646-kth-missing-positive-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
+| [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -407,6 +408,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1585-the-kth-factor-of-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/1585-the-kth-factor-of-n) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/DheerajGedupudi/LeetCode/tree/master/1642-water-bottles) |
+| [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
 | [3172-divisible-and-non-divisible-sums-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/3172-divisible-and-non-divisible-sums-difference) |
@@ -625,6 +627,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1051-shortest-way-to-form-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/DheerajGedupudi/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
