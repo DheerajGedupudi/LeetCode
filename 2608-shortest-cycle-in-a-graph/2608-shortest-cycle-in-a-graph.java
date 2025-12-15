@@ -1,10 +1,10 @@
 class Solution {
     public int findShortestCycle(int n, int[][] edges) {
         long min = Integer.MAX_VALUE;
+        List<List<Integer>> adjList = getGraph(n, edges);
         for (int[] edge : edges)
         {
-            List<List<Integer>> adjList = getGraphWithout(n, edges, edge[0], edge[1]);
-            min = Math.min(min, (long)getMinDist(adjList, edge[0], edge[1])+1);
+            min = Math.min(min, (long)getMinDistNoDirect(adjList, edge[0], edge[1])+1);
         }
         if (min>=Integer.MAX_VALUE)
         {
@@ -13,7 +13,7 @@ class Solution {
         return (int)min;
     }
 
-    private int getMinDist(List<List<Integer>> adjList, int source, int target)
+    private int getMinDistNoDirect(List<List<Integer>> adjList, int source, int target)
     {
         int n = adjList.size();
         Queue<Integer> q = new LinkedList<>();
@@ -33,6 +33,14 @@ class Solution {
                 }
                 for (int child : adjList.get(curr))
                 {
+                    if (curr==source && child==target)
+                    {
+                        continue;
+                    }
+                    if (child==source && curr==target)
+                    {
+                        continue;
+                    }
                     if (visited[child]==false)
                     {
                         visited[child] = true;
@@ -45,7 +53,7 @@ class Solution {
         return Integer.MAX_VALUE;
     }
 
-    private List<List<Integer>> getGraphWithout(int n, int[][] edges, int x, int y)
+    private List<List<Integer>> getGraph(int n, int[][] edges)
     {
         List<List<Integer>> adjList = new ArrayList<>();
         for (int i=0; i<n; i++)
@@ -54,19 +62,8 @@ class Solution {
         }
         for (int[] edge : edges)
         {
-            if (edge[0]==x && edge[1]==y)
-            {
-
-            }
-            else if (edge[0]==y && edge[1]==x)
-            {
-
-            }
-            else
-            {
-                adjList.get(edge[0]).add(edge[1]);
-                adjList.get(edge[1]).add(edge[0]);
-            }
+            adjList.get(edge[0]).add(edge[1]);
+            adjList.get(edge[1]).add(edge[0]);
         }
         return adjList;
     }
