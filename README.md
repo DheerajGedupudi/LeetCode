@@ -243,6 +243,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DheerajGedupudi/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -608,6 +609,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0416-partition-equal-subset-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DheerajGedupudi/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0954-maximum-sum-circular-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -628,6 +630,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0135-candy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0135-candy) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DheerajGedupudi/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
