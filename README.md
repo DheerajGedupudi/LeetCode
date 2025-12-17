@@ -300,6 +300,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DheerajGedupudi/LeetCode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/DheerajGedupudi/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -614,6 +615,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DheerajGedupudi/LeetCode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 ## Greedy
 |  |
