@@ -399,6 +399,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0007-reverse-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/0007-reverse-integer) |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
+| [0050-powx-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/0066-plus-one) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
@@ -701,6 +702,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/DheerajGedupudi/LeetCode/tree/master/0010-regular-expression-matching) |
+| [0050-powx-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/0050-powx-n) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/0231-power-of-two) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
