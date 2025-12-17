@@ -1,24 +1,24 @@
 class Solution {
 
-    private Long[][][][] memo;
+    private Long[][][] memo;
 
     public long maximumProfit(int[] prices, int k) {
         long max = 0;
         int n = prices.length;
-        this.memo = new Long[n+1][k+1][2][2];
-        return helper(prices, k, 0, 0, 0);
+        this.memo = new Long[n+1][k+1][3];
+        return helper(prices, k, 0, 0);
     }
 
-    private long helper(int[] prices, int k, int index, int sold, int bought)
+    private long helper(int[] prices, int k, int index, int state)
     {
-        if (this.memo[index][k][sold][bought]!=null)
+        if (this.memo[index][k][state]!=null)
         {
-            return this.memo[index][k][sold][bought];
+            return this.memo[index][k][state];
         }
         int n = prices.length;
         if (index==n)
         {
-            if (sold==0 && bought==0)
+            if (state==0)
             {
                 return 0;
             }
@@ -32,31 +32,31 @@ class Solution {
             return 0;
         }
         //nothing
-        long max = helper(prices, k, index+1, sold, bought);
+        long max = helper(prices, k, index+1, state);
         // bought, can only sell
-        if (bought==1)
+        if (state==1)
         {
             //sell
             //complete
-            max = Math.max(max, helper(prices, k-1, index+1, 0, 0)+prices[index]);
+            max = Math.max(max, helper(prices, k-1, index+1, 0)+prices[index]);
         }
         // sold already, can only buy
-        else if (sold==1)
+        else if (state==2)
         {
             //buy
             //complete
-            max = Math.max(max, helper(prices, k-1, index+1, 0, 0)-prices[index]);
+            max = Math.max(max, helper(prices, k-1, index+1, 0)-prices[index]);
         }
         //nothing, can buy or sell
-        else if (bought==0 && sold==0)
+        else if (state==0)
         {
             //buy
-            max = Math.max(max, helper(prices, k, index+1, 0, 1)-prices[index]);
+            max = Math.max(max, helper(prices, k, index+1, 1)-prices[index]);
             //sell
-            max = Math.max(max, helper(prices, k, index+1, 1, 0)+prices[index]);
+            max = Math.max(max, helper(prices, k, index+1, 2)+prices[index]);
         }
         // System.out.println("k : "+k+" -> index : "+index+", bought : "+bought+", sold : "+sold+", profit : "+max);
-        this.memo[index][k][sold][bought] = max;
+        this.memo[index][k][state] = max;
         return max;
 
     }
