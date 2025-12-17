@@ -313,6 +313,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/DheerajGedupudi/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/DheerajGedupudi/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
@@ -390,6 +391,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/DheerajGedupudi/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/DheerajGedupudi/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Math
 |  |
@@ -559,6 +561,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
+| [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/DheerajGedupudi/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 ## Trie
 |  |
 | ------- |
