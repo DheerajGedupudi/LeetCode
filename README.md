@@ -773,6 +773,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
+| [0882-reachable-nodes-in-subdivided-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/0882-reachable-nodes-in-subdivided-graph) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1127-last-stone-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/1127-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -799,6 +800,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0277-find-the-celebrity](https://github.com/DheerajGedupudi/LeetCode/tree/master/0277-find-the-celebrity) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
+| [0882-reachable-nodes-in-subdivided-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/0882-reachable-nodes-in-subdivided-graph) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [2092-find-all-people-with-secret](https://github.com/DheerajGedupudi/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
@@ -839,6 +841,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
+| [0882-reachable-nodes-in-subdivided-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/0882-reachable-nodes-in-subdivided-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 ## Data Stream
