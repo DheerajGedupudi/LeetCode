@@ -802,6 +802,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0882-reachable-nodes-in-subdivided-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/0882-reachable-nodes-in-subdivided-graph) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [2077-paths-in-maze-that-lead-to-same-room](https://github.com/DheerajGedupudi/LeetCode/tree/master/2077-paths-in-maze-that-lead-to-same-room) |
 | [2092-find-all-people-with-secret](https://github.com/DheerajGedupudi/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2608-shortest-cycle-in-a-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/2608-shortest-cycle-in-a-graph) |
