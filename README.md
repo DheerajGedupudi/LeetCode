@@ -300,6 +300,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/2169-simple-bank-system) |
 | [2215-finding-3-digit-even-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2229-check-if-an-array-is-consecutive](https://github.com/DheerajGedupudi/LeetCode/tree/master/2229-check-if-an-array-is-consecutive) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2277-count-equal-and-divisible-pairs-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2277-count-equal-and-divisible-pairs-in-an-array) |
 | [2324-find-triangular-sum-of-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2324-find-triangular-sum-of-an-array) |
@@ -379,6 +380,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2169-simple-bank-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/2169-simple-bank-system) |
 | [2215-finding-3-digit-even-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2229-check-if-an-array-is-consecutive](https://github.com/DheerajGedupudi/LeetCode/tree/master/2229-check-if-an-array-is-consecutive) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
@@ -689,6 +691,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
 | [2092-find-all-people-with-secret](https://github.com/DheerajGedupudi/LeetCode/tree/master/2092-find-all-people-with-secret) |
 | [2215-finding-3-digit-even-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2215-finding-3-digit-even-numbers) |
+| [2229-check-if-an-array-is-consecutive](https://github.com/DheerajGedupudi/LeetCode/tree/master/2229-check-if-an-array-is-consecutive) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
