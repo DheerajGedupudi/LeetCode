@@ -400,6 +400,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/DheerajGedupudi/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/DheerajGedupudi/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
@@ -488,6 +489,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
+| [2483-minimum-penalty-for-a-shop](https://github.com/DheerajGedupudi/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3617-find-the-original-typed-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3617-find-the-original-typed-string-i) |
