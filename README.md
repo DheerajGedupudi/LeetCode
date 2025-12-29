@@ -273,6 +273,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1127-last-stone-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/1127-last-stone-weight) |
 | [1143-find-smallest-common-element-in-all-rows](https://github.com/DheerajGedupudi/LeetCode/tree/master/1143-find-smallest-common-element-in-all-rows) |
+| [1176-diet-plan-performance](https://github.com/DheerajGedupudi/LeetCode/tree/master/1176-diet-plan-performance) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
@@ -578,6 +579,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0940-fruit-into-baskets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
+| [1176-diet-plan-performance](https://github.com/DheerajGedupudi/LeetCode/tree/master/1176-diet-plan-performance) |
 | [1813-maximum-erasure-value](https://github.com/DheerajGedupudi/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
