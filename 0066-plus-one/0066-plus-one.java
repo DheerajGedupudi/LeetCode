@@ -1,39 +1,37 @@
 class Solution {
     public int[] plusOne(int[] digits) {
         int n = digits.length;
+        digits[n-1]++;
         int carry = 0;
-        int sum = digits[n-1]+1;
-        if (sum>9)
+        if (digits[n-1]>9)
         {
             carry = 1;
+            digits[n-1] %= 10;
         }
-        digits[n-1] = sum%10;
         for (int i=n-2; i>=0; i--)
         {
-            sum = carry+digits[i];
-            if (sum>9)
+            digits[i] += carry;
+            if (digits[i]>9)
             {
                 carry = 1;
+                digits[i] %= 10;
             }
             else
             {
                 carry = 0;
             }
-            digits[i] = sum%10;
         }
         if (carry>0)
         {
-            int[] ans = new int[n+1];
-            ans[0] = 1;
+            int[] result = new int[n+1];
             for (int i=0; i<n; i++)
             {
-                ans[i+1] = digits[i];
+                result[i+1] = digits[i];
             }
-            return ans;
+            result[0] = carry;
+            digits = result;
         }
-        else
-        {
-            return digits;
-        }
+        return digits;
+        
     }
 }
