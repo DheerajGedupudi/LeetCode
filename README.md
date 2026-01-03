@@ -655,6 +655,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0967-minimum-falling-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0967-minimum-falling-path-sum) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
+| [1411-number-of-ways-to-paint-n-3-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
