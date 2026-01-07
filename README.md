@@ -37,6 +37,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
+| [1339-maximum-product-of-splitted-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Depth-First Search
@@ -74,6 +75,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/DheerajGedupudi/LeetCode/tree/master/0854-making-a-large-island) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
+| [1339-maximum-product-of-splitted-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2092-find-all-people-with-secret](https://github.com/DheerajGedupudi/LeetCode/tree/master/2092-find-all-people-with-secret) |
@@ -141,6 +143,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
+| [1339-maximum-product-of-splitted-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [2347-count-nodes-equal-to-average-of-subtree](https://github.com/DheerajGedupudi/LeetCode/tree/master/2347-count-nodes-equal-to-average-of-subtree) |
 ## Breadth-First Search
