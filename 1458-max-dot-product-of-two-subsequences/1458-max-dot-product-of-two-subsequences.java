@@ -45,8 +45,6 @@ class Solution {
         max = Math.max(max, dfs(x+1, y, nums1, nums2)+0);
         //x, y+1
         max = Math.max(max, dfs(x, y+1, nums1, nums2)+0);
-        //x+1, y+1
-        max = Math.max(max, dfs(x+1, y+1, nums1, nums2)+0);
         this.memo[x][y] = max;
         return max;
     }
