@@ -36,6 +36,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -74,6 +75,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/DheerajGedupudi/LeetCode/tree/master/0854-making-a-large-island) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
@@ -142,6 +144,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1339-maximum-product-of-splitted-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1339-maximum-product-of-splitted-binary-tree) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
@@ -169,6 +172,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/DheerajGedupudi/LeetCode/tree/master/0854-making-a-large-island) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [1428-jump-game-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1428-jump-game-iii) |
 | [1447-jump-game-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/1447-jump-game-iv) |
 | [2092-find-all-people-with-secret](https://github.com/DheerajGedupudi/LeetCode/tree/master/2092-find-all-people-with-secret) |
@@ -376,6 +380,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0840-magic-squares-in-grid) |
+| [0865-smallest-subtree-with-all-the-deepest-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0865-smallest-subtree-with-all-the-deepest-nodes) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [0940-fruit-into-baskets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0940-fruit-into-baskets) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
