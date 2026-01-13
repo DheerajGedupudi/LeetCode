@@ -7,12 +7,11 @@ class Solution {
         double area = 0;
         for (int[] sq : squares)
         {
-            double xi = sq[0];
-            double yi = sq[1];
-            double li = sq[2];
+            int xi = sq[0];
+            int yi = sq[1];
+            int li = sq[2];
             double top = yi+li;
-            double bot = yi;
-            area += ((top-bot)*li);
+            area += ((top-yi)*li);
         }
         while(high-low>=precision)
         {
@@ -36,12 +35,11 @@ class Solution {
         double areaUp = 0;
         for (int[] sq : squares)
         {
-            double xi = sq[0];
-            double yi = sq[1];
-            double li = sq[2];
+            int xi = sq[0];
+            int yi = sq[1];
+            int li = sq[2];
             double top = yi+li;
-            double bot = yi;
-            double up = top-Math.max(y, bot);
+            double up = top-Math.max(y, yi);
             if (up>0)
             {
                 areaUp += (up*li);
