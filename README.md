@@ -67,6 +67,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0437-path-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0437-path-sum-iii) |
 | [0490-the-maze](https://github.com/DheerajGedupudi/LeetCode/tree/master/0490-the-maze) |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0543-diameter-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0543-diameter-of-binary-tree) |
 | [0545-boundary-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0545-boundary-of-binary-tree) |
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
@@ -172,6 +173,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0490-the-maze](https://github.com/DheerajGedupudi/LeetCode/tree/master/0490-the-maze) |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0854-making-a-large-island](https://github.com/DheerajGedupudi/LeetCode/tree/master/0854-making-a-large-island) |
@@ -260,6 +262,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0485-max-consecutive-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0490-the-maze](https://github.com/DheerajGedupudi/LeetCode/tree/master/0490-the-maze) |
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
@@ -505,6 +508,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
@@ -805,6 +809,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0490-the-maze](https://github.com/DheerajGedupudi/LeetCode/tree/master/0490-the-maze) |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0840-magic-squares-in-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0840-magic-squares-in-grid) |
@@ -831,6 +836,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -904,6 +910,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Shortest Path
 |  |
 | ------- |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0882-reachable-nodes-in-subdivided-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/0882-reachable-nodes-in-subdivided-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
@@ -986,4 +993,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [1266-minimum-time-visiting-all-points](https://github.com/DheerajGedupudi/LeetCode/tree/master/1266-minimum-time-visiting-all-points) |
+## Graph Theory
+|  |
+| ------- |
+| [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 <!---LeetCode Topics End-->
