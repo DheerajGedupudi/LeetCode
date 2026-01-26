@@ -523,6 +523,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1302-delete-characters-to-make-fancy-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [2027-minimum-moves-to-convert-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/2027-minimum-moves-to-convert-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/DheerajGedupudi/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
@@ -716,6 +717,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/DheerajGedupudi/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
 | [1975-maximum-matrix-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
+| [2027-minimum-moves-to-convert-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/2027-minimum-moves-to-convert-string) |
 | [3074-apple-redistribution-into-boxes](https://github.com/DheerajGedupudi/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
