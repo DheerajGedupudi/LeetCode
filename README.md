@@ -105,6 +105,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0540-single-element-in-a-sorted-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0540-single-element-in-a-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/DheerajGedupudi/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -274,6 +275,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DheerajGedupudi/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
+| [0744-find-smallest-letter-greater-than-target](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
