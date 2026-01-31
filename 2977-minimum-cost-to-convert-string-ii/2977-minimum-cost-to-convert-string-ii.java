@@ -72,6 +72,10 @@ class Solution {
         {
             for (int i=0; i<num; i++)
             {
+                if (matrix[i][k]==INF)
+                {
+                    continue;
+                }
                 for (int j=0; j<num; j++)
                 {
                     long cost2 = matrix[i][k]+matrix[k][j];
