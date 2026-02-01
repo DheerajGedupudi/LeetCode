@@ -1,20 +1,42 @@
 class Solution {
     public int minimumCost(int[] nums) {
-        Queue<Integer> heap = new PriorityQueue<>(Collections.reverseOrder());
         int n = nums.length;
+        Integer min1 = null;
+        Integer min2 = null;
         for (int i=1; i<n; i++)
         {
-            heap.offer(nums[i]);
-            if (heap.size()>2)
+            int x = nums[i];
+            //both null
+            if (min1==null)
             {
-                heap.poll();
+                min1 = x;
+                continue;
+            }
+            //min1 taken
+            if (min1!=null && min2==null)
+            {
+                if (x<min1)
+                {
+                    min2 = min1;
+                    min1 = x;
+                }
+                else
+                {
+                    min2 = x;
+                }
+                continue;
+            }
+            //both taken
+            if (x<min1)
+            {
+                min2 = min1;
+                min1 = x;
+            }
+            else if (x<min2)
+            {
+                min2 = x;
             }
         }
-        int sum = nums[0];
-        while(heap.isEmpty()==false)
-        {
-            sum += heap.poll();
-        }
-        return sum;
+        return nums[0]+min1+min2;
     }
 }
