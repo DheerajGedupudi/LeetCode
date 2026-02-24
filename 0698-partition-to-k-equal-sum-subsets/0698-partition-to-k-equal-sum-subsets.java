@@ -16,10 +16,6 @@ class Solution {
             return false;
         }
         int req = sum_total/k;
-        if (req<nums[n-1])
-        {
-            return false;
-        }
         return check(nums, k, n, req, 0, 0);
     }
 
