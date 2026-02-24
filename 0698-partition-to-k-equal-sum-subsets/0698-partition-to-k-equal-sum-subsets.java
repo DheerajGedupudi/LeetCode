@@ -3,7 +3,8 @@ class Solution {
     private Boolean[] memo;
 
     public boolean canPartitionKSubsets(int[] nums, int k) {
-        // Arrays.sort(nums);
+        Arrays.sort(nums);
+        reverseArray(nums);
         int n = nums.length;
         int sum_total = 0;
         this.memo = new Boolean[(1<<n)];
@@ -69,5 +70,19 @@ class Solution {
         }
         this.memo[mask] = false;
         return false;
+    }
+
+    private void reverseArray(int[] nums)
+    {
+        int low = 0;
+        int high = nums.length-1;
+        while(low<high)
+        {
+            int swap = nums[low];
+            nums[low] = nums[high];
+            nums[high] = swap;
+            low++;
+            high--;
+        }
     }
 }
