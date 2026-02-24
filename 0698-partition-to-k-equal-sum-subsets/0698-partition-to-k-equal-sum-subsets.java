@@ -48,6 +48,10 @@ class Solution {
                         this.memo[mask2] = true;
                         return true;
                     }
+                    else
+                    {
+                        this.memo[mask2] = false;
+                    }
                 }
                 else if (sum2<req)
                 {
@@ -56,8 +60,11 @@ class Solution {
                         this.memo[mask2] = true;
                         return true;
                     }
+                    else
+                    {
+                        this.memo[mask2] = false;
+                    }
                 }
-                this.memo[mask2] = false;
             }
         }
         this.memo[mask] = false;
