@@ -1,13 +1,10 @@
 class Solution {
 
-    private Boolean[] memo;
-
     public boolean canPartitionKSubsets(int[] nums, int k) {
         Arrays.sort(nums);
         reverseArray(nums);
         int n = nums.length;
         int sum_total = 0;
-        this.memo = new Boolean[(1<<n)];
         for (int x : nums)
         {
             sum_total += x;
@@ -17,59 +14,29 @@ class Solution {
             return false;
         }
         int req = sum_total/k;
-        return check(nums, k, n, req, 0, 0);
-    }
-
-    private boolean check(int[] nums, int k, int n, int req, int mask, int sum)
-    {
-        //edge cases
-        if (mask == (1<<n)-1 && k==0)
+        int[] dp = new int[(1<<n)];
+        Arrays.fill(dp, -1);
+        dp[0] = 0;
+        for (int mask=0; mask<(1<<n); mask++)
         {
-            return true;
-        }
-        if (mask >= (1<<n))
-        {
-            return false;
-        }
-        if (this.memo[mask]!=null)
-        {
-            return this.memo[mask];
-        }
-        //try each unused
-        for (int i=0; i<n; i++)
-        {
-            if ((mask&(1<<i))==0)
+            if (dp[mask]==-1)
             {
-                int mask2 = (mask | (1<<i));
-                int sum2 = sum+nums[i];
-                if (sum2==req)
+                continue;
+            }
+            for (int i=0; i<n; i++)
+            {
+                if ( (mask&(1<<i)) == 0)
                 {
-                    if (check(nums, k-1, n, req, mask2, 0))
+                    if (dp[mask]+nums[i]<=req)
                     {
-                        this.memo[mask2] = true;
-                        return true;
-                    }
-                    else
-                    {
-                        this.memo[mask2] = false;
-                    }
-                }
-                else if (sum2<req)
-                {
-                    if (check(nums, k, n, req, mask2, sum2))
-                    {
-                        this.memo[mask2] = true;
-                        return true;
-                    }
-                    else
-                    {
-                        this.memo[mask2] = false;
+                        int mask2 = mask | (1<<i);
+                        dp[mask2] = (dp[mask]+nums[i])%req;
                     }
                 }
             }
         }
-        this.memo[mask] = false;
-        return false;
+        return dp[((1<<n)-1)]%req==0;
+
     }
 
     private void reverseArray(int[] nums)
