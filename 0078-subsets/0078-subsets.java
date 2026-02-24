@@ -1,26 +1,19 @@
 class Solution {
-
-    private List<List<Integer>> result;
-
     public List<List<Integer>> subsets(int[] nums) {
-        this.result = new ArrayList<>();  
-        backtrack(nums, 0, new ArrayList<>());
-        return this.result;  
-    }
-
-    private void backtrack(int[] nums, int index, List<Integer> path)
-    {
-        int n = nums.length;
-        if (index==n)
+        int len = nums.length;
+        List<List<Integer>> result = new ArrayList<>();
+        for (int i=0; i<(1<<len); i++)
         {
-            this.result.add(new ArrayList<>(path));
-            return;
+            List<Integer> list = new ArrayList<>();
+            for (int bit=0; bit<len; bit++)
+            {
+                if ((i & (1<<bit)) != 0)
+                {
+                    list.add(nums[bit]);
+                }
+            }
+            result.add(list);
         }
-        //don't choose
-        backtrack(nums, index+1, path);
-        //choose
-        path.add(nums[index]);
-        backtrack(nums, index+1, path);
-        path.remove(path.size()-1);
+        return result;
     }
 }
