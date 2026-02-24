@@ -1,11 +1,11 @@
 class Solution {
 
-    private Boolean[][] memo;
+    private Boolean[] memo;
 
     public boolean canPartitionKSubsets(int[] nums, int k) {
         int n = nums.length;
         int sum_total = 0;
-        this.memo = new Boolean[(1<<n)][n+1];
+        this.memo = new Boolean[(1<<n)];
         for (int x : nums)
         {
             sum_total += x;
@@ -32,15 +32,15 @@ class Solution {
         {
             return false;
         }
-        if (this.memo[mask][bit]!=null)
+        if (this.memo[mask]!=null)
         {
-            return this.memo[mask][bit];
+            return this.memo[mask];
         }
         //backtrack
         if (sum==req)
         {
             boolean ans =  check(nums, k-1, n, req, mask, 0, 0);
-            this.memo[mask][0] = ans;
+            this.memo[mask] = ans;
             if (ans)
             {
                 return true;
@@ -60,15 +60,11 @@ class Solution {
             return false;
         }
         mask |= (1<<bit);
-        boolean ans1 =  check(nums, k, n, req, mask, bit+1, sum+(nums[bit]));
-        this.memo[mask][bit+1] = ans1;
-        if (ans1)
+        if (check(nums, k, n, req, mask, bit+1, sum+(nums[bit])))
         {
             return true;
         }
-        boolean ans2 = check(nums, k, n, req, origMask, bit+1, sum);
-        this.memo[origMask][bit+1] = ans2;
-        if (ans2)
+        if (check(nums, k, n, req, origMask, bit+1, sum))
         {
             return true;
         }
