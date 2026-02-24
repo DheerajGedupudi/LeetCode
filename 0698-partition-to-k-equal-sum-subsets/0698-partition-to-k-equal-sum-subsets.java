@@ -3,6 +3,7 @@ class Solution {
     private Boolean[] memo;
 
     public boolean canPartitionKSubsets(int[] nums, int k) {
+        // Arrays.sort(nums);
         int n = nums.length;
         int sum_total = 0;
         this.memo = new Boolean[(1<<n)];
@@ -19,11 +20,12 @@ class Solution {
         {
             return false;
         }
-        return check(nums, k, n, req, 0, 0, 0);
+        return check(nums, k, n, req, 0, 0);
     }
 
-    private boolean check(int[] nums, int k, int n, int req, int mask, int bit, int sum)
+    private boolean check(int[] nums, int k, int n, int req, int mask, int sum)
     {
+        //edge cases
         if (mask == (1<<n)-1 && k==0)
         {
             return true;
@@ -36,38 +38,33 @@ class Solution {
         {
             return this.memo[mask];
         }
-        //backtrack
-        if (sum==req)
+        //try each unused
+        for (int i=0; i<n; i++)
         {
-            boolean ans =  check(nums, k-1, n, req, mask, 0, 0);
-            this.memo[mask] = ans;
-            if (ans)
+            if ((mask&(1<<i))==0)
             {
-                return true;
+                int mask2 = (mask | (1<<i));
+                int sum2 = sum+nums[i];
+                if (sum2==req)
+                {
+                    if (check(nums, k-1, n, req, mask2, 0))
+                    {
+                        this.memo[mask2] = true;
+                        return true;
+                    }
+                }
+                else if (sum2<req)
+                {
+                    if (check(nums, k, n, req, mask2, sum2))
+                    {
+                        this.memo[mask2] = true;
+                        return true;
+                    }
+                }
+                this.memo[mask2] = false;
             }
         }
-        if (sum>req)
-        {
-            return false;
-        }
-        int origMask = mask;
-        while(bit<n && (mask & (1<<bit))!=0)
-        {
-            bit++;
-        }
-        if (bit>=n)
-        {
-            return false;
-        }
-        mask |= (1<<bit);
-        if (check(nums, k, n, req, mask, bit+1, sum+(nums[bit])))
-        {
-            return true;
-        }
-        if (check(nums, k, n, req, origMask, bit+1, sum))
-        {
-            return true;
-        }
+        this.memo[mask] = false;
         return false;
     }
 }
