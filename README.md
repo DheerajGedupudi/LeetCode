@@ -206,6 +206,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 ## Array
 |  |
 | ------- |
@@ -325,6 +326,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1895-largest-magic-square](https://github.com/DheerajGedupudi/LeetCode/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
@@ -663,6 +665,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/DheerajGedupudi/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DheerajGedupudi/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
@@ -710,6 +713,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1458-max-dot-product-of-two-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1931-painting-a-grid-with-three-different-colors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1931-painting-a-grid-with-three-different-colors) |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
@@ -1024,6 +1028,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0351-android-unlock-patterns](https://github.com/DheerajGedupudi/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 ## Geometry
 |  |
 | ------- |
