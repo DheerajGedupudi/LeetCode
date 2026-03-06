@@ -278,6 +278,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0565-array-nesting](https://github.com/DheerajGedupudi/LeetCode/tree/master/0565-array-nesting) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
@@ -400,6 +401,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [0560-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
@@ -526,6 +528,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
 | [0942-di-string-match](https://github.com/DheerajGedupudi/LeetCode/tree/master/0942-di-string-match) |
@@ -580,6 +583,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1244-design-a-leaderboard](https://github.com/DheerajGedupudi/LeetCode/tree/master/1244-design-a-leaderboard) |
@@ -842,6 +846,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0490-the-maze](https://github.com/DheerajGedupudi/LeetCode/tree/master/0490-the-maze) |
 | [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0840-magic-squares-in-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0840-magic-squares-in-grid) |
@@ -914,6 +919,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0207-course-schedule](https://github.com/DheerajGedupudi/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 ## Union Find
 |  |
@@ -1037,6 +1043,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
+| [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
