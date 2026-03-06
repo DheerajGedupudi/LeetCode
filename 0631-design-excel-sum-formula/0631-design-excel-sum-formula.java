@@ -132,7 +132,6 @@ class Formula
                 this.sum += (this.grid[i][j]*this.count[i][j]);
             }
         }
-        // this.grid[dest.row()][dest.col()] = this.sum;
     }
 
     private void addNumber(String number)
