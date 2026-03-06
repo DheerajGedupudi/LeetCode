@@ -17,8 +17,6 @@ class Excel {
     public void set(int row, char column, int val) {
         row--;
         int col = column-'A';
-        // System.out.println("set : ["+row+", "+col+"] : "+val);
-        // print();
         //if formula is present, remove
         Cell cell = new Cell(row, col);
         Formula form = getForm(row, col);
@@ -29,24 +27,23 @@ class Excel {
         }
         updateCell(cell, val);
         this.grid[row][col] = val;
-        // System.out.println("-=-=-=-=-= after setting : ["+row+", "+col+"] : "+val);
-        // print();
     }
 
     private void updateCell(Cell cell, int value)
     {
-        //replacing this cell, with this value
-        // System.out.println("updating---- "+cell+", with : "+value);
+        int oldValue = this.grid[cell.row()][cell.col()];
+        if (oldValue==value)
+        {
+            return;
+        }
+        this.grid[cell.row()][cell.col()] = value;
         for (Formula parent : formToCell.keySet())
         {
             if (parent.has(cell))
             {
                 //parent formula
-                int oldSum = parent.getSum();
-                // System.out.println("---- - - found parent---- "+parent+", with : "+oldSum);
-                parent.update(cell, value);
+                parent.update(cell, oldValue, value);
                 int newSum = parent.getSum();
-                // System.out.println("-- found parent--- updated - "+parent+", with : "+newSum);
                 Cell dest = parent.getTotalLoc();
                 updateCell(dest, newSum);
             }
@@ -61,15 +58,12 @@ class Excel {
         {
             this.grid[row][col] = this.cellToForm.get(cell).getSum();
         }
-        // System.out.println("get of : ["+row+", "+col+"] : "+this.grid[row][col]);
         return this.grid[row][col];
     }
     
     public int sum(int row, char column, String[] numbers) {
         row--;
         int col = column-'A';
-        // System.out.println("form : ["+row+", "+col+"] : "+Arrays.toString(numbers));
-        // print();
         //if formula is present, replace
         Formula form = getForm(row, col);
         Cell cell = new Cell(row, col);
@@ -79,10 +73,7 @@ class Excel {
             formToCell.remove(form);
         }
         form = new Formula(cell, h, w, this.grid, numbers);
-        this.grid[row][col] = form.getSum();
-        updateCell(cell, this.grid[row][col]);
-        // System.out.println("-=-=-=-=-=-= after form : ["+row+", "+col+"] : "+Arrays.toString(numbers));
-        // print();
+        updateCell(cell, form.getSum());
         this.formToCell.put(form, cell);
         this.cellToForm.put(cell, form);
         return this.grid[row][col];
@@ -92,15 +83,6 @@ class Excel {
     {
         Cell cell = new Cell(x,y);
         return this.cellToForm.get(cell);
-    }
-
-    private void print()
-    {
-        for (int[] row : grid)
-        {
-            System.out.println(Arrays.toString(row));
-        }
-        System.out.println();
     }
 }
 
@@ -130,8 +112,6 @@ class Formula
         {
             addNumber(number);
         }
-        // System.out.println("before computing : printing count");
-        // print();
         computeSum();
     }
 
@@ -152,8 +132,7 @@ class Formula
                 this.sum += (this.grid[i][j]*this.count[i][j]);
             }
         }
-        // System.out.println("computed sum : "+this.sum);
-        this.grid[dest.row()][dest.col()] = this.sum;
+        // this.grid[dest.row()][dest.col()] = this.sum;
     }
 
     private void addNumber(String number)
@@ -178,12 +157,8 @@ class Formula
                 }
             }
         }
-
-        // System.out.println("added : "+number);
-        // print();
     }
 
-    //
     private Cell getLoc(String num)
     {
         int row = Integer.parseInt(num.substring(1))-1;
@@ -201,21 +176,11 @@ class Formula
         return this.count[cell.row()][cell.col()]>0;
     }
 
-    public void update(Cell cell, int value)
+    public void update(Cell cell, int oldValue, int newValue)
     {
-        this.grid[cell.row()][cell.col()] = value;
-        computeSum();
-    }
-
-
-    private void print()
-    {
-        System.out.println("printing count : ");
-        for (int[] row : count)
-        {
-            System.out.println("--- "+Arrays.toString(row));
-        }
-        System.out.println();
+        int freq = this.count[cell.row()][cell.col()];
+        this.sum -= (oldValue*freq);
+        this.sum += (newValue*freq);
     }
 
     @Override
