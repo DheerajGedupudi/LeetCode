@@ -203,16 +203,8 @@ class Formula
 
     public void update(Cell cell, int value)
     {
-        int x = cell.row();
-        int y = cell.col();
-        // this.sum -= (this.grid[x][y]*this.count[x][y]);
-        // this.sum += (value*this.count[x][y]);
-        // this.grid[dest.row()][dest.col()] = this.sum;
-        this.grid[x][y] = value;
+        this.grid[cell.row()][cell.col()] = value;
         computeSum();
-        // print();
-        // System.out.println(" the sum : "+this.sum);
-        // System.out.println("+_+_+_+_+ updated : ["+x+","+y+"], with val : "+value);
     }
 
 
