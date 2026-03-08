@@ -206,6 +206,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
+| [1980-find-unique-binary-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 ## Array
 |  |
@@ -327,6 +328,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1895-largest-magic-square](https://github.com/DheerajGedupudi/LeetCode/tree/master/1895-largest-magic-square) |
 | [1975-maximum-matrix-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1975-maximum-matrix-sum) |
 | [1977-minimum-interval-to-include-each-query](https://github.com/DheerajGedupudi/LeetCode/tree/master/1977-minimum-interval-to-include-each-query) |
+| [1980-find-unique-binary-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2026-merge-triplets-to-form-target-triplet](https://github.com/DheerajGedupudi/LeetCode/tree/master/2026-merge-triplets-to-form-target-triplet) |
@@ -423,6 +425,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1510-find-lucky-integer-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/1510-find-lucky-integer-in-an-array) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1813-maximum-erasure-value](https://github.com/DheerajGedupudi/LeetCode/tree/master/1813-maximum-erasure-value) |
+| [1980-find-unique-binary-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2169-simple-bank-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/2169-simple-bank-system) |
@@ -541,6 +544,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
+| [1980-find-unique-binary-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [2027-minimum-moves-to-convert-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/2027-minimum-moves-to-convert-string) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
