@@ -21,19 +21,22 @@ class AutocompleteSystem {
     }
     
     public List<String> input(char c) {
-        // #
-        /** 
-        we need to add currinput to trie, and update currnode, currinput
-        */
-        // everything else
         List<String> result = new ArrayList<>();
         int index = trie.getIndex(c);
         if (c!='#')
-        this.currInput.append(c);
-        if (this.currNode==null || this.currNode.children[index]==null)
+        {
+            this.currInput.append(c);
+            if (this.currNode == null || this.currNode.children[index]==null)
+            {
+                //no path in trie
+                this.currNode = null;
+            }
+        }
+        else
         {
             this.currNode = null;
         }
+        // currNode being null means this is brand new string, no prefix will be found in trie
         if (this.currNode!=null)
         {
             this.currNode = this.currNode.children[index];
@@ -86,17 +89,9 @@ class Trie
     public int getIndex(char c)
     {
         int x = c-'a';
-        if (x>=0 && x<26)
-        {
-
-        }
-        else if (c==' ')
+        if (c==' ')
         {
             x = 26;
-        }
-        else
-        {
-            x = 27;
         }
         return x;
     }
@@ -110,7 +105,7 @@ class TrieNode
 
     TrieNode()
     {
-        this.children = new TrieNode[28]; // 26, 27-space, 28-special
+        this.children = new TrieNode[28]; // 26, 27-space
         this.map = new HashMap<>();
         this.list = new ArrayList<>();
     }
@@ -148,31 +143,5 @@ class TrieNode
     List<String> getList()
     {
         return this.list;
-    }
-}
-
-class Entry
-{
-    String sentence;
-    int times;
-
-    Entry(String sentence, int times)
-    {
-        this.sentence = sentence;
-        this.times = times;
-    }
-
-    int compare(Entry e2)
-    {
-        //times desc
-        if (this.times!=e2.times)
-        {
-            return e2.times-this.times;
-        }
-        else
-        {
-            //sentence lexicographic
-            return this.sentence.compareTo(e2.sentence);
-        }
     }
 }
