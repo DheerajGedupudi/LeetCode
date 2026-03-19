@@ -73,6 +73,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0549-binary-tree-longest-consecutive-sequence-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0549-binary-tree-longest-consecutive-sequence-ii) |
 | [0565-array-nesting](https://github.com/DheerajGedupudi/LeetCode/tree/master/0565-array-nesting) |
 | [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0666-path-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0666-path-sum-iv) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -532,6 +533,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0567-permutation-in-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0567-permutation-in-string) |
 | [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
 | [0942-di-string-match](https://github.com/DheerajGedupudi/LeetCode/tree/master/0942-di-string-match) |
@@ -589,6 +591,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1023-time-based-key-value-store](https://github.com/DheerajGedupudi/LeetCode/tree/master/1023-time-based-key-value-store) |
 | [1244-design-a-leaderboard](https://github.com/DheerajGedupudi/LeetCode/tree/master/1244-design-a-leaderboard) |
@@ -658,6 +661,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 ## Bit Manipulation
 |  |
@@ -770,6 +774,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0527-word-abbreviation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0527-word-abbreviation) |
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1200-minimum-absolute-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/1200-minimum-absolute-difference) |
@@ -879,6 +884,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0272-closest-binary-search-tree-value-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0272-closest-binary-search-tree-value-ii) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0744-network-delay-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
@@ -967,6 +973,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0346-moving-average-from-data-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
+| [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 ## Enumeration
