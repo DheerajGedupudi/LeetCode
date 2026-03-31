@@ -266,6 +266,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
 | [0416-partition-equal-subset-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
@@ -399,6 +400,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
+| [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
 | [0398-random-pick-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/0398-random-pick-index) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
@@ -589,6 +591,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0359-logger-rate-limiter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0359-logger-rate-limiter) |
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
+| [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
@@ -810,6 +813,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/DheerajGedupudi/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
+| [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
@@ -955,6 +959,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0346-moving-average-from-data-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
+| [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
 | [0954-maximum-sum-circular-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 ## Shortest Path
