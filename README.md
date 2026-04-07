@@ -569,6 +569,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1642-water-bottles](https://github.com/DheerajGedupudi/LeetCode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2058-concatenation-of-array) |
+| [2069-walking-robot-simulation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2069-walking-robot-simulation-ii) |
 | [2137-final-value-of-variable-after-performing-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/2137-final-value-of-variable-after-performing-operations) |
 | [2169-simple-bank-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/2169-simple-bank-system) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
@@ -601,6 +602,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
+| [2069-walking-robot-simulation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2069-walking-robot-simulation-ii) |
 | [2169-simple-bank-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/2169-simple-bank-system) |
 ## Stack
 |  |
