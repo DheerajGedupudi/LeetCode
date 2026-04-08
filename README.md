@@ -288,6 +288,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DheerajGedupudi/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [0744-find-smallest-letter-greater-than-target](https://github.com/DheerajGedupudi/LeetCode/tree/master/0744-find-smallest-letter-greater-than-target) |
+| [0755-pour-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0755-pour-water) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
@@ -567,6 +568,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
+| [0755-pour-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0755-pour-water) |
 | [1642-water-bottles](https://github.com/DheerajGedupudi/LeetCode/tree/master/1642-water-bottles) |
 | [2048-build-array-from-permutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/2048-build-array-from-permutation) |
 | [2058-concatenation-of-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2058-concatenation-of-array) |
