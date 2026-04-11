@@ -375,6 +375,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3652-best-time-to-buy-and-sell-stock-using-strategy](https://github.com/DheerajGedupudi/LeetCode/tree/master/3652-best-time-to-buy-and-sell-stock-using-strategy) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3653-xor-after-range-multiplication-queries-i) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/DheerajGedupudi/LeetCode/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
@@ -443,6 +444,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
+| [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
 ## Prefix Sum
 |  |
