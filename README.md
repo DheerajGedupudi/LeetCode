@@ -823,6 +823,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0023-merge-k-sorted-lists](https://github.com/DheerajGedupudi/LeetCode/tree/master/0023-merge-k-sorted-lists) |
 | [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
+| [0206-reverse-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -834,6 +835,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0002-add-two-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0002-add-two-numbers) |
 | [0010-regular-expression-matching](https://github.com/DheerajGedupudi/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0050-powx-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/0050-powx-n) |
+| [0206-reverse-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/0206-reverse-linked-list) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0231-power-of-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/0231-power-of-two) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
