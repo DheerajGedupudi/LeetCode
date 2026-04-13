@@ -4,7 +4,7 @@ class Solution:
         max_len = 0
         start = -1
         for i, c in enumerate(s):
-            if c in last_indexes and last_indexes[c] > start:
+            if last_indexes.get(c, -1) > start:
                 start = last_indexes[c]
             max_len = max(max_len, i-start)
             last_indexes[c] = i
