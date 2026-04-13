@@ -3,9 +3,9 @@ class Solution:
         low = 0;
         high = len(s)-1
         while low<high:
-            while low<high and s[low].isalnum() == False:
+            while low<high and not s[low].isalnum():
                 low += 1
-            while low<high and s[high].isalnum() == False:
+            while low<high and not s[high].isalnum():
                 high -= 1
             if s[low].lower() != s[high].lower():
                 return False
