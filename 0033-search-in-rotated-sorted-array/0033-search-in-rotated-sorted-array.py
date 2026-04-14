@@ -5,8 +5,6 @@ class Solution:
         high = len(nums)-1
         while low <= high:
             mid = low + (high-low)//2
-            if mid < 0:
-                break
             if nums[mid] > nums[(mid+1)%len(nums)]:
                 # at intersect
                 intersect = mid
