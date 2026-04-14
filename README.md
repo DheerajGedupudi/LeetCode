@@ -50,6 +50,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0113-path-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0113-path-sum-ii) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/DheerajGedupudi/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/DheerajGedupudi/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
@@ -165,6 +166,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0112-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0112-path-sum) |
 | [0127-word-ladder](https://github.com/DheerajGedupudi/LeetCode/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
+| [0200-number-of-islands](https://github.com/DheerajGedupudi/LeetCode/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/DheerajGedupudi/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0279-perfect-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0279-perfect-squares) |
@@ -249,6 +251,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0174-dungeon-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0174-dungeon-game) |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0188-best-time-to-buy-and-sell-stock-iv) |
 | [0198-house-robber](https://github.com/DheerajGedupudi/LeetCode/tree/master/0198-house-robber) |
+| [0200-number-of-islands](https://github.com/DheerajGedupudi/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
@@ -871,6 +874,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0130-surrounded-regions) |
 | [0174-dungeon-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0174-dungeon-game) |
+| [0200-number-of-islands](https://github.com/DheerajGedupudi/LeetCode/tree/master/0200-number-of-islands) |
 | [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0311-sparse-matrix-multiplication](https://github.com/DheerajGedupudi/LeetCode/tree/master/0311-sparse-matrix-multiplication) |
@@ -1089,4 +1093,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
+## Union-Find
+|  |
+| ------- |
+| [0200-number-of-islands](https://github.com/DheerajGedupudi/LeetCode/tree/master/0200-number-of-islands) |
 <!---LeetCode Topics End-->
