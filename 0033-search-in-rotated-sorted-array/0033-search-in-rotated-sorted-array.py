@@ -19,10 +19,7 @@ class Solution:
         result = self.bin_search(nums, target, 0, intersect)
         if result != -1:
             return result
-        result = self.bin_search(nums, target, intersect+1, len(nums)-1)
-        if result != -1:
-            return result
-        return -1
+        return self.bin_search(nums, target, intersect+1, len(nums)-1)
         
     
 
@@ -30,8 +27,6 @@ class Solution:
         low, high = start, end
         while low <= high:
             mid = low + (high-low)//2
-            if mid < 0:
-                return -1
             if nums[mid] == target:
                 return mid
             elif nums[mid] < target:
