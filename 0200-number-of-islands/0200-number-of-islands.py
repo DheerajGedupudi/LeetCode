@@ -1,7 +1,7 @@
 class Solution:
     def numIslands(self, grid: List[List[str]]) -> int:
         count = 0
-        dirs = [[0,1], [1,0], [-1,0], [0,-1]]
+        dirs = ((0,1), (1,0), (-1,0), (0,-1))
         visited = [[False] * len(grid[0]) for _ in range(len(grid))]
 
         def visit_land(x, y):
