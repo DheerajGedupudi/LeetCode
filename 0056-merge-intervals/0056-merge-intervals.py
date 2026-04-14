@@ -7,7 +7,7 @@ class Solution:
         for interval in intervals:
             # if overlap, keep going
             # if no overlap, add last interval
-            ovrlp = min(last_end, interval[1])-max(last_start,interval[0])>=0
+            ovrlp = interval[0]<=last_end
             if ovrlp:
                 last_start = min(last_start, interval[0])
                 last_end = max(last_end, interval[1])
