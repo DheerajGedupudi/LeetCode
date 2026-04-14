@@ -14,7 +14,7 @@ class Solution:
         while q:
             size = len(q)
             row = []
-            for x in range(size):
+            for _ in range(size):
                 curr = q.popleft()
                 row.append(curr.val)
                 if curr.left:
