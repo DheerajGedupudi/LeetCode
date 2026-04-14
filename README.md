@@ -303,6 +303,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0954-maximum-sum-circular-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0966-binary-subarrays-with-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0966-binary-subarrays-with-sum) |
 | [0967-minimum-falling-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0967-minimum-falling-path-sum) |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/DheerajGedupudi/LeetCode/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/DheerajGedupudi/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
@@ -488,6 +489,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0840-magic-squares-in-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0840-magic-squares-in-grid) |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1015-smallest-integer-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/1015-smallest-integer-divisible-by-k) |
 | [1266-minimum-time-visiting-all-points](https://github.com/DheerajGedupudi/LeetCode/tree/master/1266-minimum-time-visiting-all-points) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
@@ -791,6 +793,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0611-valid-triangle-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0611-valid-triangle-number) |
 | [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1200-minimum-absolute-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1244-design-a-leaderboard](https://github.com/DheerajGedupudi/LeetCode/tree/master/1244-design-a-leaderboard) |
@@ -907,6 +910,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0789-kth-largest-element-in-a-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0794-swim-in-rising-water](https://github.com/DheerajGedupudi/LeetCode/tree/master/0794-swim-in-rising-water) |
 | [0882-reachable-nodes-in-subdivided-graph](https://github.com/DheerajGedupudi/LeetCode/tree/master/0882-reachable-nodes-in-subdivided-graph) |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1127-last-stone-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/1127-last-stone-weight) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
@@ -925,6 +929,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0772-construct-quad-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0772-construct-quad-tree) |
 | [0954-maximum-sum-circular-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [3653-xor-after-range-multiplication-queries-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3653-xor-after-range-multiplication-queries-i) |
 ## Graph
 |  |
@@ -1010,6 +1015,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 ## Brainteaser
 |  |
 | ------- |
@@ -1070,6 +1076,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Geometry
 |  |
 | ------- |
+| [0973-k-closest-points-to-origin](https://github.com/DheerajGedupudi/LeetCode/tree/master/0973-k-closest-points-to-origin) |
 | [1266-minimum-time-visiting-all-points](https://github.com/DheerajGedupudi/LeetCode/tree/master/1266-minimum-time-visiting-all-points) |
 ## Graph Theory
 |  |
