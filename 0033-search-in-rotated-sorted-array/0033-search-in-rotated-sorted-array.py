@@ -9,13 +9,12 @@ class Solution:
                 # at intersect
                 intersect = mid
                 break
+            if nums[mid]>nums[0] and nums[mid]>nums[-1]:
+                # 1st half
+                low = mid+1
             else:
-                if nums[mid]>nums[0] and nums[mid]>nums[-1]:
-                    # 1st half
-                    low = mid+1
-                else:
-                    # 2nd half
-                    high = mid-1
+                # 2nd half
+                high = mid-1
         result = self.bin_search(nums, target, 0, intersect)
         if result != -1:
             return result
