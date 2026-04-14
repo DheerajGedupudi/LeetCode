@@ -1,10 +1,5 @@
 class Solution:
     def search(self, nums: List[int], target: int) -> int:
-        if len(nums) == 1:
-            if nums[0] == target:
-                return 0
-            else:
-                return -1
         intersect = 0
         low = 1 # look for possibilities where it is actually rotated
         high = len(nums)-1
@@ -24,10 +19,10 @@ class Solution:
                     # 2nd half
                     high = mid-1
         result = self.bin_search(nums, target, 0, intersect)
-        if not result==-1:
+        if result != -1:
             return result
         result = self.bin_search(nums, target, intersect+1, len(nums)-1)
-        if not result==-1:
+        if result != -1:
             return result
         return -1
         
