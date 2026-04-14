@@ -10,9 +10,9 @@ class Solution:
             visited[x][y] = True
             while q:
                 curr = q.popleft()
-                for dir in dirs:
-                    r = curr[0]+dir[0]
-                    c = curr[1]+dir[1]
+                for direc in dirs:
+                    r = curr[0]+direc[0]
+                    c = curr[1]+direc[1]
                     if r>=0 and r<len(grid) and c>=0 and c<len(grid[0]) and not visited[r][c] and grid[r][c] == '1':
                         q.append([r,c])
                         visited[r][c] = True
