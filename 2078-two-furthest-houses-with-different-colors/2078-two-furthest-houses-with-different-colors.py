@@ -9,5 +9,4 @@ class Solution:
                 if c != diff_c:
                     diff = j-i
                     ans = max(ans, diff)
-        print(colors_last_index)
         return ans
