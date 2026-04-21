@@ -1,43 +1,40 @@
 class Solution {
     public List<List<Integer>> findMissingRanges(int[] nums, int lower, int upper) {
         List<List<Integer>> result = new ArrayList<>();
-        if (nums.length==0)
+        int n = nums.length;
+        if (n==0)
         {
-            List<Integer> list = new ArrayList<>();
-            list.add(lower);
-            list.add(upper);
-            result.add(list);
+            List<Integer> pair = new ArrayList<>();
+            pair.add(lower);
+            pair.add(upper);
+            result.add(pair);
             return result;
         }
-        int diff = nums[0]-lower;
-        if (diff>0)
+        if (nums[0]>lower)
         {
-            List<Integer> list = new ArrayList<>();
-            list.add(lower);
-            list.add(nums[0]-1);
-            result.add(list);
+            List<Integer> pair = new ArrayList<>();
+            pair.add(lower);
+            pair.add(nums[0]-1);
+            result.add(pair);
         }
-        int last = nums[0];
-        for (int x : nums)
+        for (int i=1; i<n; i++)
         {
-            diff = x-last;
-            if (diff>1)
+            int last = nums[i-1];
+            int curr = nums[i];
+            if (last+1 < curr)
             {
-                List<Integer> list = new ArrayList<>();
-                list.add(last+1);
-                list.add(x-1);
-                result.add(list);
+                List<Integer> pair = new ArrayList<>();
+                pair.add(last+1);
+                pair.add(curr-1);
+                result.add(pair);
             }
-            last = x;
-            // System.out.println("at  : "+x+" result : "+result);
         }
-        diff = upper-last;
-        if (diff>0)
+        if (nums[n-1]<upper)
         {
-            List<Integer> list = new ArrayList<>();
-            list.add(last+1);
-            list.add(upper);
-            result.add(list);
+            List<Integer> pair = new ArrayList<>();
+            pair.add(nums[n-1]+1);
+            pair.add(upper);
+            result.add(pair);
         }
         return result;
     }
