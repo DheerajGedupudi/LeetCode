@@ -33,10 +33,6 @@ class Solution {
         {
             result.add(null);
         }
-        else if (n==1)
-        {
-            result.add(new TreeNode(1));
-        }
         else
         {
             for (int i=1; i<=n; i++)
