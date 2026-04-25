@@ -257,6 +257,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0215-kth-largest-element-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0215-kth-largest-element-in-an-array) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0238-product-of-array-except-self](https://github.com/DheerajGedupudi/LeetCode/tree/master/0238-product-of-array-except-self) |
+| [0281-zigzag-iterator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0281-zigzag-iterator) |
 | [0287-find-the-duplicate-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0287-find-the-duplicate-number) |
 | [0300-longest-increasing-subsequence](https://github.com/DheerajGedupudi/LeetCode/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
@@ -607,6 +608,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0146-lru-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0146-lru-cache) |
 | [0208-implement-trie-prefix-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0208-implement-trie-prefix-tree) |
 | [0211-design-add-and-search-words-data-structure](https://github.com/DheerajGedupudi/LeetCode/tree/master/0211-design-add-and-search-words-data-structure) |
+| [0281-zigzag-iterator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0281-zigzag-iterator) |
 | [0303-range-sum-query-immutable](https://github.com/DheerajGedupudi/LeetCode/tree/master/0303-range-sum-query-immutable) |
 | [0346-moving-average-from-data-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
@@ -990,6 +992,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Queue
 |  |
 | ------- |
+| [0281-zigzag-iterator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0281-zigzag-iterator) |
 | [0346-moving-average-from-data-stream](https://github.com/DheerajGedupudi/LeetCode/tree/master/0346-moving-average-from-data-stream) |
 | [0353-design-snake-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0353-design-snake-game) |
 | [0362-design-hit-counter](https://github.com/DheerajGedupudi/LeetCode/tree/master/0362-design-hit-counter) |
@@ -1104,4 +1107,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0200-number-of-islands](https://github.com/DheerajGedupudi/LeetCode/tree/master/0200-number-of-islands) |
+## Iterator
+|  |
+| ------- |
+| [0281-zigzag-iterator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0281-zigzag-iterator) |
 <!---LeetCode Topics End-->
