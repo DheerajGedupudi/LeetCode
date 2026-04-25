@@ -14,6 +14,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/DheerajGedupudi/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -94,6 +95,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/0033-search-in-rotated-sorted-array) |
 | [0074-search-a-2d-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0074-search-a-2d-matrix) |
+| [0096-unique-binary-search-trees](https://github.com/DheerajGedupudi/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0162-find-peak-element](https://github.com/DheerajGedupudi/LeetCode/tree/master/0162-find-peak-element) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/DheerajGedupudi/LeetCode/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -132,6 +134,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 ## Binary Tree
 |  |
 | ------- |
+| [0096-unique-binary-search-trees](https://github.com/DheerajGedupudi/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0100-same-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0100-same-tree) |
 | [0102-binary-tree-level-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0102-binary-tree-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0104-maximum-depth-of-binary-tree) |
@@ -486,6 +489,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0050-powx-n](https://github.com/DheerajGedupudi/LeetCode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/0066-plus-one) |
 | [0070-climbing-stairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/0070-climbing-stairs) |
+| [0096-unique-binary-search-trees](https://github.com/DheerajGedupudi/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0166-fraction-to-recurring-decimal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0166-fraction-to-recurring-decimal) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
@@ -724,6 +728,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
 | [0070-climbing-stairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/0070-climbing-stairs) |
 | [0091-decode-ways](https://github.com/DheerajGedupudi/LeetCode/tree/master/0091-decode-ways) |
+| [0096-unique-binary-search-trees](https://github.com/DheerajGedupudi/LeetCode/tree/master/0096-unique-binary-search-trees) |
 | [0118-pascals-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/0118-pascals-triangle) |
 | [0120-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/0120-triangle) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/0121-best-time-to-buy-and-sell-stock) |
