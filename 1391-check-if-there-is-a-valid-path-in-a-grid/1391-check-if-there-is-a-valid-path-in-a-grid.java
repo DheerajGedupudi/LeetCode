@@ -33,10 +33,8 @@ class Solution {
                 }
             }
         }
-        boolean[][] visited = new boolean[n][m];
         Queue<Road> q = new LinkedList<>();
         q.offer(map[0][0]);
-        visited[0][0] = true;
         while(q.isEmpty()==false)
         {
             Road curr = q.poll();
@@ -53,15 +51,13 @@ class Solution {
                 int[] nextDir = getNextDir(curr.cell, side);
                 int r = nextDir[0];
                 int c = nextDir[1];
-                if (r>=0 && r<n && c>=0 && c<m && !visited[r][c])
+                if (r>=0 && r<n && c>=0 && c<m)
                 {
-                    visited[r][c] = true;
                     Road next = map[r][c];
                     if (isConnected(curr, next))
                     {
                         //road also gets closed upon moving forward
                         q.offer(next);
-                        visited[r][c] = true;
                     }
                 }
             }
