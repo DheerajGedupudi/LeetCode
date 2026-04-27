@@ -61,7 +61,6 @@ class Solution {
                     }
                 }
             }
-            // print(visited);
         }
         return false;
     }
@@ -88,24 +87,15 @@ class Solution {
         return ans;
     }
 
-    private void print(boolean[][] visited)
-    {
-        for (boolean[] row : visited)
-        {
-            System.out.println(Arrays.toString(row));
-        }
-        System.out.println();
-    }
-
     private boolean isConnected(Road last, Road curr)
     {
         // System.out.println("checking: last: "+last+", ------ current : "+curr);
-        if (canConnect(last.s1, curr.s1) || canConnect(last.s2, curr.s1))
+        if (curr.s1!=null && canConnect(last.s1, curr.s1) || canConnect(last.s2, curr.s1))
         {
             curr.s1 = null;
             return true;
         }
-        if (canConnect(last.s1, curr.s2) || canConnect(last.s2, curr.s2))
+        if (curr.s2!=null && canConnect(last.s1, curr.s2) || canConnect(last.s2, curr.s2))
         {
             curr.s2 = null;
             return true;
@@ -119,7 +109,10 @@ class Solution {
         {
             return false;
         }
-        if (dir1.equals("top") && dir2.equals("bottom") || dir1.equals("left") && dir2.equals("right") || dir1.equals("bottom") && dir2.equals("top") || dir1.equals("right") && dir2.equals("left"))
+        if (dir1.equals("top") && dir2.equals("bottom")
+            || dir1.equals("left") && dir2.equals("right")
+            || dir1.equals("bottom") && dir2.equals("top")
+            || dir1.equals("right") && dir2.equals("left"))
         {
             return true;
         }
