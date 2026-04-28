@@ -13,7 +13,7 @@ class Solution {
             {
                 return true;
             }
-            for (String side : new String[]{curr.s1, curr.s2})
+            for (Direction side : new Direction[]{curr.s1, curr.s2})
             {
                 if (side == null)
                 {
@@ -40,56 +40,56 @@ class Solution {
     {
         if (dir==1)
         {
-            return new Road(new int[]{i, j}, "left", "right");
+            return new Road(new int[]{i, j}, Direction.left, Direction.right);
         }
         else if (dir==2)
         {
-            return new Road(new int[]{i, j}, "top", "bottom");
+            return new Road(new int[]{i, j}, Direction.top, Direction.bottom);
         }
         else if (dir==3)
         {
-            return new Road(new int[]{i, j}, "left", "bottom");
+            return new Road(new int[]{i, j}, Direction.left, Direction.bottom);
         }
         else if (dir==4)
         {
-            return new Road(new int[]{i, j}, "right", "bottom");
+            return new Road(new int[]{i, j}, Direction.right, Direction.bottom);
         }
         else if (dir==5)
         {
-            return new Road(new int[]{i, j}, "top", "left");
+            return new Road(new int[]{i, j}, Direction.top, Direction.left);
         }
         else if (dir==6)
         {
-            return new Road(new int[]{i, j}, "top", "right");
+            return new Road(new int[]{i, j}, Direction.top, Direction.right);
         }
         return null;
     }
 
-    private int[] getNextDir(int[] curr, String dir)
+    private int[] getNextDir(int[] curr, Direction dir)
     {
         int[] ans = Arrays.copyOf(curr, 2);
-        if (dir.equals("top"))
+        if (dir.equals(Direction.top))
         {
             ans[0]--;
         }
-        else if (dir.equals("bottom"))
+        else if (dir.equals(Direction.bottom))
         {
             ans[0]++;
         }
-        else if (dir.equals("left"))
+        else if (dir.equals(Direction.left))
         {
             ans[1]--;
         }
-        else if (dir.equals("right"))
+        else if (dir.equals(Direction.right))
         {
             ans[1]++;
         }
         return ans;
     }
 
-    private boolean isConnected(Road last, Road curr, String lastSide)
+    private boolean isConnected(Road last, Road curr, Direction lastSide)
     {
-        String nextPipeSide = getOpp(lastSide);
+        Direction nextPipeSide = getOpp(lastSide);
         if (curr.s1!=null && curr.s1.equals(nextPipeSide))
         {
             return true;
@@ -101,23 +101,23 @@ class Solution {
         return false;
     }
 
-    private String getOpp(String dir)
+    private Direction getOpp(Direction dir)
     {
-        if (dir.equals("top"))
+        if (dir.equals(Direction.top))
         {
-            return "bottom";
+            return Direction.bottom;
         }
-        if (dir.equals("bottom"))
+        if (dir.equals(Direction.bottom))
         {
-            return "top";
+            return Direction.top;
         }
-        if (dir.equals("left"))
+        if (dir.equals(Direction.left))
         {
-            return "right";
+            return Direction.right;
         }
-        if (dir.equals("right"))
+        if (dir.equals(Direction.right))
         {
-            return "left";
+            return Direction.left;
         }
         return null;
     }
@@ -126,11 +126,11 @@ class Solution {
 class Road
 {
     int[] cell;
-    String s1;
-    String s2;
-    // top, bottom, left, right
+    Direction s1;
+    Direction s2;
+    // Direction.top, Direction.bottom, Direction.left, Direction.right
 
-    Road(int[] cell, String s1, String s2)
+    Road(int[] cell, Direction s1, Direction s2)
     {
         this.cell = cell;
         this.s1 = s1;
@@ -142,4 +142,9 @@ class Road
     {
         return Arrays.toString(this.cell)+", "+s1+", "+s2+"\n";
     }
+}
+
+enum Direction
+{
+    top, bottom, left, right;
 }
