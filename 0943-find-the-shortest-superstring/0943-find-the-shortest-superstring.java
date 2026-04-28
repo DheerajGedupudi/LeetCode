@@ -8,6 +8,7 @@ class Solution {
     public String shortestSuperstring(String[] words) {
         int n = words.length;
         this.memo = new Integer[(1<<n)][n];
+        Arrays.fill(this.memo[(1<<n)-1], 0);
         this.chosen = new int[(1<<n)][n];
         this.overlap = new Integer[n][n];
         this.INF = (int)Math.pow(10,8);
