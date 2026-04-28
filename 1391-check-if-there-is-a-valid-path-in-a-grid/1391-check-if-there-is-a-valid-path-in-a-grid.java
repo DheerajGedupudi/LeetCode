@@ -27,6 +27,10 @@ class Solution {
                     Road next = getRoad(grid[r][c], r, c);
                     if (isConnected(curr, next, side))
                     {
+                        if (r==n-1 && c==m-1)
+                        {
+                            return true;
+                        }
                         q.offer(next);
                         visited[r][c] = true;
                     }
