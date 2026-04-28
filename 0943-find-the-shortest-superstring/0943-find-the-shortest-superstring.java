@@ -2,13 +2,15 @@ class Solution {
 
     private Integer[][] memo;
     private int[][] chosen;
+    private Integer[][] overlap;
     private int INF;
 
     public String shortestSuperstring(String[] words) {
         int n = words.length;
         this.memo = new Integer[(1<<n)][n];
         this.chosen = new int[(1<<n)][n];
-        this.INF = (int)Math.pow(10,9);
+        this.overlap = new Integer[n][n];
+        this.INF = (int)Math.pow(10,8);
         int lastIndex = 0;
         int min = this.INF;
         for (int i=0; i<n; i++)
@@ -28,8 +30,8 @@ class Solution {
         while(mask != fullMask)
         {
             int index = this.chosen[mask][lastIndex];
-            int overlap = getMaxOverlap(words[lastIndex], words[index]);
-            sb.append(words[index].substring(overlap));
+            int overlapLen = getMaxOverlap(words, lastIndex, index);
+            sb.append(words[index].substring(overlapLen));
             mask |= (1<<index);
             lastIndex = index;
         }
@@ -55,7 +57,7 @@ class Solution {
             if ((currMask & (1<<i))==0)
             {
                 int union = currMask | (1<<i);
-                int additionalSpace = currW.length()-(getMaxOverlap(lastW, currW));
+                int additionalSpace = currW.length()-(getMaxOverlap(words, lastIndex, i));
                 int cost = additionalSpace + helper(words, union, i);
                 if (cost < min)
                 {
@@ -68,8 +70,14 @@ class Solution {
         return min;
     }
 
-    private int getMaxOverlap(String prev, String curr)
+    private int getMaxOverlap(String[] words, int lastIndex, int currIndex)
     {
+        if (this.overlap[lastIndex][currIndex]!=null)
+        {
+            return this.overlap[lastIndex][currIndex];
+        }
+        String prev = words[lastIndex];
+        String curr = words[currIndex];
         int n = prev.length();
         int m = curr.length();
         int max = 0;
@@ -80,6 +88,7 @@ class Solution {
             max = Math.max(max, saved);
         }
         // System.out.println(prev+" - "+curr+" saved : "+max);
+        this.overlap[lastIndex][currIndex] = max;
         return max;
     }
 
