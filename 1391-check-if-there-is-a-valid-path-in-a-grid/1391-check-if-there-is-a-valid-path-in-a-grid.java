@@ -28,8 +28,8 @@ class Solution {
                     if (isConnected(curr, next, side))
                     {
                         q.offer(next);
+                        visited[r][c] = true;
                     }
-                    visited[r][c] = true;
                 }
             }
         }
