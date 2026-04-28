@@ -54,7 +54,7 @@ class Solution {
                 if (r>=0 && r<n && c>=0 && c<m)
                 {
                     Road next = map[r][c];
-                    if (isConnected(curr, next))
+                    if (isConnected(curr, next, side))
                     {
                         //road also gets closed upon moving forward
                         q.offer(next);
@@ -87,20 +87,32 @@ class Solution {
         return ans;
     }
 
-    private boolean isConnected(Road last, Road curr)
+    private boolean isConnected(Road last, Road curr, String lastSide)
     {
-        // System.out.println("checking: last: "+last+", ------ current : "+curr);
-        if (curr.s1!=null && canConnect(last.s1, curr.s1) || canConnect(last.s2, curr.s1))
+        String nextPipeSide = getOpp(lastSide);
+        if (curr.s1!=null && curr.s1.equals(nextPipeSide))
         {
             curr.s1 = null;
             return true;
         }
-        if (curr.s2!=null && canConnect(last.s1, curr.s2) || canConnect(last.s2, curr.s2))
+        if (curr.s2!=null && curr.s2.equals(nextPipeSide))
         {
             curr.s2 = null;
             return true;
         }
         return false;
+        // System.out.println("checking: last: "+last+", ------ current : "+curr);
+        // if (curr.s1!=null && last.s1!=null && last.s2!=null || canConnect(last.s1, curr.s1) || canConnect(last.s2, curr.s1))
+        // {
+        //     curr.s1 = null;
+        //     return true;
+        // }
+        // if (curr.s2!=null && canConnect(last.s1, curr.s2) || canConnect(last.s2, curr.s2))
+        // {
+        //     curr.s2 = null;
+        //     return true;
+        // }
+        // return false;
     }
 
     private boolean canConnect(String dir1, String dir2)
@@ -117,6 +129,27 @@ class Solution {
             return true;
         }
         return false;
+    }
+
+    private String getOpp(String dir)
+    {
+        if (dir.equals("top"))
+        {
+            return "bottom";
+        }
+        if (dir.equals("bottom"))
+        {
+            return "top";
+        }
+        if (dir.equals("left"))
+        {
+            return "right";
+        }
+        if (dir.equals("right"))
+        {
+            return "left";
+        }
+        return null;
     }
 }
 
