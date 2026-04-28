@@ -2,39 +2,10 @@ class Solution {
     public boolean hasValidPath(int[][] grid) {
         int n = grid.length;
         int m = grid[0].length;
-        Road[][] map = new Road[n][m];
-        for (int i=0; i<n; i++)
-        {
-            for (int j=0; j<m; j++)
-            {
-                if (grid[i][j]==1)
-                {
-                    map[i][j] = new Road(new int[]{i, j}, "left", "right");
-                }
-                else if (grid[i][j]==2)
-                {
-                    map[i][j] = new Road(new int[]{i, j}, "top", "bottom");
-                }
-                else if (grid[i][j]==3)
-                {
-                    map[i][j] = new Road(new int[]{i, j}, "left", "bottom");
-                }
-                else if (grid[i][j]==4)
-                {
-                    map[i][j] = new Road(new int[]{i, j}, "right", "bottom");
-                }
-                else if (grid[i][j]==5)
-                {
-                    map[i][j] = new Road(new int[]{i, j}, "top", "left");
-                }
-                else if (grid[i][j]==6)
-                {
-                    map[i][j] = new Road(new int[]{i, j}, "top", "right");
-                }
-            }
-        }
         Queue<Road> q = new LinkedList<>();
-        q.offer(map[0][0]);
+        q.offer(getRoad(grid[0][0], 0, 0));
+        boolean[][] visited = new boolean[n][m];
+        visited[0][0] = true;
         while(q.isEmpty()==false)
         {
             Road curr = q.poll();
@@ -51,18 +22,47 @@ class Solution {
                 int[] nextDir = getNextDir(curr.cell, side);
                 int r = nextDir[0];
                 int c = nextDir[1];
-                if (r>=0 && r<n && c>=0 && c<m)
+                if (r>=0 && r<n && c>=0 && c<m && !visited[r][c])
                 {
-                    Road next = map[r][c];
+                    Road next = getRoad(grid[r][c], r, c);
                     if (isConnected(curr, next, side))
                     {
-                        //road also gets closed upon moving forward
                         q.offer(next);
                     }
+                    visited[r][c] = true;
                 }
             }
         }
         return false;
+    }
+
+    private Road getRoad(int dir, int i, int j)
+    {
+        if (dir==1)
+        {
+            return new Road(new int[]{i, j}, "left", "right");
+        }
+        else if (dir==2)
+        {
+            return new Road(new int[]{i, j}, "top", "bottom");
+        }
+        else if (dir==3)
+        {
+            return new Road(new int[]{i, j}, "left", "bottom");
+        }
+        else if (dir==4)
+        {
+            return new Road(new int[]{i, j}, "right", "bottom");
+        }
+        else if (dir==5)
+        {
+            return new Road(new int[]{i, j}, "top", "left");
+        }
+        else if (dir==6)
+        {
+            return new Road(new int[]{i, j}, "top", "right");
+        }
+        return null;
     }
 
     private int[] getNextDir(int[] curr, String dir)
@@ -92,39 +92,9 @@ class Solution {
         String nextPipeSide = getOpp(lastSide);
         if (curr.s1!=null && curr.s1.equals(nextPipeSide))
         {
-            curr.s1 = null;
             return true;
         }
         if (curr.s2!=null && curr.s2.equals(nextPipeSide))
-        {
-            curr.s2 = null;
-            return true;
-        }
-        return false;
-        // System.out.println("checking: last: "+last+", ------ current : "+curr);
-        // if (curr.s1!=null && last.s1!=null && last.s2!=null || canConnect(last.s1, curr.s1) || canConnect(last.s2, curr.s1))
-        // {
-        //     curr.s1 = null;
-        //     return true;
-        // }
-        // if (curr.s2!=null && canConnect(last.s1, curr.s2) || canConnect(last.s2, curr.s2))
-        // {
-        //     curr.s2 = null;
-        //     return true;
-        // }
-        // return false;
-    }
-
-    private boolean canConnect(String dir1, String dir2)
-    {
-        if (dir1 == null || dir2 == null)
-        {
-            return false;
-        }
-        if (dir1.equals("top") && dir2.equals("bottom")
-            || dir1.equals("left") && dir2.equals("right")
-            || dir1.equals("bottom") && dir2.equals("top")
-            || dir1.equals("right") && dir2.equals("left"))
         {
             return true;
         }
