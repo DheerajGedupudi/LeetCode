@@ -1,17 +1,25 @@
 class Solution {
 
-    private Integer[][] memo;
+    private int[][] memo;
     private int[][] chosen;
-    private Integer[][] overlap;
+    private int[][] overlap;
     private int INF;
 
     public String shortestSuperstring(String[] words) {
         int n = words.length;
-        this.memo = new Integer[(1<<n)][n];
+        this.memo = new int[(1<<n)][n];
+        for (int i=1; i<(1<<n); i++)
+        {
+            Arrays.fill(this.memo[i], -1);
+        }
         Arrays.fill(this.memo[(1<<n)-1], 0);
         this.chosen = new int[(1<<n)][n];
-        this.overlap = new Integer[n][n];
-        this.INF = (int)Math.pow(10,8);
+        this.overlap = new int[n][n];
+        for (int i=0; i<n; i++)
+        {
+            Arrays.fill(this.overlap[i], -1);
+        }
+        this.INF = 10_000_000;
         int lastIndex = 0;
         int min = this.INF;
         for (int i=0; i<n; i++)
@@ -41,15 +49,11 @@ class Solution {
 
     private int helper(String[] words, int currMask, int lastIndex)
     {
-        if (this.memo[currMask][lastIndex]!=null)
+        if (this.memo[currMask][lastIndex]!=-1)
         {
             return this.memo[currMask][lastIndex];
         }
         int n = words.length;
-        if (currMask==(1<<n)-1)
-        {
-            return 0;
-        }
         int min = this.INF;
         String lastW = words[lastIndex];
         for (int i=0; i<n; i++)
@@ -73,7 +77,7 @@ class Solution {
 
     private int getMaxOverlap(String[] words, int lastIndex, int currIndex)
     {
-        if (this.overlap[lastIndex][currIndex]!=null)
+        if (this.overlap[lastIndex][currIndex]!=-1)
         {
             return this.overlap[lastIndex][currIndex];
         }
