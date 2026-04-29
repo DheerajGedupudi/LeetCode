@@ -6,8 +6,8 @@ class Solution {
         int[] indegreesMask = new int[n];
         for (int[] edge : relations)
         {
-            int prereq = edge[1]-1;
-            int forCourse = edge[0]-1;
+            int prereq = edge[0]-1;
+            int forCourse = edge[1]-1;
             indegreesMask[forCourse] |= (1<<prereq);
         }
         this.memo = new int[(1<<n)];
@@ -49,9 +49,7 @@ class Solution {
             {
                 continue; // taking less courses than max possible is not worth it
             }
-            int union =  currMask | s;
-            int result = helper(union, prereqMask, k);
-            min = Math.min(min, result+1);
+            min = Math.min(min, helper(currMask|s, prereqMask, k)+1);
         }
         this.memo[currMask] = min;
         return min;
