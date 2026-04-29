@@ -3,30 +3,26 @@ class Solution {
     private int[] memo;
 
     public int minNumberOfSemesters(int n, int[][] relations, int k) {
-        int[] indegrees = new int[n];
-        List<List<Integer>> adjList = new ArrayList<>();
-        for (int i=0; i<n; i++)
-        {
-            adjList.add(new ArrayList<>());
-        }
+        int[] indegreesMask = new int[n];
         for (int[] edge : relations)
         {
-            indegrees[edge[0]-1]++;
-            adjList.get(edge[1]-1).add(edge[0]-1);
+            int prereq = edge[1]-1;
+            int forCourse = edge[0]-1;
+            indegreesMask[forCourse] |= (1<<prereq);
         }
         this.memo = new int[(1<<n)];
         Arrays.fill(this.memo, -1);
         // System.out.println(adjList);
-        return helper(adjList, 0, indegrees, k);
+        return helper(0, indegreesMask, k);
     }
 
-    private int helper(List<List<Integer>> adjList, int currMask, int[] degrees, int k)
+    private int helper(int currMask, int[] prereqMask, int k)
     {
         if (this.memo[currMask]!=-1)
         {
             return this.memo[currMask];
         }
-        int n = degrees.length;
+        int n = prereqMask.length;
         if (currMask== (1<<n)-1)
         {
             return 0;
@@ -34,7 +30,7 @@ class Solution {
         int availableMask = 0;
         for (int i=0; i<n; i++)
         {
-            if (degrees[i]==0 && (currMask&(1<<i)) ==0)
+            if (((prereqMask[i] & currMask) == prereqMask[i]) && (currMask & (1<<i))==0)
             {
                 availableMask |= (1<<i);
             }
@@ -53,31 +49,8 @@ class Solution {
             {
                 continue; // taking less courses than max possible is not worth it
             }
-            for (int pos=0; pos<n; pos++)
-            {
-                if ((s & (1<<pos))!=0)
-                {
-                    currMask |= (1<<pos);
-                    List<Integer> connected = adjList.get(pos);
-                    for (int j : connected)
-                    {
-                        degrees[j]--;
-                    }
-                }
-            }
-            int result = helper(adjList, currMask, degrees, k);
-            for (int pos=0; pos<n; pos++)
-            {
-                if ((s & (1<<pos))!=0)
-                {
-                    currMask &= ~(1<<pos);
-                    List<Integer> connected = adjList.get(pos);
-                    for (int j : connected)
-                    {
-                        degrees[j]++;
-                    }
-                }
-            }
+            int union =  currMask | s;
+            int result = helper(union, prereqMask, k);
             min = Math.min(min, result+1);
         }
         this.memo[currMask] = min;
