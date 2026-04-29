@@ -725,6 +725,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0943-find-the-shortest-superstring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0943-find-the-shortest-superstring) |
 | [1018-binary-prefix-divisible-by-5](https://github.com/DheerajGedupudi/LeetCode/tree/master/1018-binary-prefix-divisible-by-5) |
 | [1125-smallest-sufficient-team](https://github.com/DheerajGedupudi/LeetCode/tree/master/1125-smallest-sufficient-team) |
+| [1494-parallel-courses-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1494-parallel-courses-ii) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/DheerajGedupudi/LeetCode/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
@@ -777,6 +778,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1411-number-of-ways-to-paint-n-3-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-number-of-ways-to-paint-n-3-grid) |
 | [1458-max-dot-product-of-two-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
+| [1494-parallel-courses-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1494-parallel-courses-ii) |
 | [1931-painting-a-grid-with-three-different-colors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1931-painting-a-grid-with-three-different-colors) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
@@ -1116,6 +1118,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
 | [0943-find-the-shortest-superstring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0943-find-the-shortest-superstring) |
 | [1125-smallest-sufficient-team](https://github.com/DheerajGedupudi/LeetCode/tree/master/1125-smallest-sufficient-team) |
+| [1494-parallel-courses-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1494-parallel-courses-ii) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 ## Geometry
 |  |
@@ -1128,6 +1131,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1494-parallel-courses-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1494-parallel-courses-ii) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 ## Union-Find
