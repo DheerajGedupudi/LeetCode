@@ -998,6 +998,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0210-course-schedule-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0329-longest-increasing-path-in-a-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0329-longest-increasing-path-in-a-matrix) |
 | [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
+| [1059-all-paths-from-source-lead-to-destination](https://github.com/DheerajGedupudi/LeetCode/tree/master/1059-all-paths-from-source-lead-to-destination) |
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 ## Union Find
 |  |
@@ -1131,6 +1132,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0499-the-maze-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0499-the-maze-iii) |
 | [0631-design-excel-sum-formula](https://github.com/DheerajGedupudi/LeetCode/tree/master/0631-design-excel-sum-formula) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [1059-all-paths-from-source-lead-to-destination](https://github.com/DheerajGedupudi/LeetCode/tree/master/1059-all-paths-from-source-lead-to-destination) |
 | [1494-parallel-courses-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1494-parallel-courses-ii) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
