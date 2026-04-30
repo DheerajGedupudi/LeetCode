@@ -1,11 +1,18 @@
 class Solution {
     private int negINF;
-    private Integer[][][] memo;
+    private int[][][] memo;
 
     public int maxPathScore(int[][] grid, int k) {
         int n = grid.length;
         int m = grid[0].length;
-        this.memo = new Integer[n][m][k+1];
+        this.memo = new int[n][m][k+1];
+        for (int[][] a : this.memo)
+        {
+            for (int[] b : a)
+            {
+                Arrays.fill(b, Integer.MIN_VALUE);
+            }
+        }
         this.negINF = -1*(int)Math.pow(10,7);
         int max = this.negINF;
         for (int i=0; i<=k; i++)
@@ -27,7 +34,7 @@ class Solution {
         {
             return this.negINF;
         }
-        if (this.memo[x][y][k]!=null)
+        if (this.memo[x][y][k]!=Integer.MIN_VALUE)
         {
             return this.memo[x][y][k];
         }
