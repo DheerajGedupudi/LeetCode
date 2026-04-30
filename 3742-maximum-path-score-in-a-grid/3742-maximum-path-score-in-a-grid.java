@@ -6,15 +6,15 @@ class Solution {
         int n = grid.length;
         int m = grid[0].length;
         int budget = Math.min(k, n+m);
+        this.negINF = -1*(int)Math.pow(10,7);
         this.memo = new int[n][m][budget+1];
         for (int[][] a : this.memo)
         {
             for (int[] b : a)
             {
-                Arrays.fill(b, Integer.MIN_VALUE);
+                Arrays.fill(b, 10_000_000);
             }
         }
-        this.negINF = -1*(int)Math.pow(10,7);
         int result = helper(grid, 0, 0, budget);
         if (result<0)
         {
@@ -31,7 +31,7 @@ class Solution {
         {
             return this.negINF;
         }
-        if (this.memo[x][y][k]!=Integer.MIN_VALUE)
+        if (this.memo[x][y][k]!=10_000_000)
         {
             return this.memo[x][y][k];
         }
