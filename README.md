@@ -382,6 +382,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3074-apple-redistribution-into-boxes](https://github.com/DheerajGedupudi/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
+| [3225-maximum-score-from-grid-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3433-count-mentions-per-user](https://github.com/DheerajGedupudi/LeetCode/tree/master/3433-count-mentions-per-user) |
 | [3453-separate-squares-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3453-separate-squares-i) |
@@ -484,6 +485,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2483-minimum-penalty-for-a-shop](https://github.com/DheerajGedupudi/LeetCode/tree/master/2483-minimum-penalty-for-a-shop) |
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/2625-increment-submatrices-by-one) |
+| [3225-maximum-score-from-grid-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3616-make-array-elements-equal-to-zero](https://github.com/DheerajGedupudi/LeetCode/tree/master/3616-make-array-elements-equal-to-zero) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -785,6 +787,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2977-minimum-cost-to-convert-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2977-minimum-cost-to-convert-string-ii) |
+| [3225-maximum-score-from-grid-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DheerajGedupudi/LeetCode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3618-find-the-original-typed-string-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3618-find-the-original-typed-string-ii) |
@@ -933,6 +936,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2409-number-of-increasing-paths-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2409-number-of-increasing-paths-in-a-grid) |
 | [2435-paths-in-matrix-whose-sum-is-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/2435-paths-in-matrix-whose-sum-is-divisible-by-k) |
 | [2625-increment-submatrices-by-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/2625-increment-submatrices-by-one) |
+| [3225-maximum-score-from-grid-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3225-maximum-score-from-grid-operations) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
 | [3823-count-islands-with-total-value-divisible-by-k](https://github.com/DheerajGedupudi/LeetCode/tree/master/3823-count-islands-with-total-value-divisible-by-k) |
