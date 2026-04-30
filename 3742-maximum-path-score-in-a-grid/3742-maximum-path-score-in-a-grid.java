@@ -5,7 +5,8 @@ class Solution {
     public int maxPathScore(int[][] grid, int k) {
         int n = grid.length;
         int m = grid[0].length;
-        this.memo = new int[n][m][k+1];
+        int budget = Math.min(k, n+m);
+        this.memo = new int[n][m][budget+1];
         for (int[][] a : this.memo)
         {
             for (int[] b : a)
@@ -14,7 +15,7 @@ class Solution {
             }
         }
         this.negINF = -1*(int)Math.pow(10,7);
-        int result = helper(grid, 0, 0, k);
+        int result = helper(grid, 0, 0, budget);
         if (result<0)
         {
             return -1;
