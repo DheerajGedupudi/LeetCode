@@ -1,0 +1,52 @@
+class Solution {
+    private int negINF;
+    private Integer[][][] memo;
+
+    public int maxPathScore(int[][] grid, int k) {
+        int n = grid.length;
+        int m = grid[0].length;
+        this.memo = new Integer[n][m][k+1];
+        this.negINF = -1*(int)Math.pow(10,7);
+        int max = this.negINF;
+        for (int i=0; i<=k; i++)
+        {
+            max = Math.max(max, helper(grid, 0, 0, i));
+        }
+        if (max<0)
+        {
+            return -1;
+        }
+        return max;
+    }
+
+    private int helper(int[][] grid, int x, int y, int k)
+    {
+        int n = grid.length;
+        int m = grid[0].length;
+        if (x>=n || y>=m)
+        {
+            return this.negINF;
+        }
+        if (this.memo[x][y][k]!=null)
+        {
+            return this.memo[x][y][k];
+        }
+        int cost = 0;
+        int score = 0;
+        if (grid[x][y]>0)
+        {
+            cost++;
+            score += grid[x][y];
+        }
+        if (cost > k)
+        {
+            return this.negINF;
+        }
+        if (x==n-1 && y==m-1)
+        {
+            return score;
+        }
+        this.memo[x][y][k] = score + Math.max(helper(grid, x+1, y, k-cost), helper(grid, x, y+1, k-cost));
+        return this.memo[x][y][k];
+    }
+}
