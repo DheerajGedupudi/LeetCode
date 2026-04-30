@@ -14,16 +14,12 @@ class Solution {
             }
         }
         this.negINF = -1*(int)Math.pow(10,7);
-        int max = this.negINF;
-        for (int i=0; i<=k; i++)
-        {
-            max = Math.max(max, helper(grid, 0, 0, i));
-        }
-        if (max<0)
+        int result = helper(grid, 0, 0, k);
+        if (result<0)
         {
             return -1;
         }
-        return max;
+        return result;
     }
 
     private int helper(int[][] grid, int x, int y, int k)
