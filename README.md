@@ -283,6 +283,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0379-design-phone-directory](https://github.com/DheerajGedupudi/LeetCode/tree/master/0379-design-phone-directory) |
+| [0396-rotate-function](https://github.com/DheerajGedupudi/LeetCode/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0417-pacific-atlantic-water-flow](https://github.com/DheerajGedupudi/LeetCode/tree/master/0417-pacific-atlantic-water-flow) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
@@ -510,6 +511,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0231-power-of-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/0231-power-of-two) |
 | [0279-perfect-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0279-perfect-squares) |
 | [0371-sum-of-two-integers](https://github.com/DheerajGedupudi/LeetCode/tree/master/0371-sum-of-two-integers) |
+| [0396-rotate-function](https://github.com/DheerajGedupudi/LeetCode/tree/master/0396-rotate-function) |
 | [0398-random-pick-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/0398-random-pick-index) |
 | [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
 | [0528-random-pick-with-weight](https://github.com/DheerajGedupudi/LeetCode/tree/master/0528-random-pick-with-weight) |
@@ -766,6 +768,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0351-android-unlock-patterns](https://github.com/DheerajGedupudi/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [0361-bomb-enemy](https://github.com/DheerajGedupudi/LeetCode/tree/master/0361-bomb-enemy) |
 | [0377-combination-sum-iv](https://github.com/DheerajGedupudi/LeetCode/tree/master/0377-combination-sum-iv) |
+| [0396-rotate-function](https://github.com/DheerajGedupudi/LeetCode/tree/master/0396-rotate-function) |
 | [0416-partition-equal-subset-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0518-coin-change-ii) |
