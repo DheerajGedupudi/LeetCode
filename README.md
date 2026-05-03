@@ -576,6 +576,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0642-design-search-autocomplete-system](https://github.com/DheerajGedupudi/LeetCode/tree/master/0642-design-search-autocomplete-system) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
+| [0796-rotate-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0796-rotate-string) |
 | [0942-di-string-match](https://github.com/DheerajGedupudi/LeetCode/tree/master/0942-di-string-match) |
 | [0943-find-the-shortest-superstring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0943-find-the-shortest-superstring) |
 | [0944-delete-columns-to-make-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
@@ -904,6 +905,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0572-subtree-of-another-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/0572-subtree-of-another-tree) |
+| [0796-rotate-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0796-rotate-string) |
 ## Hash Function
 |  |
 | ------- |
