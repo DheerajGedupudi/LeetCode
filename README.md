@@ -378,6 +378,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2529-range-product-queries-of-powers](https://github.com/DheerajGedupudi/LeetCode/tree/master/2529-range-product-queries-of-powers) |
 | [2625-increment-submatrices-by-one](https://github.com/DheerajGedupudi/LeetCode/tree/master/2625-increment-submatrices-by-one) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2784-check-if-array-is-good](https://github.com/DheerajGedupudi/LeetCode/tree/master/2784-check-if-array-is-good) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [2976-minimum-cost-to-convert-string-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/2976-minimum-cost-to-convert-string-i) |
@@ -467,6 +468,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2229-check-if-an-array-is-consecutive](https://github.com/DheerajGedupudi/LeetCode/tree/master/2229-check-if-an-array-is-consecutive) |
 | [2274-keep-multiplying-found-values-by-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
+| [2784-check-if-array-is-good](https://github.com/DheerajGedupudi/LeetCode/tree/master/2784-check-if-array-is-good) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
@@ -858,6 +860,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [2274-keep-multiplying-found-values-by-two](https://github.com/DheerajGedupudi/LeetCode/tree/master/2274-keep-multiplying-found-values-by-two) |
 | [2479-meeting-rooms-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/2479-meeting-rooms-iii) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
+| [2784-check-if-array-is-good](https://github.com/DheerajGedupudi/LeetCode/tree/master/2784-check-if-array-is-good) |
 | [2943-maximize-area-of-square-hole-in-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/2943-maximize-area-of-square-hole-in-grid) |
 | [3010-divide-an-array-into-subarrays-with-minimum-cost-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3010-divide-an-array-into-subarrays-with-minimum-cost-i) |
 | [3074-apple-redistribution-into-boxes](https://github.com/DheerajGedupudi/LeetCode/tree/master/3074-apple-redistribution-into-boxes) |
