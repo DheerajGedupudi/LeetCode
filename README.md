@@ -693,6 +693,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/DheerajGedupudi/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/DheerajGedupudi/LeetCode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/2699-count-the-number-of-fair-pairs) |
 ## Sliding Window
 |  |
@@ -889,6 +890,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0460-lfu-cache](https://github.com/DheerajGedupudi/LeetCode/tree/master/0460-lfu-cache) |
 | [1411-convert-binary-number-in-a-linked-list-to-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1411-convert-binary-number-in-a-linked-list-to-integer) |
 | [1618-delete-n-nodes-after-m-nodes-of-a-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/1618-delete-n-nodes-after-m-nodes-of-a-linked-list) |
+| [2095-delete-the-middle-node-of-a-linked-list](https://github.com/DheerajGedupudi/LeetCode/tree/master/2095-delete-the-middle-node-of-a-linked-list) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Recursion
 |  |
