@@ -220,6 +220,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
+| [1774-closest-dessert-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1774-closest-dessert-cost) |
 | [1980-find-unique-binary-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1980-find-unique-binary-string) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 ## Array
@@ -348,6 +349,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1646-kth-missing-positive-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1646-kth-missing-positive-number) |
 | [1672-find-the-index-of-the-large-integer](https://github.com/DheerajGedupudi/LeetCode/tree/master/1672-find-the-index-of-the-large-integer) |
 | [1713-dot-product-of-two-sparse-vectors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1713-dot-product-of-two-sparse-vectors) |
+| [1774-closest-dessert-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1774-closest-dessert-cost) |
 | [1813-maximum-erasure-value](https://github.com/DheerajGedupudi/LeetCode/tree/master/1813-maximum-erasure-value) |
 | [1855-maximum-distance-between-a-pair-of-values](https://github.com/DheerajGedupudi/LeetCode/tree/master/1855-maximum-distance-between-a-pair-of-values) |
 | [1870-minimum-speed-to-arrive-on-time](https://github.com/DheerajGedupudi/LeetCode/tree/master/1870-minimum-speed-to-arrive-on-time) |
@@ -794,6 +796,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1458-max-dot-product-of-two-subsequences](https://github.com/DheerajGedupudi/LeetCode/tree/master/1458-max-dot-product-of-two-subsequences) |
 | [1475-maximum-sum-bst-in-binary-tree](https://github.com/DheerajGedupudi/LeetCode/tree/master/1475-maximum-sum-bst-in-binary-tree) |
 | [1494-parallel-courses-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/1494-parallel-courses-ii) |
+| [1774-closest-dessert-cost](https://github.com/DheerajGedupudi/LeetCode/tree/master/1774-closest-dessert-cost) |
 | [1931-painting-a-grid-with-three-different-colors](https://github.com/DheerajGedupudi/LeetCode/tree/master/1931-painting-a-grid-with-three-different-colors) |
 | [1986-minimum-number-of-work-sessions-to-finish-the-tasks](https://github.com/DheerajGedupudi/LeetCode/tree/master/1986-minimum-number-of-work-sessions-to-finish-the-tasks) |
 | [2110-number-of-smooth-descent-periods-of-a-stock](https://github.com/DheerajGedupudi/LeetCode/tree/master/2110-number-of-smooth-descent-periods-of-a-stock) |
