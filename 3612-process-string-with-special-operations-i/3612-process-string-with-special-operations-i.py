@@ -6,10 +6,9 @@ class Solution:
                 if result:
                     result.pop()
             elif c == '#':
-                arr = result.copy()
-                result.extend(arr)
+                result += result.copy()
             elif c == '%':
-                result.reverse()
+                result = result[::-1]
             else:
                 result.append(c)
         return "".join(result)
