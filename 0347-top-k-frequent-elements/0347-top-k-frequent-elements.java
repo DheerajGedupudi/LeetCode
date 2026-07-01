@@ -7,12 +7,12 @@ class Solution {
         {
             hash[x+offset]++;
         }
-        Queue<Node> heap = new PriorityQueue<>((a,b)->(a.freq-b.freq));
+        Queue<Integer> heap = new PriorityQueue<>((a,b)->(hash[a]-hash[b]));
         for (int i=0; i<cap; i++)
         {
             if (hash[i]>0)
             {
-                heap.offer(new Node(i-offset, hash[i]));
+                heap.offer(i);
             }
             if (heap.size()>k)
             {
@@ -23,20 +23,9 @@ class Solution {
         int[] result = new int[resultSize];
         for (int i=0; i<resultSize; i++)
         {
-            result[i] = heap.poll().number;
+            int hashIndex = heap.poll();
+            result[i] = hashIndex-offset;
         }
         return result;
-    }
-}
-
-class Node
-{
-    int number;
-    int freq;
-
-    Node(int number, int freq)
-    {
-        this.number = number;
-        this.freq = freq;
     }
 }
