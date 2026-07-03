@@ -149,12 +149,6 @@ class LFUCache:
         if key not in self.num_to_freq_map and self.count == self.capacity:
             lru_min_freq = self.freq_to_LRU_map[self.min_freq]
             key_evicted = lru_min_freq.remove_LRU_key()
-            if lru_min_freq.count == 0:
-                self.freq_to_LRU_map.pop(self.min_freq, None)
-                minim = 10000000
-                for k1 in self.freq_to_LRU_map:
-                    minim = min(minim, k1)
-                self.min_freq = minim
             self.num_to_freq_map.pop(key_evicted, None)
             self.count -= 1
         # print("put, ",key, ", val : ",value)
