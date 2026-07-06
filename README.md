@@ -334,6 +334,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1227-number-of-equivalent-domino-pairs](https://github.com/DheerajGedupudi/LeetCode/tree/master/1227-number-of-equivalent-domino-pairs) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1266-minimum-time-visiting-all-points](https://github.com/DheerajGedupudi/LeetCode/tree/master/1266-minimum-time-visiting-all-points) |
+| [1288-remove-covered-intervals](https://github.com/DheerajGedupudi/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1366-first-unique-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/1366-first-unique-number) |
 | [1391-check-if-there-is-a-valid-path-in-a-grid](https://github.com/DheerajGedupudi/LeetCode/tree/master/1391-check-if-there-is-a-valid-path-in-a-grid) |
 | [1402-count-square-submatrices-with-all-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1402-count-square-submatrices-with-all-ones) |
@@ -858,6 +859,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1200-minimum-absolute-difference](https://github.com/DheerajGedupudi/LeetCode/tree/master/1200-minimum-absolute-difference) |
 | [1244-design-a-leaderboard](https://github.com/DheerajGedupudi/LeetCode/tree/master/1244-design-a-leaderboard) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
+| [1288-remove-covered-intervals](https://github.com/DheerajGedupudi/LeetCode/tree/master/1288-remove-covered-intervals) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/DheerajGedupudi/LeetCode/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1874-minimize-product-sum-of-two-arrays](https://github.com/DheerajGedupudi/LeetCode/tree/master/1874-minimize-product-sum-of-two-arrays) |
