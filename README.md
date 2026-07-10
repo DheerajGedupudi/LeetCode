@@ -787,6 +787,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0698-partition-to-k-equal-sum-subsets](https://github.com/DheerajGedupudi/LeetCode/tree/master/0698-partition-to-k-equal-sum-subsets) |
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/DheerajGedupudi/LeetCode/tree/master/0714-best-time-to-buy-and-sell-stock-with-transaction-fee) |
 | [0847-shortest-path-visiting-all-nodes](https://github.com/DheerajGedupudi/LeetCode/tree/master/0847-shortest-path-visiting-all-nodes) |
+| [0935-knight-dialer](https://github.com/DheerajGedupudi/LeetCode/tree/master/0935-knight-dialer) |
 | [0943-find-the-shortest-superstring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0943-find-the-shortest-superstring) |
 | [0954-maximum-sum-circular-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0954-maximum-sum-circular-subarray) |
 | [0967-minimum-falling-path-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0967-minimum-falling-path-sum) |
