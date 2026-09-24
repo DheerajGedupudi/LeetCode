@@ -396,6 +396,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DheerajGedupudi/LeetCode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
@@ -542,6 +543,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3336-water-bottles-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3336-water-bottles-ii) |
 | [3433-count-mentions-per-user](https://github.com/DheerajGedupudi/LeetCode/tree/master/3433-count-mentions-per-user) |
+| [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3600-find-the-k-th-character-in-string-game-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3600-find-the-k-th-character-in-string-game-i) |
 | [3601-find-the-k-th-character-in-string-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3601-find-the-k-th-character-in-string-game-ii) |
 | [3676-smallest-number-with-all-set-bits](https://github.com/DheerajGedupudi/LeetCode/tree/master/3676-smallest-number-with-all-set-bits) |
