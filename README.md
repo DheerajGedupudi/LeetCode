@@ -595,6 +595,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1058-lexicographically-smallest-equivalent-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1058-lexicographically-smallest-equivalent-string) |
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -672,6 +673,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 ## Two Pointers
@@ -1193,4 +1195,8 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/DheerajGedupudi/LeetCode/tree/master/0347-top-k-frequent-elements) |
+## Bracket Sequences
+|  |
+| ------- |
+| [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 <!---LeetCode Topics End-->
