@@ -3,9 +3,17 @@ class Solution {
         Deque<Character> stack = new ArrayDeque<>();
         for (char c : s.toCharArray())
         {
-            if (c==')')
+            if (c=='(' || c=='[' || c=='{')
             {
-                if (stack.peek()!=null && stack.peek()=='(')
+                stack.push(c);
+            }
+            else if (c==')')
+            {
+                if (stack.isEmpty())
+                {
+                    return false;
+                }
+                if (stack.peek()=='(')
                 {
                     stack.pop();
                 }
@@ -16,7 +24,11 @@ class Solution {
             }
             else if (c==']')
             {
-                if (stack.peek()!=null && stack.peek()=='[')
+                if (stack.isEmpty())
+                {
+                    return false;
+                }
+                if (stack.peek()=='[')
                 {
                     stack.pop();
                 }
@@ -27,7 +39,11 @@ class Solution {
             }
             else if (c=='}')
             {
-                if (stack.peek()!=null && stack.peek()=='{')
+                if (stack.isEmpty())
+                {
+                    return false;
+                }
+                if (stack.peek()=='{')
                 {
                     stack.pop();
                 }
@@ -36,10 +52,7 @@ class Solution {
                     return false;
                 }
             }
-            else
-            {
-                stack.push(c);
-            }
+
         }
         return stack.isEmpty();
     }
