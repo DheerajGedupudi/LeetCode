@@ -564,6 +564,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0017-letter-combinations-of-a-phone-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0017-letter-combinations-of-a-phone-number) |
 | [0020-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0038-count-and-say](https://github.com/DheerajGedupudi/LeetCode/tree/master/0038-count-and-say) |
 | [0043-multiply-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0043-multiply-strings) |
 | [0049-group-anagrams](https://github.com/DheerajGedupudi/LeetCode/tree/master/0049-group-anagrams) |
@@ -674,6 +675,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 |  |
 | ------- |
 | [0020-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0020-valid-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0150-evaluate-reverse-polish-notation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0150-evaluate-reverse-polish-notation) |
 | [0224-basic-calculator](https://github.com/DheerajGedupudi/LeetCode/tree/master/0224-basic-calculator) |
 | [0227-basic-calculator-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0227-basic-calculator-ii) |
@@ -770,6 +772,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0005-longest-palindromic-substring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0005-longest-palindromic-substring) |
 | [0010-regular-expression-matching](https://github.com/DheerajGedupudi/LeetCode/tree/master/0010-regular-expression-matching) |
 | [0022-generate-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [0045-jump-game-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0045-jump-game-ii) |
 | [0053-maximum-subarray](https://github.com/DheerajGedupudi/LeetCode/tree/master/0053-maximum-subarray) |
 | [0055-jump-game](https://github.com/DheerajGedupudi/LeetCode/tree/master/0055-jump-game) |
@@ -1216,6 +1219,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | ------- |
 | [0020-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0022-generate-parentheses) |
+| [0032-longest-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0032-longest-valid-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## DP on Trees
