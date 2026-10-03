@@ -5,7 +5,6 @@ class Solution {
     public int longestValidParentheses(String s) {
         int n = s.length();
         this.memo = new boolean[n];
-        StringBuilder sb = new StringBuilder(s);
         for (int i=0; i+1<n; i++)
         {
             helper(s, i, i+1);
