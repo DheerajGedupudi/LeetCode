@@ -57,8 +57,13 @@ class Solution {
         }
         if (flag)
         {
-            //expanded search
-            helper(s, start, end);
+            if (s.charAt(start+1)=='(' && s.charAt(end-1)==')')
+            {
+                this.memo[start+1] = true;
+                this.memo[end-1] = true;
+                //expanded search
+                helper(s, start+1, end-1);
+            }
         }
     }
 }
