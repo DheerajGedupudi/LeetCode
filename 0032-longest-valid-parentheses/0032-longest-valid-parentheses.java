@@ -1,19 +1,20 @@
 class Solution {
 
+    private boolean[] memo;
+
     public int longestValidParentheses(String s) {
         int n = s.length();
+        this.memo = new boolean[n];
         StringBuilder sb = new StringBuilder(s);
         for (int i=0; i+1<n; i++)
         {
-            helper(sb, i, i+1);
+            helper(s, i, i+1);
         }
-        // System.out.println(sb);
-        // System.out.println(sb.length());
         int max = 0;
         int count = 0;
         for (int i=0; i<n; i++)
         {
-            if (sb.charAt(i)=='-')
+            if (this.memo[i])
             {
                 count++;
             }
@@ -26,9 +27,9 @@ class Solution {
         return max;
     }
 
-    private void helper(StringBuilder sb, int start, int end)
+    private void helper(String s, int start, int end)
     {
-        int n = sb.length();
+        int n = s.length();
         if (start<0 || end>=n)
         {
             return;
@@ -37,20 +38,20 @@ class Solution {
         {
             return;
         }
-        if (sb.charAt(start)=='(' && sb.charAt(end)==')')
+        if (s.charAt(start)=='(' && s.charAt(end)==')')
         {
-            sb.setCharAt(start, '-');
-            sb.setCharAt(end, '-');
-            helper(sb, start-1, end+1);
+            this.memo[start] = true;
+            this.memo[end] = true;
+            helper(s, start-1, end+1);
             return;
         }
         boolean flag = false;
-        while(start>=0 && sb.charAt(start)=='-')
+        while(start>=0 && this.memo[start])
         {
             flag = true;
             start--;
         }
-        while(end<n && sb.charAt(end)=='-')
+        while(end<n && this.memo[end])
         {
             flag = true;
             end++;
@@ -58,7 +59,7 @@ class Solution {
         if (flag)
         {
             //expanded search
-            helper(sb, start, end);
+            helper(s, start, end);
         }
     }
 }
