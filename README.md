@@ -596,6 +596,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0756-pyramid-transition-matrix](https://github.com/DheerajGedupudi/LeetCode/tree/master/0756-pyramid-transition-matrix) |
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
 | [0796-rotate-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/0796-rotate-string) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0942-di-string-match](https://github.com/DheerajGedupudi/LeetCode/tree/master/0942-di-string-match) |
 | [0943-find-the-shortest-superstring](https://github.com/DheerajGedupudi/LeetCode/tree/master/0943-find-the-shortest-superstring) |
 | [0944-delete-columns-to-make-sorted](https://github.com/DheerajGedupudi/LeetCode/tree/master/0944-delete-columns-to-make-sorted) |
@@ -683,6 +684,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0364-nested-list-weight-sum-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0364-nested-list-weight-sum-ii) |
 | [0636-exclusive-time-of-functions](https://github.com/DheerajGedupudi/LeetCode/tree/master/0636-exclusive-time-of-functions) |
 | [0739-daily-temperatures](https://github.com/DheerajGedupudi/LeetCode/tree/master/0739-daily-temperatures) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -845,6 +847,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0768-partition-labels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0768-partition-labels) |
 | [0797-rabbits-in-forest](https://github.com/DheerajGedupudi/LeetCode/tree/master/0797-rabbits-in-forest) |
 | [0876-hand-of-straights](https://github.com/DheerajGedupudi/LeetCode/tree/master/0876-hand-of-straights) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [0942-di-string-match](https://github.com/DheerajGedupudi/LeetCode/tree/master/0942-di-string-match) |
 | [1051-shortest-way-to-form-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
@@ -1220,6 +1223,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0020-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0020-valid-parentheses) |
 | [0022-generate-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0022-generate-parentheses) |
 | [0032-longest-valid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0032-longest-valid-parentheses) |
+| [0921-minimum-add-to-make-parentheses-valid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## DP on Trees
