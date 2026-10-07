@@ -181,6 +181,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0207-course-schedule](https://github.com/DheerajGedupudi/LeetCode/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0210-course-schedule-ii) |
 | [0279-perfect-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0279-perfect-squares) |
+| [0301-remove-invalid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/DheerajGedupudi/LeetCode/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0314-binary-tree-vertical-order-traversal](https://github.com/DheerajGedupudi/LeetCode/tree/master/0314-binary-tree-vertical-order-traversal) |
 | [0322-coin-change](https://github.com/DheerajGedupudi/LeetCode/tree/master/0322-coin-change) |
@@ -219,6 +220,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0212-word-search-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0212-word-search-ii) |
 | [0216-combination-sum-iii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0216-combination-sum-iii) |
 | [0267-palindrome-permutation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0267-palindrome-permutation-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0351-android-unlock-patterns](https://github.com/DheerajGedupudi/LeetCode/tree/master/0351-android-unlock-patterns) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0494-target-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/0494-target-sum) |
@@ -585,6 +587,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0242-valid-anagram](https://github.com/DheerajGedupudi/LeetCode/tree/master/0242-valid-anagram) |
 | [0246-strobogrammatic-number](https://github.com/DheerajGedupudi/LeetCode/tree/master/0246-strobogrammatic-number) |
 | [0267-palindrome-permutation-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/0267-palindrome-permutation-ii) |
+| [0301-remove-invalid-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/0301-remove-invalid-parentheses) |
 | [0415-add-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/0415-add-strings) |
 | [0425-word-squares](https://github.com/DheerajGedupudi/LeetCode/tree/master/0425-word-squares) |
 | [0433-minimum-genetic-mutation](https://github.com/DheerajGedupudi/LeetCode/tree/master/0433-minimum-genetic-mutation) |
