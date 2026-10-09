@@ -610,6 +610,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1108-analyze-user-website-visit-pattern](https://github.com/DheerajGedupudi/LeetCode/tree/master/1108-analyze-user-website-visit-pattern) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1302-delete-characters-to-make-fancy-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1302-delete-characters-to-make-fancy-string) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/DheerajGedupudi/LeetCode/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1784-check-if-binary-string-has-at-most-one-segment-of-ones](https://github.com/DheerajGedupudi/LeetCode/tree/master/1784-check-if-binary-string-has-at-most-one-segment-of-ones) |
@@ -692,6 +693,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1021-remove-outermost-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
 | [1214-two-sum-bsts](https://github.com/DheerajGedupudi/LeetCode/tree/master/1214-two-sum-bsts) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
@@ -857,6 +859,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [1051-shortest-way-to-form-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1051-shortest-way-to-form-string) |
 | [1262-greatest-sum-divisible-by-three](https://github.com/DheerajGedupudi/LeetCode/tree/master/1262-greatest-sum-divisible-by-three) |
 | [1478-maximum-number-of-events-that-can-be-attended](https://github.com/DheerajGedupudi/LeetCode/tree/master/1478-maximum-number-of-events-that-can-be-attended) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1567-maximum-length-of-subarray-with-positive-product](https://github.com/DheerajGedupudi/LeetCode/tree/master/1567-maximum-length-of-subarray-with-positive-product) |
 | [1802-maximum-value-at-a-given-index-in-a-bounded-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/1802-maximum-value-at-a-given-index-in-a-bounded-array) |
 | [1818-maximum-score-from-removing-substrings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1818-maximum-score-from-removing-substrings) |
@@ -1231,6 +1234,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [0921-minimum-add-to-make-parentheses-valid](https://github.com/DheerajGedupudi/LeetCode/tree/master/0921-minimum-add-to-make-parentheses-valid) |
 | [1021-remove-outermost-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1021-remove-outermost-parentheses) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/DheerajGedupudi/LeetCode/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1541-minimum-insertions-to-balance-a-parentheses-string](https://github.com/DheerajGedupudi/LeetCode/tree/master/1541-minimum-insertions-to-balance-a-parentheses-string) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/DheerajGedupudi/LeetCode/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
 ## DP on Trees
 |  |
