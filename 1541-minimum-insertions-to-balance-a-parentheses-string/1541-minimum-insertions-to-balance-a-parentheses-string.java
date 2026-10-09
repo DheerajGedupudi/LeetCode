@@ -2,9 +2,10 @@ class Solution {
     public int minInsertions(String s) {
         int counter = 0; // +2 for (, -1 for )
         int miss = 0;
-        for (char c : s.toCharArray())
+        int n = s.length();
+        for (int i=0; i<n; i++)
         {
-            if (c=='(')
+            if (s.charAt(i)=='(')
             {
                 //counter>=0 && counter=even, then balanced, add after balancing
                 //allow only if counter is even
