@@ -409,6 +409,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/DheerajGedupudi/LeetCode/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/DheerajGedupudi/LeetCode/tree/master/3573-best-time-to-buy-and-sell-stock-v) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
@@ -491,6 +492,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3445-lexicographically-minimum-string-after-removing-stars](https://github.com/DheerajGedupudi/LeetCode/tree/master/3445-lexicographically-minimum-string-after-removing-stars) |
 | [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/DheerajGedupudi/LeetCode/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3741-minimum-distance-between-three-equal-elements-ii](https://github.com/DheerajGedupudi/LeetCode/tree/master/3741-minimum-distance-between-three-equal-elements-ii) |
 | [3788-maximum-unique-subarray-sum-after-deletion](https://github.com/DheerajGedupudi/LeetCode/tree/master/3788-maximum-unique-subarray-sum-after-deletion) |
@@ -918,6 +920,7 @@ This repository contains my LeetCode problem solutions, automatically synced usi
 | [3321-type-of-triangle](https://github.com/DheerajGedupudi/LeetCode/tree/master/3321-type-of-triangle) |
 | [3433-count-mentions-per-user](https://github.com/DheerajGedupudi/LeetCode/tree/master/3433-count-mentions-per-user) |
 | [3531-count-covered-buildings](https://github.com/DheerajGedupudi/LeetCode/tree/master/3531-count-covered-buildings) |
+| [3551-minimum-swaps-to-sort-by-digit-sum](https://github.com/DheerajGedupudi/LeetCode/tree/master/3551-minimum-swaps-to-sort-by-digit-sum) |
 | [3606-coupon-code-validator](https://github.com/DheerajGedupudi/LeetCode/tree/master/3606-coupon-code-validator) |
 | [3620-maximum-number-of-distinct-elements-after-operations](https://github.com/DheerajGedupudi/LeetCode/tree/master/3620-maximum-number-of-distinct-elements-after-operations) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/DheerajGedupudi/LeetCode/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
